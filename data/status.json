@@ -1,0 +1,148 @@
+{
+  "last_checked_utc": "2026-07-14 17:13:37 UTC",
+  "brands": [
+    {
+      "name": "Brand1",
+      "final": "abc4.com",
+      "domains": [
+        {
+          "domain": "abc.com",
+          "requested_url": "https://abc.com",
+          "ok": true,
+          "status_code": 403,
+          "final_url": "https://abc.com/",
+          "redirect_chain": [
+            {
+              "url": "https://abc.com/",
+              "status_code": 403
+            }
+          ],
+          "response_time_ms": 369,
+          "error": null,
+          "scheme_used": "https",
+          "is_final": false
+        },
+        {
+          "domain": "abc1.com",
+          "requested_url": "https://abc1.com",
+          "ok": true,
+          "status_code": 403,
+          "final_url": "https://abc1.com/",
+          "redirect_chain": [
+            {
+              "url": "https://abc1.com/",
+              "status_code": 403
+            }
+          ],
+          "response_time_ms": 203,
+          "error": null,
+          "scheme_used": "https",
+          "is_final": false
+        },
+        {
+          "domain": "abc3.com",
+          "requested_url": "https://abc3.com",
+          "ok": true,
+          "status_code": 403,
+          "final_url": "https://abc3.com/",
+          "redirect_chain": [
+            {
+              "url": "https://abc3.com/",
+              "status_code": 403
+            }
+          ],
+          "response_time_ms": 208,
+          "error": null,
+          "scheme_used": "https",
+          "is_final": false
+        },
+        {
+          "domain": "abc4.com",
+          "requested_url": "https://abc4.com",
+          "ok": true,
+          "status_code": 403,
+          "final_url": "https://abc4.com/",
+          "redirect_chain": [
+            {
+              "url": "https://abc4.com/",
+              "status_code": 403
+            }
+          ],
+          "response_time_ms": 466,
+          "error": null,
+          "scheme_used": "https",
+          "is_final": true
+        }
+      ]
+    },
+    {
+      "name": "Brand2",
+      "final": "zak4.com",
+      "domains": [
+        {
+          "domain": "zak1.com",
+          "requested_url": "https://zak1.com",
+          "ok": true,
+          "status_code": 403,
+          "final_url": "https://zak1.com/",
+          "redirect_chain": [
+            {
+              "url": "https://zak1.com/",
+              "status_code": 403
+            }
+          ],
+          "response_time_ms": 501,
+          "error": null,
+          "scheme_used": "https",
+          "is_final": false
+        },
+        {
+          "domain": "zak2.com",
+          "requested_url": "https://zak2.com",
+          "ok": true,
+          "status_code": 403,
+          "final_url": "https://zak2.com/",
+          "redirect_chain": [
+            {
+              "url": "https://zak2.com/",
+              "status_code": 403
+            }
+          ],
+          "response_time_ms": 248,
+          "error": null,
+          "scheme_used": "https",
+          "is_final": false
+        },
+        {
+          "domain": "zak3.com",
+          "requested_url": "https://zak3.com",
+          "ok": true,
+          "status_code": 403,
+          "final_url": "https://zak3.com/",
+          "redirect_chain": [
+            {
+              "url": "https://zak3.com/",
+              "status_code": 403
+            }
+          ],
+          "response_time_ms": 209,
+          "error": null,
+          "scheme_used": "https",
+          "is_final": false
+        },
+        {
+          "domain": "zak4.com",
+          "requested_url": "https://zak4.com",
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "response_time_ms": null,
+          "error": "Connection error: HTTPConnectionPool(host='zak4.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='zak4.com', port=80): Failed to resolve 'zak4.com' ([Errno -2] Name or service not known)\"))",
+          "scheme_used": "https",
+          "is_final": true
+        }
+      ]
+    }
+  ]
+}

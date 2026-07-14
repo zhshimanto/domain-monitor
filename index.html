@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Domain Status Board</title>
+<style>
+  :root{
+    --bg:#0B0F14;
+    --panel:#121821;
+    --panel-border:#1F2A36;
+    --text:#E4E9EF;
+    --muted:#7C8A99;
+    --ok:#3ECF8E;
+    --redirect:#5B9EF5;
+    --warn:#F5A623;
+    --err:#FF5C5C;
+    --mono: "JetBrains Mono", "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    --sans: "IBM Plex Sans", -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--text);
+    font-family:var(--sans);
+    padding:32px 20px 80px;
+  }
+  .wrap{max-width:1040px;margin:0 auto;}
+
+  header{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+    flex-wrap:wrap;
+    gap:16px;
+    border-bottom:1px solid var(--panel-border);
+    padding-bottom:20px;
+    margin-bottom:28px;
+  }
+  h1{
+    font-family:var(--mono);
+    font-size:22px;
+    letter-spacing:0.02em;
+    margin:0 0 6px;
+    font-weight:600;
+  }
+  h1 .dot{ color:var(--ok); }
+  .sub{
+    font-family:var(--mono);
+    font-size:12.5px;
+    color:var(--muted);
+  }
+  #lastChecked{color:var(--text);}
+
+  .summary{
+    display:flex;
+    gap:10px;
+    font-family:var(--mono);
+    font-size:12.5px;
+  }
+  .pill{
+    border:1px solid var(--panel-border);
+    background:var(--panel);
+    border-radius:4px;
+    padding:6px 10px;
+    display:flex;
+    align-items:center;
+    gap:6px;
+  }
+  .pill b{font-size:13px;}
+  .pill .sw{width:8px;height:8px;border-radius:50%;display:inline-block;}
+
+  .brand{
+    margin-bottom:32px;
+    border:1px solid var(--panel-border);
+    border-radius:8px;
+    overflow:hidden;
+    background:var(--panel);
+  }
+  .brand-head{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:14px 18px;
+    border-bottom:1px solid var(--panel-border);
+    background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent);
+  }
+  .brand-head h2{
+    margin:0;
+    font-size:15px;
+    font-weight:600;
+    letter-spacing:0.01em;
+  }
+  .brand-head .final-tag{
+    font-family:var(--mono);
+    font-size:11px;
+    color:var(--muted);
+  }
+  .brand-head .final-tag span{color:var(--text);}
+
+  table{
+    width:100%;
+    border-collapse:collapse;
+    font-family:var(--mono);
+    font-size:12.5px;
+  }
+  thead th{
+    text-align:left;
+    padding:9px 18px;
+    color:var(--muted);
+    font-weight:500;
+    font-size:11px;
+    text-transform:uppercase;
+    letter-spacing:0.06em;
+    border-bottom:1px solid var(--panel-border);
+  }
+  tbody td{
+    padding:11px 18px;
+    border-bottom:1px solid rgba(255,255,255,0.04);
+    vertical-align:top;
+  }
+  tbody tr:last-child td{border-bottom:none;}
+  tbody tr:hover{background:rgba(255,255,255,0.02);}
+
+  .domain-cell{display:flex;align-items:center;gap:8px;}
+  .final-badge{
+    font-family:var(--mono);
+    font-size:9.5px;
+    color:var(--bg);
+    background:var(--ok);
+    padding:1px 5px;
+    border-radius:3px;
+    font-weight:700;
+    letter-spacing:0.03em;
+  }
+
+  .signal{display:inline-flex;align-items:center;gap:8px;}
+  .bars{display:inline-flex;align-items:flex-end;gap:2px;height:12px;}
+  .bars i{width:3px;display:block;border-radius:1px;background:var(--panel-border);}
+  .bars i:nth-child(1){height:4px;}
+  .bars i:nth-child(2){height:7px;}
+  .bars i:nth-child(3){height:10px;}
+  .bars i:nth-child(4){height:12px;}
+
+  .status-code{font-weight:700;}
+  .st-ok{color:var(--ok);}
+  .st-redirect{color:var(--redirect);}
+  .st-warn{color:var(--warn);}
+  .st-err{color:var(--err);}
+
+  .chain{color:var(--muted);font-size:11.5px;line-height:1.6;}
+  .chain .arrow{color:var(--panel-border);margin:0 4px;}
+  .final-url{color:var(--text);word-break:break-all;}
+  .rt{color:var(--muted);}
+
+  .error-msg{color:var(--err);font-size:11.5px;}
+
+  footer{
+    max-width:1040px;
+    margin:0 auto;
+    padding-top:20px;
+    font-family:var(--mono);
+    font-size:11px;
+    color:var(--muted);
+  }
+  #loadState{font-family:var(--mono);color:var(--muted);font-size:13px;padding:20px 0;}
+
+  @media (max-width:640px){
+    thead{display:none;}
+    tbody td{display:block;padding:6px 18px;border-bottom:none;}
+    tbody tr{border-bottom:1px solid var(--panel-border);padding:10px 0;display:block;}
+    .chain{margin-top:2px;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <h1><span class="dot">●</span> Domain Status Board</h1>
+      <div class="sub">Last checked: <span id="lastChecked">—</span></div>
+    </div>
+    <div class="summary" id="summary"></div>
+  </header>
+
+  <div id="loadState">Loading status.json…</div>
+  <div id="content"></div>
+
+  <footer>Auto-updated by a scheduled GitHub Actions bot &middot; source: data/status.json</footer>
+</div>
+
+<script>
+async function load() {
+  const loadState = document.getElementById('loadState');
+  try {
+    const res = await fetch('data/status.json?_=' + Date.now());
+    if (!res.ok) throw new Error('status.json not found (' + res.status + ')');
+    const data = await res.json();
+    render(data);
+    loadState.style.display = 'none';
+  } catch (err) {
+    loadState.textContent = 'Could not load data/status.json — ' + err.message + '. Has the bot run yet?';
+  }
+}
+
+function classify(entry) {
+  if (!entry.ok) return 'err';
+  const code = entry.status_code;
+  if (code >= 200 && code < 300) return entry.is_final ? 'ok' : 'warn'; // 2xx on a non-final domain = not redirecting
+  if (code >= 300 && code < 400) return entry.is_final ? 'warn' : 'redirect'; // redirecting is expected for non-final
+  if (code >= 400) return 'err';
+  return 'warn';
+}
+
+function bars(rt) {
+  let level = 4;
+  if (rt == null) level = 0;
+  else if (rt < 300) level = 4;
+  else if (rt < 800) level = 3;
+  else if (rt < 2000) level = 2;
+  else level = 1;
+  let html = '<span class="bars">';
+  for (let i=1;i<=4;i++){
+    const active = i <= level;
+    const cls = active ? statusColorClass(level) : '';
+    html += `<i style="${active ? `background:var(${barColor(level)})` : ''}"></i>`;
+  }
+  html += '</span>';
+  return html;
+}
+function barColor(level){
+  if (level >= 4) return '--ok';
+  if (level === 3) return '--redirect';
+  if (level === 2) return '--warn';
+  return '--err';
+}
+function statusColorClass(level){ return ''; }
+
+function render(data) {
+  document.getElementById('lastChecked').textContent = data.last_checked_utc || 'unknown';
+
+  let totalOk=0, totalWarn=0, totalErr=0, totalRedirect=0;
+
+  const content = document.getElementById('content');
+  content.innerHTML = '';
+
+  data.brands.forEach(brand => {
+    const section = document.createElement('div');
+    section.className = 'brand';
+
+    const head = document.createElement('div');
+    head.className = 'brand-head';
+    head.innerHTML = `<h2>${escapeHtml(brand.name)}</h2>
+      <div class="final-tag">final destination: <span>${escapeHtml(brand.final || '—')}</span></div>`;
+    section.appendChild(head);
+
+    const table = document.createElement('table');
+    table.innerHTML = `<thead><tr>
+        <th>Domain</th><th>Signal</th><th>Status</th><th>Redirect chain</th><th>Response</th>
+      </tr></thead>`;
+    const tbody = document.createElement('tbody');
+
+    brand.domains.forEach(entry => {
+      const cls = classify(entry);
+      if (cls==='ok') totalOk++; else if (cls==='warn') totalWarn++; else if (cls==='err') totalErr++; else totalRedirect++;
+
+      const tr = document.createElement('tr');
+
+      const domainCell = `<div class="domain-cell">${escapeHtml(entry.domain)}${entry.is_final ? '<span class="final-badge">FINAL</span>' : ''}</div>`;
+
+      const signalCell = bars(entry.response_time_ms);
+
+      let statusCell;
+      if (!entry.ok) {
+        statusCell = `<span class="status-code st-err">ERROR</span><div class="error-msg">${escapeHtml(entry.error || 'unreachable')}</div>`;
+      } else {
+        const colorClass = cls === 'ok' ? 'st-ok' : cls === 'redirect' ? 'st-redirect' : cls === 'warn' ? 'st-warn' : 'st-err';
+        statusCell = `<span class="status-code ${colorClass}">${entry.status_code}</span>`;
+      }
+
+      let chainCell = '';
+      if (entry.ok && entry.redirect_chain && entry.redirect_chain.length) {
+        if (entry.redirect_chain.length === 1) {
+          chainCell = `<span class="final-url">${escapeHtml(shortUrl(entry.redirect_chain[0].url))}</span>`;
+        } else {
+          chainCell = '<div class="chain">' + entry.redirect_chain.map((h,i) => {
+            const isLast = i === entry.redirect_chain.length - 1;
+            return `<span class="${isLast ? 'final-url' : ''}">${escapeHtml(shortUrl(h.url))} (${h.status_code})</span>`;
+          }).join('<span class="arrow">→</span>') + '</div>';
+        }
+      } else {
+        chainCell = '<span class="chain">—</span>';
+      }
+
+      const rtCell = entry.response_time_ms != null ? `<span class="rt">${entry.response_time_ms} ms</span>` : '<span class="rt">—</span>';
+
+      tr.innerHTML = `<td>${domainCell}</td><td>${signalCell}</td><td>${statusCell}</td><td>${chainCell}</td><td>${rtCell}</td>`;
+      tbody.appendChild(tr);
+    });
+
+    table.appendChild(tbody);
+    section.appendChild(table);
+    content.appendChild(section);
+  });
+
+  const summary = document.getElementById('summary');
+  summary.innerHTML = `
+    <div class="pill"><span class="sw" style="background:var(--ok)"></span><b>${totalOk}</b>&nbsp;ok</div>
+    <div class="pill"><span class="sw" style="background:var(--redirect)"></span><b>${totalRedirect}</b>&nbsp;redirecting</div>
+    <div class="pill"><span class="sw" style="background:var(--warn)"></span><b>${totalWarn}</b>&nbsp;check</div>
+    <div class="pill"><span class="sw" style="background:var(--err)"></span><b>${totalErr}</b>&nbsp;down</div>
+  `;
+}
+
+function shortUrl(u) {
+  return u.replace(/^https?:\/\//, '').replace(/\/$/, '');
+}
+function escapeHtml(str) {
+  if (str == null) return '';
+  return String(str).replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+}
+
+load();
+</script>
+</body>
+</html>

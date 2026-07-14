@@ -1,0 +1,14 @@
+{
+  "brands": [
+    {
+      "name": "Brand1",
+      "domains": ["abc.com", "abc1.com", "abc3.com"],
+      "final": "abc4.com"
+    },
+    {
+      "name": "Brand2",
+      "domains": ["zak1.com", "zak2.com", "zak3.com"],
+      "final": "zak4.com"
+    }
+  ]
+}
