@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-07-14 17:13:37 UTC",
+  "last_checked_utc": "2026-07-15 05:32:12 UTC",
   "brands": [
     {
       "name": "Brand1",
@@ -9,15 +9,15 @@
           "domain": "abc.com",
           "requested_url": "https://abc.com",
           "ok": true,
-          "status_code": 403,
+          "status_code": 200,
           "final_url": "https://abc.com/",
           "redirect_chain": [
             {
               "url": "https://abc.com/",
-              "status_code": 403
+              "status_code": 200
             }
           ],
-          "response_time_ms": 369,
+          "response_time_ms": 211,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -26,33 +26,28 @@
           "domain": "abc1.com",
           "requested_url": "https://abc1.com",
           "ok": true,
-          "status_code": 403,
-          "final_url": "https://abc1.com/",
+          "status_code": 200,
+          "final_url": "http://abc1.com/",
           "redirect_chain": [
             {
-              "url": "https://abc1.com/",
-              "status_code": 403
+              "url": "http://abc1.com/",
+              "status_code": 200
             }
           ],
-          "response_time_ms": 203,
+          "response_time_ms": 327,
           "error": null,
-          "scheme_used": "https",
+          "scheme_used": "http",
           "is_final": false
         },
         {
           "domain": "abc3.com",
           "requested_url": "https://abc3.com",
-          "ok": true,
-          "status_code": 403,
-          "final_url": "https://abc3.com/",
-          "redirect_chain": [
-            {
-              "url": "https://abc3.com/",
-              "status_code": 403
-            }
-          ],
-          "response_time_ms": 208,
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "response_time_ms": null,
+          "error": "Timed out after 10s",
           "scheme_used": "https",
           "is_final": false
         },
@@ -68,7 +63,7 @@
               "status_code": 403
             }
           ],
-          "response_time_ms": 466,
+          "response_time_ms": 145,
           "error": null,
           "scheme_used": "https",
           "is_final": true
@@ -83,33 +78,28 @@
           "domain": "zak1.com",
           "requested_url": "https://zak1.com",
           "ok": true,
-          "status_code": 403,
-          "final_url": "https://zak1.com/",
+          "status_code": 200,
+          "final_url": "http://zak1.com/",
           "redirect_chain": [
             {
-              "url": "https://zak1.com/",
-              "status_code": 403
+              "url": "http://zak1.com/",
+              "status_code": 200
             }
           ],
-          "response_time_ms": 501,
+          "response_time_ms": 126,
           "error": null,
-          "scheme_used": "https",
+          "scheme_used": "http",
           "is_final": false
         },
         {
           "domain": "zak2.com",
           "requested_url": "https://zak2.com",
-          "ok": true,
-          "status_code": 403,
-          "final_url": "https://zak2.com/",
-          "redirect_chain": [
-            {
-              "url": "https://zak2.com/",
-              "status_code": 403
-            }
-          ],
-          "response_time_ms": 248,
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "response_time_ms": null,
+          "error": "Connection error: HTTPConnectionPool(host='zak2.com', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='zak2.com', port=80) at 0x7fc82453b2f0>, 'Connection to zak2.com timed out. (connect timeout=10)'))",
           "scheme_used": "https",
           "is_final": false
         },
@@ -117,15 +107,15 @@
           "domain": "zak3.com",
           "requested_url": "https://zak3.com",
           "ok": true,
-          "status_code": 403,
+          "status_code": 200,
           "final_url": "https://zak3.com/",
           "redirect_chain": [
             {
               "url": "https://zak3.com/",
-              "status_code": 403
+              "status_code": 200
             }
           ],
-          "response_time_ms": 209,
+          "response_time_ms": 261,
           "error": null,
           "scheme_used": "https",
           "is_final": false
