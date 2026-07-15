@@ -10,7 +10,7 @@
         "pgslot4.sh",
         "pgslot5.sh"
       ],
-      "final": "pgslot6.sh"
+      "Live": "pgslot6.sh"
     },
     {
       "name": "PGSLOTTO",
