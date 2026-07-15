@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-07-14 17:43:04 UTC",
+  "last_checked_utc": "2026-07-15 05:32:12 UTC",
   "brands": [
     {
       "name": "Brand1",
@@ -17,7 +17,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 132,
+          "response_time_ms": 211,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -34,7 +34,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 199,
+          "response_time_ms": 327,
           "error": null,
           "scheme_used": "http",
           "is_final": false
@@ -63,7 +63,7 @@
               "status_code": 403
             }
           ],
-          "response_time_ms": 205,
+          "response_time_ms": 145,
           "error": null,
           "scheme_used": "https",
           "is_final": true
@@ -86,7 +86,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 113,
+          "response_time_ms": 126,
           "error": null,
           "scheme_used": "http",
           "is_final": false
@@ -99,7 +99,7 @@
           "final_url": null,
           "redirect_chain": [],
           "response_time_ms": null,
-          "error": "Connection error: HTTPConnectionPool(host='zak2.com', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='zak2.com', port=80) at 0x7f88b741f680>, 'Connection to zak2.com timed out. (connect timeout=10)'))",
+          "error": "Connection error: HTTPConnectionPool(host='zak2.com', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='zak2.com', port=80) at 0x7fc82453b2f0>, 'Connection to zak2.com timed out. (connect timeout=10)'))",
           "scheme_used": "https",
           "is_final": false
         },
@@ -115,7 +115,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 214,
+          "response_time_ms": 261,
           "error": null,
           "scheme_used": "https",
           "is_final": false
