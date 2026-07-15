@@ -1,14 +1,203 @@
 {
   "brands": [
     {
-      "name": "Brand1",
-      "domains": ["abc.com", "abc1.com", "abc3.com"],
-      "final": "abc4.com"
+      "name": "PGSLOTSH",
+      "domains": [
+        "pgslot.sh",
+        "pgslot1.sh",
+        "pgslot2.sh",
+        "pgslot3.sh",
+        "pgslot4.sh",
+        "pgslot5.sh"
+      ],
+      "final": "pgslot6.sh"
     },
     {
-      "name": "Brand2",
-      "domains": ["zak1.com", "zak2.com", "zak3.com"],
-      "final": "zak4.com"
+      "name": "PGSLOTTO",
+      "domains": [
+        "pgslott.to",
+        "pgslot1.to",
+        "pgslot-to.to",
+        "pg-slotto.to",
+        "playpgslot1.to",
+        "pgslotto.to"
+      ],
+      "final": "pg-slot-to.to"
+    },
+    {
+      "name": "PGSLOTCEO",
+      "domains": [
+        "pgslot.ceo",
+        "pgslots.ceo",
+        "pg-slot.ceo",
+        "slotpg.ceo",
+        "pgslott.ceo",
+        "pgslotceo.work",
+        "pgslot-ceo.ceo",
+        "pg-slotceo.ceo",
+        "pgslot2.ceo"
+      ],
+      "final": "pgslotceo.services"
+    },
+    {
+      "name": "slotpromax",
+      "domains": [
+        "slotpromax.com",
+        "slotpromax.vip",
+        "slotpromax.fun",
+        "slotpromax.pro",
+        "slotpromax.club"
+      ],
+      "final": "slotpromax.app"
+    },
+    {
+      "name": "missav",
+      "domains": ["missav.games", "missav.now", "missav.casino"],
+      "final": "missav.vu"
+    },
+    {
+      "name": "hubbetco",
+      "domains": [
+        "hubbet.co",
+        "hubbet.bet",
+        "hubbet.vip",
+        "hubbet.online",
+        "hubbet.cc"
+      ],
+      "final": "hubbet.casino"
+    },
+    {
+      "name": "rsggames",
+      "domains": [
+        "rsggames.co",
+        "rsggame.online",
+        "rsggame.fun",
+        "rsggames.org",
+        "rsggame.win"
+      ],
+      "final": "rsggames.app"
+    },
+    {
+      "name": "PACMAN VIP",
+      "domains": [
+        "pacman168.in",
+        "pacman168.fun",
+        "pacman168.live",
+        "pacvip.co",
+        "pacvip.life",
+        "pacvip.online",
+        "pacvip.xyz"
+      ],
+      "final": "pacvip.fun"
+    },
+    {
+      "name": "PACMAN Transfer",
+      "domains": ["pac168.org"],
+      "final": "pac168.vip"
+    },
+    {
+      "name": "slotsaiboon",
+      "domains": [
+        "slotsaiboon.com",
+        "slotsaiboon.fun",
+        "slotsaiboon.vip",
+        "slotsaiboon.casino",
+        "slotsaiboon.games",
+        "slotsaiboon.guru",
+        "slotsaiboon.plus",
+        "slotsaiboon4.com",
+        "slotsaiboon.ltd"
+      ],
+      "final": "slotsaiboon.cool"
+    },
+    {
+      "name": "pgslot",
+      "domains": [
+        "pgslot.in",
+        "pgsgame.in",
+        "pgslots.in",
+        "pgslotss.in",
+        "pgslot1.in",
+        "pgslot2.in",
+        "pgslot3.in",
+        "pgslot4.in",
+        "pg-slot.in",
+        "pgslott.in",
+        "pgslot5.in",
+        "pgslot6.in",
+        "pgslot7.in",
+        "continuumbooks.com",
+        "pgslot8.in",
+        "pgslot9.in",
+        "pgslot10.in",
+        "pgslot11.in",
+        "pgslot12.in",
+        "pgslot13.in",
+        "pgslot14.in",
+        "pgslot15.in",
+        "pgslot16.in",
+        "pgslotin.asia"
+      ],
+      "final": "pgslotin.buzz"
+    },
+    {
+      "name": "hubhengjing888",
+      "domains": [
+        "hubhengjing888.com",
+        "hubhengjing888.win",
+        "hubhengjing888.fun",
+        "hubhengjing888.in",
+        "hubhengjing888.club",
+        "hubhengjing888.app",
+        "hubhengjing888.asia",
+        "hubhengjing888.dev",
+        "hubhengjing888.world",
+        "hubhengjing888.guru",
+        "hubhengjing888.zone",
+        "hubhengjing888.ltd",
+        "hubhengjing888.love",
+        "play.hubhengjing8884.com"
+      ],
+      "final": "hubhengjing888.today"
+    },
+    {
+      "name": "slot1111",
+      "domains": [
+        "slot1111.com",
+        "slot1111.life",
+        "slot1111.live",
+        "slot1111.casino",
+        "slot1111.games",
+        "slot1111.plus",
+        "slot1111.news",
+        "slot1111.love",
+        "slot1111.link"
+      ],
+      "final": "slot1111.quest"
+    },
+    {
+      "name": "hubslotxo",
+      "domains": [
+        "vip.hubslotxo1.com",
+        "vip.hubslotxo2.com",
+        "vip.hubslotxo3.com",
+        "vip.hubslotxo4.com"
+      ],
+      "final": "vip.hubslotxo.me"
+    },
+    {
+      "name": "hubpgslot",
+      "domains": [
+        "hubpgslot.com",
+        "hubpgslot.net",
+        "hubpgslot.dev",
+        "hubpgslot.biz (True)",
+        "hubpgslot.love",
+        "member.hubpgslot6.com",
+        "hubpgslot.fyi",
+        "hubpgslot.tech"
+      ],
+      "final": "hubpgslot.marketing"
     }
   ]
 }
