@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-07-16 11:54:57 UTC",
+  "last_checked_utc": "2026-07-16 12:05:48 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -30,7 +30,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 2139,
+          "response_time_ms": 2359,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -59,7 +59,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1743,
+          "response_time_ms": 2049,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -84,7 +84,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1423,
+          "response_time_ms": 1603,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -105,7 +105,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 581,
+          "response_time_ms": 1233,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -122,7 +122,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1018,
+          "response_time_ms": 998,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -139,7 +139,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 898,
+          "response_time_ms": 1038,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -156,7 +156,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 245,
+          "response_time_ms": 902,
           "error": null,
           "scheme_used": "https",
           "is_final": true
@@ -184,7 +184,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 463,
+          "response_time_ms": 576,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -201,7 +201,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 255,
+          "response_time_ms": 246,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -234,7 +234,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1453,
+          "response_time_ms": 1847,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -251,7 +251,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 892,
+          "response_time_ms": 936,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -276,7 +276,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 341,
+          "response_time_ms": 1057,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -297,7 +297,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 938,
+          "response_time_ms": 935,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -326,7 +326,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 566,
+          "response_time_ms": 1333,
           "error": null,
           "scheme_used": "https",
           "is_final": true
@@ -354,7 +354,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1472,
+          "response_time_ms": 1526,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -375,7 +375,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1217,
+          "response_time_ms": 1310,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -392,7 +392,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 860,
+          "response_time_ms": 915,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -409,7 +409,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1098,
+          "response_time_ms": 1099,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -430,7 +430,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 310,
+          "response_time_ms": 313,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -451,7 +451,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1187,
+          "response_time_ms": 712,
           "error": null,
           "scheme_used": "https",
           "is_final": true
@@ -483,7 +483,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1106,
+          "response_time_ms": 1071,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -500,7 +500,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 861,
+          "response_time_ms": 895,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -517,7 +517,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1025,
+          "response_time_ms": 1015,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -534,7 +534,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 118,
+          "response_time_ms": 90,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -551,7 +551,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 137,
+          "response_time_ms": 165,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -572,7 +572,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 937,
+          "response_time_ms": 941,
           "error": null,
           "scheme_used": "https",
           "is_final": true
@@ -604,7 +604,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 553,
+          "response_time_ms": 561,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -625,7 +625,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 258,
+          "response_time_ms": 200,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -646,7 +646,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 170,
+          "response_time_ms": 110,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -667,7 +667,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 142,
+          "response_time_ms": 103,
           "error": null,
           "scheme_used": "https",
           "is_final": true
@@ -703,7 +703,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1997,
+          "response_time_ms": 2195,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -728,7 +728,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1362,
+          "response_time_ms": 1602,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -749,7 +749,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1284,
+          "response_time_ms": 1226,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -766,7 +766,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1075,
+          "response_time_ms": 1147,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -783,7 +783,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1260,
+          "response_time_ms": 1005,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -800,7 +800,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1054,
+          "response_time_ms": 1015,
           "error": null,
           "scheme_used": "https",
           "is_final": true
@@ -828,7 +828,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1158,
+          "response_time_ms": 1320,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -845,7 +845,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 850,
+          "response_time_ms": 992,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -866,7 +866,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 901,
+          "response_time_ms": 1072,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -883,7 +883,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 128,
+          "response_time_ms": 95,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -900,7 +900,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 153,
+          "response_time_ms": 97,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -917,7 +917,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 844,
+          "response_time_ms": 935,
           "error": null,
           "scheme_used": "https",
           "is_final": true
@@ -977,7 +977,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 276,
+          "response_time_ms": 295,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1002,7 +1002,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1316,
+          "response_time_ms": 1188,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1023,7 +1023,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 863,
+          "response_time_ms": 952,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1040,7 +1040,7 @@
               "status_code": 404
             }
           ],
-          "response_time_ms": 886,
+          "response_time_ms": 937,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1057,7 +1057,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 889,
+          "response_time_ms": 881,
           "error": null,
           "scheme_used": "https",
           "is_final": true
@@ -1093,7 +1093,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 909,
+          "response_time_ms": 972,
           "error": null,
           "scheme_used": "https",
           "is_final": true
@@ -1102,8 +1102,8 @@
     },
     {
       "name": "slotsaiboon",
-      "final": "slotsaiboon.cool",
-      "live": "slotsaiboon.cool",
+      "final": "slotsaiboon4.com",
+      "live": "slotsaiboon4.com",
       "domains": [
         {
           "domain": "slotsaiboon.com",
@@ -1129,7 +1129,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 799,
+          "response_time_ms": 871,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1170,7 +1170,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1261,
+          "response_time_ms": 1082,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1199,7 +1199,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1954,
+          "response_time_ms": 1429,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1224,20 +1224,8 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 766,
+          "response_time_ms": 360,
           "error": null,
-          "scheme_used": "https",
-          "is_final": false
-        },
-        {
-          "domain": "slotsaiboon4.com",
-          "requested_url": "https://slotsaiboon4.com",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "response_time_ms": null,
-          "error": "Connection error: HTTPConnectionPool(host='slotsaiboon4.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='slotsaiboon4.com', port=80): Failed to resolve 'slotsaiboon4.com' ([Errno -5] No address associated with hostname)\"))",
           "scheme_used": "https",
           "is_final": false
         },
@@ -1257,7 +1245,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 294,
+          "response_time_ms": 834,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1274,8 +1262,20 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 925,
+          "response_time_ms": 793,
           "error": null,
+          "scheme_used": "https",
+          "is_final": false
+        },
+        {
+          "domain": "slotsaiboon4.com",
+          "requested_url": "https://slotsaiboon4.com",
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "response_time_ms": null,
+          "error": "Connection error: HTTPConnectionPool(host='slotsaiboon4.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='slotsaiboon4.com', port=80): Failed to resolve 'slotsaiboon4.com' ([Errno -5] No address associated with hostname)\"))",
           "scheme_used": "https",
           "is_final": true
         }
@@ -1283,8 +1283,8 @@
     },
     {
       "name": "pgslot",
-      "final": "pgslotin.buzz",
-      "live": "pgslotin.buzz",
+      "final": "pgslotin.asia",
+      "live": "pgslotin.asia",
       "domains": [
         {
           "domain": "pgslot.in",
@@ -1302,7 +1302,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1304,
+          "response_time_ms": 1434,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1335,7 +1335,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1230,
+          "response_time_ms": 1352,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1356,7 +1356,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1179,
+          "response_time_ms": 1352,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1377,7 +1377,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1264,
+          "response_time_ms": 653,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1398,7 +1398,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 528,
+          "response_time_ms": 1426,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1419,7 +1419,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 549,
+          "response_time_ms": 1402,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1440,7 +1440,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 557,
+          "response_time_ms": 666,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1461,7 +1461,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 527,
+          "response_time_ms": 612,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1482,7 +1482,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1159,
+          "response_time_ms": 622,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1503,7 +1503,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 515,
+          "response_time_ms": 635,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1524,7 +1524,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 524,
+          "response_time_ms": 628,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1545,7 +1545,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 524,
+          "response_time_ms": 623,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1566,7 +1566,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 813,
+          "response_time_ms": 879,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1587,7 +1587,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 500,
+          "response_time_ms": 615,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1608,7 +1608,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 502,
+          "response_time_ms": 1371,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1629,7 +1629,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 522,
+          "response_time_ms": 1361,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1707,23 +1707,6 @@
           "is_final": false
         },
         {
-          "domain": "pgslotin.asia",
-          "requested_url": "https://pgslotin.asia",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://pgslotin.asia/",
-          "redirect_chain": [
-            {
-              "url": "https://pgslotin.asia/",
-              "status_code": 200
-            }
-          ],
-          "response_time_ms": 258,
-          "error": null,
-          "scheme_used": "https",
-          "is_final": false
-        },
-        {
           "domain": "pgslotin.buzz",
           "requested_url": "https://pgslotin.buzz",
           "ok": true,
@@ -1735,7 +1718,24 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1157,
+          "response_time_ms": 1254,
+          "error": null,
+          "scheme_used": "https",
+          "is_final": false
+        },
+        {
+          "domain": "pgslotin.asia",
+          "requested_url": "https://pgslotin.asia",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://pgslotin.asia/",
+          "redirect_chain": [
+            {
+              "url": "https://pgslotin.asia/",
+              "status_code": 200
+            }
+          ],
+          "response_time_ms": 284,
           "error": null,
           "scheme_used": "https",
           "is_final": true
@@ -1783,7 +1783,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 2508,
+          "response_time_ms": 2579,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1824,7 +1824,7 @@
               "status_code": 404
             }
           ],
-          "response_time_ms": 528,
+          "response_time_ms": 575,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1841,7 +1841,7 @@
               "status_code": 521
             }
           ],
-          "response_time_ms": 300,
+          "response_time_ms": 313,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1926,7 +1926,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1674,
+          "response_time_ms": 1188,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1959,7 +1959,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 640,
+          "response_time_ms": 1568,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1988,7 +1988,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1038,
+          "response_time_ms": 1133,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -2013,28 +2013,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1013,
-          "error": null,
-          "scheme_used": "https",
-          "is_final": false
-        },
-        {
-          "domain": "play.hubhengjing8884.com",
-          "requested_url": "https://play.hubhengjing8884.com",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://hubhengjing888.today/",
-          "redirect_chain": [
-            {
-              "url": "https://play.hubhengjing8884.com/",
-              "status_code": 301
-            },
-            {
-              "url": "https://hubhengjing888.today/",
-              "status_code": 200
-            }
-          ],
-          "response_time_ms": 297,
+          "response_time_ms": 1097,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -2051,7 +2030,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 260,
+          "response_time_ms": 1024,
           "error": null,
           "scheme_used": "https",
           "is_final": true
@@ -2060,8 +2039,8 @@
     },
     {
       "name": "slot1111",
-      "final": "slot1111.quest",
-      "live": "slot1111.quest",
+      "final": "slot1111.link",
+      "live": "slot1111.link",
       "domains": [
         {
           "domain": "slot1111.com",
@@ -2099,7 +2078,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1768,
+          "response_time_ms": 892,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -2128,7 +2107,7 @@
               "status_code": 503
             }
           ],
-          "response_time_ms": 829,
+          "response_time_ms": 1028,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -2157,7 +2136,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1508,
+          "response_time_ms": 1479,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -2182,7 +2161,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1042,
+          "response_time_ms": 1098,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -2203,7 +2182,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 317,
+          "response_time_ms": 333,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -2220,10 +2199,10 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 955,
+          "response_time_ms": 1026,
           "error": null,
           "scheme_used": "https",
-          "is_final": false
+          "is_final": true
         },
         {
           "domain": "slot1111.quest",
@@ -2237,17 +2216,17 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1132,
+          "response_time_ms": 1046,
           "error": null,
           "scheme_used": "https",
-          "is_final": true
+          "is_final": false
         }
       ]
     },
     {
       "name": "hubslotxo",
-      "final": "vip.hubslotxo.me",
-      "live": "vip.hubslotxo.me",
+      "final": "vip.hubslotxo4.com",
+      "live": "vip.hubslotxo4.com",
       "domains": [
         {
           "domain": "vip.hubslotxo1.com",
@@ -2286,6 +2265,18 @@
           "is_final": false
         },
         {
+          "domain": "vip.hubslotxo4.me",
+          "requested_url": "https://vip.hubslotxo4.me",
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "response_time_ms": null,
+          "error": "Connection error: HTTPConnectionPool(host='vip.hubslotxo4.me', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='vip.hubslotxo4.me', port=80): Failed to resolve 'vip.hubslotxo4.me' ([Errno -2] Name or service not known)\"))",
+          "scheme_used": "https",
+          "is_final": false
+        },
+        {
           "domain": "vip.hubslotxo4.com",
           "requested_url": "https://vip.hubslotxo4.com",
           "ok": true,
@@ -2301,24 +2292,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1127,
-          "error": null,
-          "scheme_used": "https",
-          "is_final": false
-        },
-        {
-          "domain": "vip.hubslotxo.me",
-          "requested_url": "https://vip.hubslotxo.me",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://vip.hubslotxo.me/",
-          "redirect_chain": [
-            {
-              "url": "https://vip.hubslotxo.me/",
-              "status_code": 200
-            }
-          ],
-          "response_time_ms": 272,
+          "response_time_ms": 1181,
           "error": null,
           "scheme_used": "https",
           "is_final": true
@@ -2354,7 +2328,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 3130,
+          "response_time_ms": 146,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -2407,7 +2381,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1253,
+          "response_time_ms": 1388,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -2424,7 +2398,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 771,
+          "response_time_ms": 882,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -2449,7 +2423,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 727,
+          "response_time_ms": 846,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -2470,7 +2444,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 276,
+          "response_time_ms": 896,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -2487,7 +2461,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 699,
+          "response_time_ms": 793,
           "error": null,
           "scheme_used": "https",
           "is_final": true
