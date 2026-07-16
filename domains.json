@@ -72,10 +72,10 @@
         "rsggames.co",
         "rsggame.online",
         "rsggame.fun",
-        "rsggames.org",
-        "rsggame.win"
+        { "domain": "rsggame.win", "label": "สำรอง 1" },
+        { "domain": "rsggame.app", "label": "สำรอง 2" }
       ],
-      "live": "rsggames.app"
+      "live": "rsggames.org"
     },
     {
       "name": "PACMAN VIP",
