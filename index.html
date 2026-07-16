@@ -178,36 +178,6 @@
         letter-spacing: 0.03em;
       }
 
-      .signal {
-        display: inline-flex;
-        align-items: center;
-        gap: 8px;
-      }
-      .bars {
-        display: inline-flex;
-        align-items: flex-end;
-        gap: 2px;
-        height: 12px;
-      }
-      .bars i {
-        width: 3px;
-        display: block;
-        border-radius: 1px;
-        background: var(--panel-border);
-      }
-      .bars i:nth-child(1) {
-        height: 4px;
-      }
-      .bars i:nth-child(2) {
-        height: 7px;
-      }
-      .bars i:nth-child(3) {
-        height: 10px;
-      }
-      .bars i:nth-child(4) {
-        height: 12px;
-      }
-
       .status-code {
         font-weight: 700;
       }
@@ -236,9 +206,6 @@
       .final-url {
         color: var(--text);
         word-break: break-all;
-      }
-      .rt {
-        color: var(--muted);
       }
 
       .error-msg {
@@ -355,32 +322,6 @@
         return "warn";
       }
 
-      function bars(rt) {
-        let level = 4;
-        if (rt == null) level = 0;
-        else if (rt < 300) level = 4;
-        else if (rt < 800) level = 3;
-        else if (rt < 2000) level = 2;
-        else level = 1;
-        let html = '<span class="bars">';
-        for (let i = 1; i <= 4; i++) {
-          const active = i <= level;
-          const cls = active ? statusColorClass(level) : "";
-          html += `<i style="${active ? `background:var(${barColor(level)})` : ""}"></i>`;
-        }
-        html += "</span>";
-        return html;
-      }
-      function barColor(level) {
-        if (level >= 4) return "--ok";
-        if (level === 3) return "--redirect";
-        if (level === 2) return "--warn";
-        return "--err";
-      }
-      function statusColorClass(level) {
-        return "";
-      }
-
       function render(data, labelConfig) {
         labelConfig = labelConfig || {};
         document.getElementById("lastChecked").textContent =
@@ -412,7 +353,7 @@
 
           const table = document.createElement("table");
           table.innerHTML = `<thead><tr>
-        <th>Domain</th><th>Signal</th><th>Status</th><th>Redirect chain</th><th>Response</th>
+        <th>Domain</th><th>Status</th><th>Redirect chain</th>
       </tr></thead>`;
           const tbody = document.createElement("tbody");
 
@@ -435,8 +376,6 @@
               badge = `<span class="backup-badge">${escapeHtml(cfg.labels[entry.domain])}</span>`;
             }
             const domainCell = `<div class="domain-cell">${escapeHtml(entry.domain)}${badge}</div>`;
-
-            const signalCell = bars(entry.response_time_ms);
 
             let statusCell;
             if (!entry.ok) {
@@ -476,12 +415,7 @@
               chainCell = '<span class="chain">—</span>';
             }
 
-            const rtCell =
-              entry.response_time_ms != null
-                ? `<span class="rt">${entry.response_time_ms} ms</span>`
-                : '<span class="rt">—</span>';
-
-            tr.innerHTML = `<td>${domainCell}</td><td>${signalCell}</td><td>${statusCell}</td><td>${chainCell}</td><td>${rtCell}</td>`;
+            tr.innerHTML = `<td>${domainCell}</td><td>${statusCell}</td><td>${chainCell}</td>`;
             tbody.appendChild(tr);
           });
 

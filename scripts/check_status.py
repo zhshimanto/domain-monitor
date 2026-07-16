@@ -12,7 +12,6 @@ Writes the result to data/status.json, which the static page (index.html) reads.
 import json
 import os
 import sys
-import time
 from datetime import datetime, timezone
 
 import requests
@@ -50,21 +49,18 @@ def check_domain(domain: str) -> dict:
         "status_code": None,
         "final_url": None,
         "redirect_chain": [],
-        "response_time_ms": None,
         "error": None,
         "scheme_used": "https",
     }
 
     for scheme, attempt_url in (("https", url), ("http", url.replace("https://", "http://", 1))):
         try:
-            start = time.monotonic()
             resp = session.get(
                 attempt_url,
                 headers={"User-Agent": USER_AGENT},
                 timeout=TIMEOUT,
                 allow_redirects=True,
             )
-            elapsed_ms = round((time.monotonic() - start) * 1000)
 
             chain = [{"url": r.url, "status_code": r.status_code} for r in resp.history]
             chain.append({"url": resp.url, "status_code": resp.status_code})
@@ -75,7 +71,6 @@ def check_domain(domain: str) -> dict:
                     "status_code": resp.status_code,
                     "final_url": resp.url,
                     "redirect_chain": chain,
-                    "response_time_ms": elapsed_ms,
                     "error": None,
                     "scheme_used": scheme,
                 }
