@@ -18,42 +18,42 @@
         "pgslott.to",
         "pgslot1.to",
         "pgslot-to.to",
-        "pg-slotto.to",
-        "playpgslot1.to",
-        "pgslotto.to"
+        "pg-slot-to.to",
+        { "domain": "playpgslot1.to", "label": "สำรอง 1" },
+        { "domain": "pgslotto.to", "label": "สำรอง 2" }
       ],
-      "live": "pg-slot-to.to"
+      "live": "pg-slotto.to"
     },
     {
       "name": "PGSLOTCEO",
       "domains": [
         "pgslot.ceo",
-        "pgslots.ceo",
-        "pg-slot.ceo",
-        "slotpg.ceo",
+        { "domain": "pg-slot.ceo", "label": "สำรอง 1" },
+        { "domain": "slotpg.ceo", "label": "สำรอง 1" },
         "pgslott.ceo",
-        "pgslotceo.work",
-        "pgslot-ceo.ceo",
-        "pg-slotceo.ceo",
-        "pgslot2.ceo"
+        "pgslotceo.work"
       ],
-      "live": "pgslotceo.services"
+      "live": "pgslots.ceo"
     },
     {
       "name": "slotpromax",
       "domains": [
         "slotpromax.com",
-        "slotpromax.vip",
-        "slotpromax.fun",
-        "slotpromax.pro",
-        "slotpromax.club"
+        { "domain": "slotpromax.fun", "label": "สำรอง 1" },
+        { "domain": "slotpromax.pro", "label": "สำรอง 1" },
+        "slotpromax.club",
+        "slotpromax.app"
       ],
-      "live": "slotpromax.app"
+      "live": "slotpromax.vip"
     },
     {
       "name": "missav",
-      "domains": ["missav.games", "missav.now", "missav.casino"],
-      "live": "missav.vu"
+      "domains": [
+        "missav.games",
+        { "domain": "missav.casino", "label": "สำรอง 1" },
+        { "domain": "missav.vu", "label": "สำรอง 2" }
+      ],
+      "live": "missav.now"
     },
     {
       "name": "hubbetco",
@@ -61,10 +61,10 @@
         "hubbet.co",
         "hubbet.bet",
         "hubbet.vip",
-        "hubbet.online",
-        "hubbet.cc"
+        { "domain": "hubbet.cc", "label": "สำรอง 1" },
+        { "domain": "hubbet.casino", "label": "สำรอง 1" }
       ],
-      "live": "hubbet.casino"
+      "live": "hubbet.online"
     },
     {
       "name": "rsggames",
