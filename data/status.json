@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-07-16 11:45:53 UTC",
+  "last_checked_utc": "2026-07-16 11:54:57 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -30,7 +30,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1723,
+          "response_time_ms": 2139,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -59,7 +59,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1721,
+          "response_time_ms": 1743,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -84,7 +84,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1334,
+          "response_time_ms": 1423,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -105,7 +105,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 478,
+          "response_time_ms": 581,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -122,7 +122,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1033,
+          "response_time_ms": 1018,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -139,7 +139,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1034,
+          "response_time_ms": 898,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -156,7 +156,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 313,
+          "response_time_ms": 245,
           "error": null,
           "scheme_used": "https",
           "is_final": true
@@ -184,7 +184,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 430,
+          "response_time_ms": 463,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -201,7 +201,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 190,
+          "response_time_ms": 255,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -234,7 +234,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1604,
+          "response_time_ms": 1453,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -251,7 +251,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 930,
+          "response_time_ms": 892,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -276,7 +276,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1108,
+          "response_time_ms": 341,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -297,7 +297,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 390,
+          "response_time_ms": 938,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -326,7 +326,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 666,
+          "response_time_ms": 566,
           "error": null,
           "scheme_used": "https",
           "is_final": true
@@ -354,7 +354,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1404,
+          "response_time_ms": 1472,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -375,7 +375,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 702,
+          "response_time_ms": 1217,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -392,7 +392,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 902,
+          "response_time_ms": 860,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -409,7 +409,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1024,
+          "response_time_ms": 1098,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -430,7 +430,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1052,
+          "response_time_ms": 310,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -451,7 +451,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 629,
+          "response_time_ms": 1187,
           "error": null,
           "scheme_used": "https",
           "is_final": true
@@ -483,7 +483,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1255,
+          "response_time_ms": 1106,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -500,7 +500,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 931,
+          "response_time_ms": 861,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -517,7 +517,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1031,
+          "response_time_ms": 1025,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -534,7 +534,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 210,
+          "response_time_ms": 118,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -551,7 +551,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 264,
+          "response_time_ms": 137,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -572,7 +572,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 976,
+          "response_time_ms": 937,
           "error": null,
           "scheme_used": "https",
           "is_final": true
@@ -604,7 +604,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1072,
+          "response_time_ms": 553,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -625,7 +625,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 718,
+          "response_time_ms": 258,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -646,7 +646,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 535,
+          "response_time_ms": 170,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -667,7 +667,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 290,
+          "response_time_ms": 142,
           "error": null,
           "scheme_used": "https",
           "is_final": true
@@ -703,7 +703,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1788,
+          "response_time_ms": 1997,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -728,7 +728,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1474,
+          "response_time_ms": 1362,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -749,7 +749,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1080,
+          "response_time_ms": 1284,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -766,7 +766,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1019,
+          "response_time_ms": 1075,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -783,7 +783,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1180,
+          "response_time_ms": 1260,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -800,7 +800,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 950,
+          "response_time_ms": 1054,
           "error": null,
           "scheme_used": "https",
           "is_final": true
@@ -809,8 +809,8 @@
     },
     {
       "name": "rsggames",
-      "final": "rsggames.app",
-      "live": "rsggames.app",
+      "final": "rsggames.org",
+      "live": "rsggames.org",
       "domains": [
         {
           "domain": "rsggames.co",
@@ -828,7 +828,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1383,
+          "response_time_ms": 1158,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -845,7 +845,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 984,
+          "response_time_ms": 850,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -866,24 +866,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1033,
-          "error": null,
-          "scheme_used": "https",
-          "is_final": false
-        },
-        {
-          "domain": "rsggames.org",
-          "requested_url": "https://rsggames.org",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://rsggames.org/",
-          "redirect_chain": [
-            {
-              "url": "https://rsggames.org/",
-              "status_code": 200
-            }
-          ],
-          "response_time_ms": 953,
+          "response_time_ms": 901,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -900,24 +883,41 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 437,
+          "response_time_ms": 128,
           "error": null,
           "scheme_used": "https",
           "is_final": false
         },
         {
-          "domain": "rsggames.app",
-          "requested_url": "https://rsggames.app",
+          "domain": "rsggame.app",
+          "requested_url": "https://rsggame.app",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://rsggames.app/",
+          "final_url": "https://rsggame.app/",
           "redirect_chain": [
             {
-              "url": "https://rsggames.app/",
+              "url": "https://rsggame.app/",
               "status_code": 200
             }
           ],
-          "response_time_ms": 289,
+          "response_time_ms": 153,
+          "error": null,
+          "scheme_used": "https",
+          "is_final": false
+        },
+        {
+          "domain": "rsggames.org",
+          "requested_url": "https://rsggames.org",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://rsggames.org/",
+          "redirect_chain": [
+            {
+              "url": "https://rsggames.org/",
+              "status_code": 200
+            }
+          ],
+          "response_time_ms": 844,
           "error": null,
           "scheme_used": "https",
           "is_final": true
@@ -977,7 +977,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 218,
+          "response_time_ms": 276,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1002,7 +1002,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1268,
+          "response_time_ms": 1316,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1023,7 +1023,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1020,
+          "response_time_ms": 863,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1040,7 +1040,7 @@
               "status_code": 404
             }
           ],
-          "response_time_ms": 993,
+          "response_time_ms": 886,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1057,7 +1057,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 937,
+          "response_time_ms": 889,
           "error": null,
           "scheme_used": "https",
           "is_final": true
@@ -1093,7 +1093,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 843,
+          "response_time_ms": 909,
           "error": null,
           "scheme_used": "https",
           "is_final": true
@@ -1129,7 +1129,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 761,
+          "response_time_ms": 799,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1170,7 +1170,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 398,
+          "response_time_ms": 1261,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1199,7 +1199,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 2283,
+          "response_time_ms": 1954,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1224,7 +1224,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 457,
+          "response_time_ms": 766,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1257,7 +1257,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 815,
+          "response_time_ms": 294,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1274,7 +1274,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 729,
+          "response_time_ms": 925,
           "error": null,
           "scheme_used": "https",
           "is_final": true
@@ -1302,7 +1302,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1183,
+          "response_time_ms": 1304,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1335,7 +1335,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1162,
+          "response_time_ms": 1230,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1356,7 +1356,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1195,
+          "response_time_ms": 1179,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1377,7 +1377,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1114,
+          "response_time_ms": 1264,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1398,7 +1398,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 531,
+          "response_time_ms": 528,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1419,7 +1419,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1126,
+          "response_time_ms": 549,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1440,7 +1440,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 511,
+          "response_time_ms": 557,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1461,7 +1461,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 482,
+          "response_time_ms": 527,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1482,7 +1482,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 502,
+          "response_time_ms": 1159,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1503,7 +1503,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1150,
+          "response_time_ms": 515,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1524,7 +1524,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1095,
+          "response_time_ms": 524,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1545,7 +1545,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 489,
+          "response_time_ms": 524,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1566,7 +1566,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 704,
+          "response_time_ms": 813,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1587,7 +1587,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 482,
+          "response_time_ms": 500,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1608,7 +1608,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1092,
+          "response_time_ms": 502,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1629,7 +1629,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 495,
+          "response_time_ms": 522,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1718,7 +1718,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 310,
+          "response_time_ms": 258,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1735,7 +1735,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1136,
+          "response_time_ms": 1157,
           "error": null,
           "scheme_used": "https",
           "is_final": true
@@ -1783,7 +1783,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 2715,
+          "response_time_ms": 2508,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1824,7 +1824,7 @@
               "status_code": 404
             }
           ],
-          "response_time_ms": 590,
+          "response_time_ms": 528,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1841,7 +1841,7 @@
               "status_code": 521
             }
           ],
-          "response_time_ms": 391,
+          "response_time_ms": 300,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1926,7 +1926,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1166,
+          "response_time_ms": 1674,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1959,7 +1959,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1394,
+          "response_time_ms": 640,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1988,7 +1988,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1187,
+          "response_time_ms": 1038,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -2013,7 +2013,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 464,
+          "response_time_ms": 1013,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -2034,7 +2034,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1009,
+          "response_time_ms": 297,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -2051,7 +2051,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 297,
+          "response_time_ms": 260,
           "error": null,
           "scheme_used": "https",
           "is_final": true
@@ -2099,7 +2099,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 827,
+          "response_time_ms": 1768,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -2128,7 +2128,7 @@
               "status_code": 503
             }
           ],
-          "response_time_ms": 760,
+          "response_time_ms": 829,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -2157,7 +2157,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1461,
+          "response_time_ms": 1508,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -2182,7 +2182,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1099,
+          "response_time_ms": 1042,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -2203,7 +2203,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 979,
+          "response_time_ms": 317,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -2220,7 +2220,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 896,
+          "response_time_ms": 955,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -2237,7 +2237,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1073,
+          "response_time_ms": 1132,
           "error": null,
           "scheme_used": "https",
           "is_final": true
@@ -2301,7 +2301,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1141,
+          "response_time_ms": 1127,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -2318,7 +2318,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 898,
+          "response_time_ms": 272,
           "error": null,
           "scheme_used": "https",
           "is_final": true
@@ -2354,7 +2354,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 245,
+          "response_time_ms": 3130,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -2407,7 +2407,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1325,
+          "response_time_ms": 1253,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -2424,7 +2424,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 827,
+          "response_time_ms": 771,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -2449,7 +2449,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 899,
+          "response_time_ms": 727,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -2470,7 +2470,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 820,
+          "response_time_ms": 276,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -2487,7 +2487,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 305,
+          "response_time_ms": 699,
           "error": null,
           "scheme_used": "https",
           "is_final": true
