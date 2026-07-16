@@ -105,10 +105,10 @@
         "slotsaiboon.games",
         "slotsaiboon.guru",
         "slotsaiboon.plus",
-        "slotsaiboon4.com",
-        "slotsaiboon.ltd"
+        { "domain": "slotsaiboon.ltd", "label": "สำรอง 1" },
+        { "domain": "slotsaiboon.cool", "label": "สำรอง 2" }
       ],
-      "live": "slotsaiboon.cool"
+      "live": "slotsaiboon4.com"
     },
     {
       "name": "pgslot",
@@ -136,9 +136,9 @@
         "pgslot14.in",
         "pgslot15.in",
         "pgslot16.in",
-        "pgslotin.asia"
+        { "domain": "pgslotin.buzz", "label": "สำรอง" }
       ],
-      "live": "pgslotin.buzz"
+      "live": "pgslotin.asia"
     },
     {
       "name": "hubhengjing888",
@@ -155,8 +155,7 @@
         "hubhengjing888.guru",
         "hubhengjing888.zone",
         "hubhengjing888.ltd",
-        "hubhengjing888.love",
-        "play.hubhengjing8884.com"
+        "hubhengjing888.love"
       ],
       "live": "hubhengjing888.today"
     },
@@ -171,9 +170,10 @@
         "slot1111.plus",
         "slot1111.news",
         "slot1111.love",
-        "slot1111.link"
+        "slot1111.link",
+        { "domain": "slot1111.quest", "label": "สำรอง" }
       ],
-      "live": "slot1111.quest"
+      "live": "slot1111.link"
     },
     {
       "name": "hubslotxo",
@@ -181,9 +181,9 @@
         "vip.hubslotxo1.com",
         "vip.hubslotxo2.com",
         "vip.hubslotxo3.com",
-        "vip.hubslotxo4.com"
+        { "domain": "vip.hubslotxo4.me", "label": "สำรอง" }
       ],
-      "live": "vip.hubslotxo.me"
+      "live": "vip.hubslotxo4.com"
     },
     {
       "name": "hubpgslot",
