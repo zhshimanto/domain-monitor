@@ -116,20 +116,30 @@ def main():
 
     for brand in config.get("brands", []):
         brand_name = brand["name"]
-        final_domain = brand.get("final")
-        all_domains = list(brand.get("domains", []))
-        if final_domain and final_domain not in all_domains:
-            all_domains.append(final_domain)
+        live_domain = brand.get("live", brand.get("final"))
+
+        # Each item in "domains" can be a plain string, or an object like
+        # {"domain": "pgslot5.sh", "label": "สำรอง 1"} used to give it a
+        # custom badge on the page. Unwrap to a plain domain string here —
+        # labels are read directly from domains.json by the page itself.
+        all_domains = []
+        for entry in brand.get("domains", []):
+            dom = entry.get("domain") if isinstance(entry, dict) else entry
+            if dom:
+                all_domains.append(dom)
+
+        if live_domain and live_domain not in all_domains:
+            all_domains.append(live_domain)
 
         print(f"Checking brand: {brand_name} ({len(all_domains)} domains)")
         checked = []
         for domain in all_domains:
             print(f"  -> {domain}")
             res = check_domain(domain)
-            res["is_final"] = domain == final_domain
+            res["is_final"] = domain == live_domain
             checked.append(res)
 
-        output["brands"].append({"name": brand_name, "final": final_domain, "domains": checked})
+        output["brands"].append({"name": brand_name, "final": live_domain, "live": live_domain, "domains": checked})
 
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:

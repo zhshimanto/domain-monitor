@@ -7,10 +7,10 @@
         "pgslot1.sh",
         "pgslot2.sh",
         "pgslot3.sh",
-        "pgslot4.sh",
-        { "domain": "pgslot5.sh", "label": "สำรอง 1" }
+        { "domain": "pgslot5.sh", "label": "สำรอง 1" },
+        { "domain": "pgslot6.sh", "label": "สำรอง 2" }
       ],
-      "live": "pgslot6.sh"
+      "live": "pgslot4.sh"
     },
     {
       "name": "PGSLOTTO",
