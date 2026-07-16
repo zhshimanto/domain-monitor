@@ -1,9 +1,10 @@
 {
-  "last_checked_utc": "2026-07-16 05:32:48 UTC",
+  "last_checked_utc": "2026-07-16 10:33:08 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
-      "final": "pgslot6.sh",
+      "final": "pgslot4.sh",
+      "live": "pgslot4.sh",
       "domains": [
         {
           "domain": "pgslot.sh",
@@ -29,7 +30,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 2303,
+          "response_time_ms": 1872,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -58,7 +59,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1985,
+          "response_time_ms": 1563,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -83,7 +84,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1775,
+          "response_time_ms": 984,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -104,24 +105,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1329,
-          "error": null,
-          "scheme_used": "https",
-          "is_final": false
-        },
-        {
-          "domain": "pgslot4.sh",
-          "requested_url": "https://pgslot4.sh",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://pgslot4.sh/",
-          "redirect_chain": [
-            {
-              "url": "https://pgslot4.sh/",
-              "status_code": 200
-            }
-          ],
-          "response_time_ms": 271,
+          "response_time_ms": 1118,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -138,7 +122,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1024,
+          "response_time_ms": 789,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -155,7 +139,24 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1011,
+          "response_time_ms": 789,
+          "error": null,
+          "scheme_used": "https",
+          "is_final": false
+        },
+        {
+          "domain": "pgslot4.sh",
+          "requested_url": "https://pgslot4.sh",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://pgslot4.sh/",
+          "redirect_chain": [
+            {
+              "url": "https://pgslot4.sh/",
+              "status_code": 200
+            }
+          ],
+          "response_time_ms": 226,
           "error": null,
           "scheme_used": "https",
           "is_final": true
@@ -165,6 +166,7 @@
     {
       "name": "PGSLOTTO",
       "final": "pg-slot-to.to",
+      "live": "pg-slot-to.to",
       "domains": [
         {
           "domain": "pgslott.to",
@@ -182,7 +184,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 535,
+          "response_time_ms": 551,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -199,7 +201,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 206,
+          "response_time_ms": 224,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -232,7 +234,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1801,
+          "response_time_ms": 1289,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -261,7 +263,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1320,
+          "response_time_ms": 996,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -286,7 +288,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1041,
+          "response_time_ms": 816,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -307,7 +309,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 984,
+          "response_time_ms": 264,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -324,7 +326,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 941,
+          "response_time_ms": 752,
           "error": null,
           "scheme_used": "https",
           "is_final": true
@@ -334,6 +336,7 @@
     {
       "name": "PGSLOTCEO",
       "final": "pgslotceo.services",
+      "live": "pgslotceo.services",
       "domains": [
         {
           "domain": "pgslot.ceo",
@@ -351,7 +354,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1336,
+          "response_time_ms": 1491,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -372,7 +375,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1221,
+          "response_time_ms": 593,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -393,7 +396,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1371,
+          "response_time_ms": 453,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -410,7 +413,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 258,
+          "response_time_ms": 740,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -427,7 +430,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1018,
+          "response_time_ms": 799,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -448,7 +451,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 994,
+          "response_time_ms": 260,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -473,7 +476,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 944,
+          "response_time_ms": 1050,
           "error": null,
           "scheme_used": "http",
           "is_final": false
@@ -490,7 +493,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 119,
+          "response_time_ms": 114,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -507,7 +510,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 328,
+          "response_time_ms": 96,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -529,6 +532,7 @@
     {
       "name": "slotpromax",
       "final": "slotpromax.app",
+      "live": "slotpromax.app",
       "domains": [
         {
           "domain": "slotpromax.com",
@@ -550,7 +554,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1165,
+          "response_time_ms": 919,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -571,7 +575,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1030,
+          "response_time_ms": 775,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -588,7 +592,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 917,
+          "response_time_ms": 760,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -605,7 +609,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1023,
+          "response_time_ms": 912,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -622,7 +626,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 375,
+          "response_time_ms": 87,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -639,7 +643,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 87,
+          "response_time_ms": 138,
           "error": null,
           "scheme_used": "https",
           "is_final": true
@@ -649,6 +653,7 @@
     {
       "name": "missav",
       "final": "missav.vu",
+      "live": "missav.vu",
       "domains": [
         {
           "domain": "missav.games",
@@ -670,7 +675,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 445,
+          "response_time_ms": 1169,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -691,7 +696,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 120,
+          "response_time_ms": 297,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -712,7 +717,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 287,
+          "response_time_ms": 757,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -733,7 +738,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 310,
+          "response_time_ms": 606,
           "error": null,
           "scheme_used": "https",
           "is_final": true
@@ -743,6 +748,7 @@
     {
       "name": "hubbetco",
       "final": "hubbet.casino",
+      "live": "hubbet.casino",
       "domains": [
         {
           "domain": "hubbet.co",
@@ -768,7 +774,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 2077,
+          "response_time_ms": 1843,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -793,7 +799,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1531,
+          "response_time_ms": 1367,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -814,7 +820,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1240,
+          "response_time_ms": 414,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -831,7 +837,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 954,
+          "response_time_ms": 212,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -848,7 +854,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 994,
+          "response_time_ms": 1010,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -865,7 +871,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1323,
+          "response_time_ms": 934,
           "error": null,
           "scheme_used": "https",
           "is_final": true
@@ -875,6 +881,7 @@
     {
       "name": "rsggames",
       "final": "rsggames.app",
+      "live": "rsggames.app",
       "domains": [
         {
           "domain": "rsggames.co",
@@ -892,7 +899,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1347,
+          "response_time_ms": 967,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -909,7 +916,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 966,
+          "response_time_ms": 762,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -930,7 +937,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1068,
+          "response_time_ms": 829,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -947,7 +954,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 942,
+          "response_time_ms": 213,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -964,7 +971,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 292,
+          "response_time_ms": 585,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -981,7 +988,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 129,
+          "response_time_ms": 138,
           "error": null,
           "scheme_used": "https",
           "is_final": true
@@ -991,6 +998,7 @@
     {
       "name": "PACMAN VIP",
       "final": "pacvip.fun",
+      "live": "pacvip.fun",
       "domains": [
         {
           "domain": "pacman168.in",
@@ -1040,7 +1048,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 302,
+          "response_time_ms": 85,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1065,7 +1073,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1188,
+          "response_time_ms": 1107,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1086,7 +1094,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 979,
+          "response_time_ms": 785,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1103,7 +1111,7 @@
               "status_code": 404
             }
           ],
-          "response_time_ms": 904,
+          "response_time_ms": 760,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1120,7 +1128,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 927,
+          "response_time_ms": 216,
           "error": null,
           "scheme_used": "https",
           "is_final": true
@@ -1130,32 +1138,38 @@
     {
       "name": "PACMAN Transfer",
       "final": "pac168.vip",
+      "live": "pac168.vip",
       "domains": [
         {
           "domain": "pac168.org",
           "requested_url": "https://pac168.org",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "response_time_ms": null,
-          "error": "SSL error: HTTPSConnectionPool(host='pac168.org', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'pac168.org'. (_ssl.c:1010)\")))",
-          "scheme_used": "https",
+          "ok": true,
+          "status_code": 415,
+          "final_url": "http://pac168.org/",
+          "redirect_chain": [
+            {
+              "url": "http://pac168.org/",
+              "status_code": 415
+            }
+          ],
+          "response_time_ms": 338,
+          "error": null,
+          "scheme_used": "http",
           "is_final": false
         },
         {
           "domain": "pac168.vip",
           "requested_url": "https://pac168.vip",
           "ok": true,
-          "status_code": 200,
+          "status_code": 415,
           "final_url": "https://pac168.vip/",
           "redirect_chain": [
             {
               "url": "https://pac168.vip/",
-              "status_code": 200
+              "status_code": 415
             }
           ],
-          "response_time_ms": 947,
+          "response_time_ms": 538,
           "error": null,
           "scheme_used": "https",
           "is_final": true
@@ -1165,6 +1179,7 @@
     {
       "name": "slotsaiboon",
       "final": "slotsaiboon.cool",
+      "live": "slotsaiboon.cool",
       "domains": [
         {
           "domain": "slotsaiboon.com",
@@ -1190,7 +1205,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 878,
+          "response_time_ms": 510,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1222,12 +1237,17 @@
         {
           "domain": "slotsaiboon.games",
           "requested_url": "https://slotsaiboon.games",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "response_time_ms": null,
-          "error": "Timed out after 10s",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://slotsaiboon.games/",
+          "redirect_chain": [
+            {
+              "url": "https://slotsaiboon.games/",
+              "status_code": 200
+            }
+          ],
+          "response_time_ms": 225,
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
@@ -1255,7 +1275,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 2126,
+          "response_time_ms": 2398,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1280,7 +1300,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 828,
+          "response_time_ms": 329,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1313,7 +1333,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 315,
+          "response_time_ms": 714,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1330,7 +1350,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 276,
+          "response_time_ms": 874,
           "error": null,
           "scheme_used": "https",
           "is_final": true
@@ -1340,6 +1360,7 @@
     {
       "name": "pgslot",
       "final": "pgslotin.buzz",
+      "live": "pgslotin.buzz",
       "domains": [
         {
           "domain": "pgslot.in",
@@ -1357,7 +1378,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1452,
+          "response_time_ms": 1243,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1390,7 +1411,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1328,
+          "response_time_ms": 1088,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1411,7 +1432,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1385,
+          "response_time_ms": 1099,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1432,7 +1453,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1388,
+          "response_time_ms": 1094,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1453,7 +1474,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1415,
+          "response_time_ms": 1131,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1474,7 +1495,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 657,
+          "response_time_ms": 472,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1495,7 +1516,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1390,
+          "response_time_ms": 468,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1516,7 +1537,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 627,
+          "response_time_ms": 458,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1537,7 +1558,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1325,
+          "response_time_ms": 468,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1558,7 +1579,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1316,
+          "response_time_ms": 473,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1579,7 +1600,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 610,
+          "response_time_ms": 458,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1600,7 +1621,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 581,
+          "response_time_ms": 448,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1621,7 +1642,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 893,
+          "response_time_ms": 663,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1642,7 +1663,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1282,
+          "response_time_ms": 457,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1663,7 +1684,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 627,
+          "response_time_ms": 457,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1684,7 +1705,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 574,
+          "response_time_ms": 458,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1773,7 +1794,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 288,
+          "response_time_ms": 244,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1790,7 +1811,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1098,
+          "response_time_ms": 889,
           "error": null,
           "scheme_used": "https",
           "is_final": true
@@ -1800,6 +1821,7 @@
     {
       "name": "hubhengjing888",
       "final": "hubhengjing888.today",
+      "live": "hubhengjing888.today",
       "domains": [
         {
           "domain": "hubhengjing888.com",
@@ -1837,7 +1859,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 2688,
+          "response_time_ms": 2421,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1878,7 +1900,7 @@
               "status_code": 404
             }
           ],
-          "response_time_ms": 639,
+          "response_time_ms": 456,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1895,7 +1917,7 @@
               "status_code": 521
             }
           ],
-          "response_time_ms": 306,
+          "response_time_ms": 246,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1980,7 +2002,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1097,
+          "response_time_ms": 1171,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -2013,7 +2035,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1377,
+          "response_time_ms": 1364,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -2042,7 +2064,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1175,
+          "response_time_ms": 980,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -2067,7 +2089,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1067,
+          "response_time_ms": 320,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -2088,7 +2110,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 317,
+          "response_time_ms": 280,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -2105,7 +2127,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1003,
+          "response_time_ms": 246,
           "error": null,
           "scheme_used": "https",
           "is_final": true
@@ -2115,6 +2137,7 @@
     {
       "name": "slot1111",
       "final": "slot1111.quest",
+      "live": "slot1111.quest",
       "domains": [
         {
           "domain": "slot1111.com",
@@ -2152,7 +2175,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 903,
+          "response_time_ms": 759,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -2181,7 +2204,7 @@
               "status_code": 503
             }
           ],
-          "response_time_ms": 752,
+          "response_time_ms": 819,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -2210,7 +2233,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1318,
+          "response_time_ms": 1187,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -2235,7 +2258,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1075,
+          "response_time_ms": 949,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -2256,7 +2279,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1045,
+          "response_time_ms": 290,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -2273,7 +2296,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 979,
+          "response_time_ms": 250,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -2290,7 +2313,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1080,
+          "response_time_ms": 1110,
           "error": null,
           "scheme_used": "https",
           "is_final": true
@@ -2300,6 +2323,7 @@
     {
       "name": "hubslotxo",
       "final": "vip.hubslotxo.me",
+      "live": "vip.hubslotxo.me",
       "domains": [
         {
           "domain": "vip.hubslotxo1.com",
@@ -2353,7 +2377,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1090,
+          "response_time_ms": 1144,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -2370,7 +2394,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 974,
+          "response_time_ms": 874,
           "error": null,
           "scheme_used": "https",
           "is_final": true
@@ -2380,6 +2404,7 @@
     {
       "name": "hubpgslot",
       "final": "hubpgslot.marketing",
+      "live": "hubpgslot.marketing",
       "domains": [
         {
           "domain": "hubpgslot.com",
@@ -2405,7 +2430,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 2152,
+          "response_time_ms": 154,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -2458,7 +2483,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1469,
+          "response_time_ms": 1188,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -2475,7 +2500,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 919,
+          "response_time_ms": 608,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -2500,7 +2525,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 870,
+          "response_time_ms": 681,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -2521,7 +2546,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 956,
+          "response_time_ms": 607,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -2538,7 +2563,7 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 288,
+          "response_time_ms": 576,
           "error": null,
           "scheme_used": "https",
           "is_final": true
