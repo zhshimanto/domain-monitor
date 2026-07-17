@@ -113,15 +113,21 @@ def main():
         brand_name = brand["name"]
         live_domain = brand.get("live", brand.get("final"))
 
-        # Each item in "domains" can be a plain string, or an object like
-        # {"domain": "pgslot5.sh", "label": "สำรอง 1"} used to give it a
-        # custom badge on the page. Unwrap to a plain domain string here —
-        # labels are read directly from domains.json by the page itself.
+        # "domains" is a plain list of domain strings. "reserve" is an
+        # object mapping a badge label -> domain, e.g.
+        # {"Reserve 1": "pgslot5.sh", "Reserve 2": "pgslot6.sh"} — those
+        # domains get checked too, and are displayed after the live domain.
+        # Labels/ordering are read directly from domains.json by the page.
         all_domains = []
-        for entry in brand.get("domains", []):
-            dom = entry.get("domain") if isinstance(entry, dict) else entry
-            if dom:
+        for dom in brand.get("domains", []):
+            if dom and dom not in all_domains:
                 all_domains.append(dom)
+
+        reserve = brand.get("reserve", {})
+        if isinstance(reserve, dict):
+            for dom in reserve.values():
+                if dom and dom not in all_domains:
+                    all_domains.append(dom)
 
         if live_domain and live_domain not in all_domains:
             all_domains.append(live_domain)

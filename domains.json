@@ -2,80 +2,66 @@
   "brands": [
     {
       "name": "PGSLOTSH",
-      "domains": [
-        "pgslot.sh",
-        "pgslot1.sh",
-        "pgslot2.sh",
-        "pgslot3.sh",
-        { "domain": "pgslot5.sh", "label": "สำรอง 1" },
-        { "domain": "pgslot6.sh", "label": "สำรอง 2" }
-      ],
-      "live": "pgslot4.sh"
+      "domains": ["pgslot.sh", "pgslot1.sh", "pgslot2.sh", "pgslot3.sh"],
+      "live": "pgslot4.sh",
+      "reserve": {
+        "สำรอง 1": "pgslot5.sh",
+        "สำรอง 2": "pgslot6.sh"
+      }
     },
     {
       "name": "PGSLOTTO",
-      "domains": [
-        "pgslott.to",
-        "pgslot1.to",
-        "pgslot-to.to",
-        "pg-slot-to.to",
-        { "domain": "playpgslot1.to", "label": "สำรอง 1" },
-        { "domain": "pgslotto.to", "label": "สำรอง 2" }
-      ],
-      "live": "pg-slotto.to"
+      "domains": ["pgslott.to", "pgslot1.to", "pgslot-to.to", "pg-slot-to.to"],
+      "live": "pg-slotto.to",
+      "reserve": {
+        "สำรอง 1": "playpgslot1.to",
+        "สำรอง 2": "pgslotto.to"
+      }
     },
     {
       "name": "PGSLOTCEO",
-      "domains": [
-        "pgslot.ceo",
-        { "domain": "pg-slot.ceo", "label": "สำรอง 1" },
-        { "domain": "slotpg.ceo", "label": "สำรอง 1" },
-        "pgslott.ceo",
-        "pgslotceo.work"
-      ],
-      "live": "pgslots.ceo"
+      "domains": ["pgslot.ceo", "pgslott.ceo", "pgslotceo.work"],
+      "live": "pgslots.ceo",
+      "reserve": {
+        "สำรอง 1": "pg-slot.ceo",
+        "สำรอง 2": "slotpg.ceo"
+      }
     },
     {
       "name": "slotpromax",
-      "domains": [
-        "slotpromax.com",
-        { "domain": "slotpromax.fun", "label": "สำรอง 1" },
-        { "domain": "slotpromax.pro", "label": "สำรอง 1" },
-        "slotpromax.club",
-        "slotpromax.app"
-      ],
-      "live": "slotpromax.vip"
+      "domains": ["slotpromax.com", "slotpromax.club", "slotpromax.app"],
+      "live": "slotpromax.vip",
+      "reserve": {
+        "สำรอง 1": "slotpromax.fun",
+        "สำรอง 2": "slotpromax.pro"
+      }
     },
     {
       "name": "missav",
-      "domains": [
-        "missav.games",
-        { "domain": "missav.casino", "label": "สำรอง 1" },
-        { "domain": "missav.vu", "label": "สำรอง 2" }
-      ],
-      "live": "missav.now"
+      "domains": ["missav.games"],
+      "live": "missav.now",
+      "reserve": {
+        "สำรอง 1": "missav.casino",
+        "สำรอง 2": "missav.vu"
+      }
     },
     {
       "name": "hubbetco",
-      "domains": [
-        "hubbet.co",
-        "hubbet.bet",
-        "hubbet.vip",
-        { "domain": "hubbet.cc", "label": "สำรอง 1" },
-        { "domain": "hubbet.casino", "label": "สำรอง 1" }
-      ],
-      "live": "hubbet.online"
+      "domains": ["hubbet.co", "hubbet.bet", "hubbet.vip"],
+      "live": "hubbet.online",
+      "reserve": {
+        "สำรอง 1": "hubbet.cc",
+        "สำรอง 2": "hubbet.casino"
+      }
     },
     {
       "name": "rsggames",
-      "domains": [
-        "rsggames.co",
-        "rsggame.online",
-        "rsggame.fun",
-        { "domain": "rsggame.win", "label": "สำรอง 1" },
-        { "domain": "rsggame.app", "label": "สำรอง 2" }
-      ],
-      "live": "rsggames.org"
+      "domains": ["rsggames.co", "rsggame.online", "rsggame.fun"],
+      "live": "rsggames.org",
+      "reserve": {
+        "สำรอง 1": "rsggame.win",
+        "สำรอง 2": "rsggame.app"
+      }
     },
     {
       "name": "PACMAN VIP",
@@ -104,11 +90,13 @@
         "slotsaiboon.casino",
         "slotsaiboon.games",
         "slotsaiboon.guru",
-        "slotsaiboon.plus",
-        { "domain": "slotsaiboon.ltd", "label": "สำรอง 1" },
-        { "domain": "slotsaiboon.cool", "label": "สำรอง 2" }
+        "slotsaiboon.plus"
       ],
-      "live": "slotsaiboon4.com"
+      "live": "slotsaiboon4.com",
+      "reserve": {
+        "สำรอง 1": "slotsaiboon.ltd",
+        "สำรอง 2": "slotsaiboon.cool"
+      }
     },
     {
       "name": "pgslot",
@@ -135,10 +123,12 @@
         "pgslot13.in",
         "pgslot14.in",
         "pgslot15.in",
-        "pgslot16.in",
-        { "domain": "pgslotin.buzz", "label": "สำรอง" }
+        "pgslot16.in"
       ],
-      "live": "pgslotin.asia"
+      "live": "pgslotin.asia",
+      "reserve": {
+        "สำรอง": "pgslotin.buzz"
+      }
     },
     {
       "name": "hubhengjing888",
@@ -170,20 +160,24 @@
         "slot1111.plus",
         "slot1111.news",
         "slot1111.love",
-        "slot1111.link",
-        { "domain": "slot1111.quest", "label": "สำรอง" }
+        "slot1111.link"
       ],
-      "live": "slot1111.link"
+      "live": "slot1111.link",
+      "reserve": {
+        "สำรอง": "slot1111.quest"
+      }
     },
     {
       "name": "hubslotxo",
       "domains": [
         "vip.hubslotxo1.com",
         "vip.hubslotxo2.com",
-        "vip.hubslotxo3.com",
-        { "domain": "vip.hubslotxo4.me", "label": "สำรอง" }
+        "vip.hubslotxo3.com"
       ],
-      "live": "vip.hubslotxo4.com"
+      "live": "vip.hubslotxo4.com",
+      "reserve": {
+        "สำรอง": "vip.hubslotxo4.me"
+      }
     },
     {
       "name": "hubpgslot",
