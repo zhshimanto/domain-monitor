@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-07-16 12:05:48 UTC",
+  "last_checked_utc": "2026-07-17 05:34:16 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -30,7 +30,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 2359,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -59,7 +58,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 2049,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -84,7 +82,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1603,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -105,7 +102,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1233,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -122,7 +118,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 998,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -139,7 +134,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1038,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -156,7 +150,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 902,
           "error": null,
           "scheme_used": "https",
           "is_final": true
@@ -184,7 +177,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 576,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -201,7 +193,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 246,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -234,7 +225,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1847,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -251,7 +241,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 936,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -276,7 +265,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1057,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -297,7 +285,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 935,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -326,7 +313,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1333,
           "error": null,
           "scheme_used": "https",
           "is_final": true
@@ -354,7 +340,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1526,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -375,7 +360,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1310,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -392,7 +376,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 915,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -409,7 +392,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1099,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -430,7 +412,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 313,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -451,7 +432,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 712,
           "error": null,
           "scheme_used": "https",
           "is_final": true
@@ -483,7 +463,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1071,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -500,7 +479,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 895,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -517,7 +495,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1015,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -534,7 +511,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 90,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -551,7 +527,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 165,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -572,7 +547,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 941,
           "error": null,
           "scheme_used": "https",
           "is_final": true
@@ -604,7 +578,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 561,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -625,7 +598,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 200,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -646,7 +618,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 110,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -667,7 +638,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 103,
           "error": null,
           "scheme_used": "https",
           "is_final": true
@@ -703,7 +673,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 2195,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -728,7 +697,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1602,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -749,7 +717,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1226,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -766,7 +733,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1147,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -783,7 +749,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1005,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -800,7 +765,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1015,
           "error": null,
           "scheme_used": "https",
           "is_final": true
@@ -828,7 +792,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1320,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -845,7 +808,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 992,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -866,7 +828,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1072,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -883,7 +844,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 95,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -900,7 +860,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 97,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -917,7 +876,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 935,
           "error": null,
           "scheme_used": "https",
           "is_final": true
@@ -936,7 +894,6 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "response_time_ms": null,
           "error": "Connection error: HTTPConnectionPool(host='pacman168.in', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='pacman168.in', port=80): Failed to resolve 'pacman168.in' ([Errno -5] No address associated with hostname)\"))",
           "scheme_used": "https",
           "is_final": false
@@ -948,7 +905,6 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "response_time_ms": null,
           "error": "Connection error: HTTPConnectionPool(host='www.pacman168.fun', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='www.pacman168.fun', port=80): Failed to resolve 'www.pacman168.fun' ([Errno -2] Name or service not known)\"))",
           "scheme_used": "https",
           "is_final": false
@@ -960,7 +916,6 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "response_time_ms": null,
           "error": "Connection error: HTTPConnectionPool(host='pacman168.live', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='pacman168.live', port=80): Failed to resolve 'pacman168.live' ([Errno -2] Name or service not known)\"))",
           "scheme_used": "https",
           "is_final": false
@@ -977,7 +932,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 295,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1002,7 +956,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1188,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1023,7 +976,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 952,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1040,7 +992,6 @@
               "status_code": 404
             }
           ],
-          "response_time_ms": 937,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1057,7 +1008,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 881,
           "error": null,
           "scheme_used": "https",
           "is_final": true
@@ -1076,7 +1026,6 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "response_time_ms": null,
           "error": "SSL error: HTTPSConnectionPool(host='pac168.org', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'pac168.org'. (_ssl.c:1010)\")))",
           "scheme_used": "https",
           "is_final": false
@@ -1093,7 +1042,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 972,
           "error": null,
           "scheme_used": "https",
           "is_final": true
@@ -1112,7 +1060,6 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "response_time_ms": null,
           "error": "Connection error: HTTPSConnectionPool(host='slotsaiboon.casino', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='slotsaiboon.casino', port=443): Failed to resolve 'slotsaiboon.casino' ([Errno -2] Name or service not known)\"))",
           "scheme_used": "https",
           "is_final": false
@@ -1129,7 +1076,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 871,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1141,7 +1087,6 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "response_time_ms": null,
           "error": "Connection error: HTTPSConnectionPool(host='slotsaiboon.casino', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='slotsaiboon.casino', port=443): Failed to resolve 'slotsaiboon.casino' ([Errno -2] Name or service not known)\"))",
           "scheme_used": "https",
           "is_final": false
@@ -1153,7 +1098,6 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "response_time_ms": null,
           "error": "Connection error: HTTPConnectionPool(host='slotsaiboon.casino', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='slotsaiboon.casino', port=80): Failed to resolve 'slotsaiboon.casino' ([Errno -2] Name or service not known)\"))",
           "scheme_used": "https",
           "is_final": false
@@ -1170,7 +1114,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1082,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1199,7 +1142,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1429,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1224,7 +1166,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 360,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1245,7 +1186,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 834,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1262,7 +1202,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 793,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1274,7 +1213,6 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "response_time_ms": null,
           "error": "Connection error: HTTPConnectionPool(host='slotsaiboon4.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='slotsaiboon4.com', port=80): Failed to resolve 'slotsaiboon4.com' ([Errno -5] No address associated with hostname)\"))",
           "scheme_used": "https",
           "is_final": true
@@ -1302,7 +1240,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1434,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1314,7 +1251,6 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "response_time_ms": null,
           "error": "Connection error: HTTPConnectionPool(host='pgsgame.in', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='pgsgame.in', port=80): Failed to resolve 'pgsgame.in' ([Errno -2] Name or service not known)\"))",
           "scheme_used": "https",
           "is_final": false
@@ -1335,7 +1271,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1352,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1356,7 +1291,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1352,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1377,7 +1311,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 653,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1398,7 +1331,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1426,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1419,7 +1351,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1402,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1440,7 +1371,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 666,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1461,7 +1391,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 612,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1482,7 +1411,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 622,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1503,7 +1431,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 635,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1524,7 +1451,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 628,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1545,7 +1471,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 623,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1566,7 +1491,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 879,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1587,7 +1511,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 615,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1608,7 +1531,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1371,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1629,7 +1551,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1361,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1641,7 +1562,6 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "response_time_ms": null,
           "error": "Connection error: HTTPConnectionPool(host='pgslot11.in', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='pgslot11.in', port=80): Failed to resolve 'pgslot11.in' ([Errno -2] Name or service not known)\"))",
           "scheme_used": "https",
           "is_final": false
@@ -1653,7 +1573,6 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "response_time_ms": null,
           "error": "Connection error: HTTPConnectionPool(host='pgslot12.in', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='pgslot12.in', port=80): Failed to resolve 'pgslot12.in' ([Errno -2] Name or service not known)\"))",
           "scheme_used": "https",
           "is_final": false
@@ -1665,7 +1584,6 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "response_time_ms": null,
           "error": "Connection error: HTTPConnectionPool(host='pgslot13.in', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='pgslot13.in', port=80): Failed to resolve 'pgslot13.in' ([Errno -2] Name or service not known)\"))",
           "scheme_used": "https",
           "is_final": false
@@ -1677,7 +1595,6 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "response_time_ms": null,
           "error": "Connection error: HTTPConnectionPool(host='pgslot14.in', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='pgslot14.in', port=80): Failed to resolve 'pgslot14.in' ([Errno -2] Name or service not known)\"))",
           "scheme_used": "https",
           "is_final": false
@@ -1689,7 +1606,6 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "response_time_ms": null,
           "error": "Connection error: HTTPConnectionPool(host='pgslot15.in', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='pgslot15.in', port=80): Failed to resolve 'pgslot15.in' ([Errno -2] Name or service not known)\"))",
           "scheme_used": "https",
           "is_final": false
@@ -1701,7 +1617,6 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "response_time_ms": null,
           "error": "Connection error: HTTPConnectionPool(host='pgslot16.in', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='pgslot16.in', port=80): Failed to resolve 'pgslot16.in' ([Errno -2] Name or service not known)\"))",
           "scheme_used": "https",
           "is_final": false
@@ -1718,7 +1633,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1254,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1735,7 +1649,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 284,
           "error": null,
           "scheme_used": "https",
           "is_final": true
@@ -1783,7 +1696,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 2579,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1795,7 +1707,6 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "response_time_ms": null,
           "error": "Connection error: HTTPConnectionPool(host='hubhengjing888.win', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='hubhengjing888.win', port=80): Failed to resolve 'hubhengjing888.win' ([Errno -2] Name or service not known)\"))",
           "scheme_used": "https",
           "is_final": false
@@ -1807,7 +1718,6 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "response_time_ms": null,
           "error": "Connection error: HTTPConnectionPool(host='hubhengjing888.fun', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='hubhengjing888.fun', port=80): Failed to resolve 'hubhengjing888.fun' ([Errno -2] Name or service not known)\"))",
           "scheme_used": "https",
           "is_final": false
@@ -1824,7 +1734,6 @@
               "status_code": 404
             }
           ],
-          "response_time_ms": 575,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1841,7 +1750,6 @@
               "status_code": 521
             }
           ],
-          "response_time_ms": 313,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1853,7 +1761,6 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "response_time_ms": null,
           "error": "Connection error: HTTPConnectionPool(host='hubhengjing888.app', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='hubhengjing888.app', port=80): Failed to resolve 'hubhengjing888.app' ([Errno -3] Temporary failure in name resolution)\"))",
           "scheme_used": "https",
           "is_final": false
@@ -1865,7 +1772,6 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "response_time_ms": null,
           "error": "Connection error: HTTPConnectionPool(host='hubhengjing888.asia', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='hubhengjing888.asia', port=80): Failed to resolve 'hubhengjing888.asia' ([Errno -2] Name or service not known)\"))",
           "scheme_used": "https",
           "is_final": false
@@ -1877,7 +1783,6 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "response_time_ms": null,
           "error": "Connection error: HTTPConnectionPool(host='hubhengjing888.dev', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='hubhengjing888.dev', port=80): Failed to resolve 'hubhengjing888.dev' ([Errno -2] Name or service not known)\"))",
           "scheme_used": "https",
           "is_final": false
@@ -1889,7 +1794,6 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "response_time_ms": null,
           "error": "Connection error: HTTPConnectionPool(host='hubhengjing888.world', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='hubhengjing888.world', port=80): Failed to resolve 'hubhengjing888.world' ([Errno -2] Name or service not known)\"))",
           "scheme_used": "https",
           "is_final": false
@@ -1926,7 +1830,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1188,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1959,7 +1862,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1568,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -1988,7 +1890,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1133,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -2013,7 +1914,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1097,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -2030,7 +1930,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1024,
           "error": null,
           "scheme_used": "https",
           "is_final": true
@@ -2049,7 +1948,6 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "response_time_ms": null,
           "error": "Connection error: HTTPSConnectionPool(host='slot1111.life', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='slot1111.life', port=443): Failed to resolve 'slot1111.life' ([Errno -2] Name or service not known)\"))",
           "scheme_used": "https",
           "is_final": false
@@ -2061,7 +1959,6 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "response_time_ms": null,
           "error": "Connection error: HTTPConnectionPool(host='slot1111.life', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='slot1111.life', port=80): Failed to resolve 'slot1111.life' ([Errno -2] Name or service not known)\"))",
           "scheme_used": "https",
           "is_final": false
@@ -2078,7 +1975,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 892,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -2090,7 +1986,6 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "response_time_ms": null,
           "error": "Connection error: HTTPConnectionPool(host='slot1111.casino', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='slot1111.casino', port=80): Failed to resolve 'slot1111.casino' ([Errno -2] Name or service not known)\"))",
           "scheme_used": "https",
           "is_final": false
@@ -2107,7 +2002,6 @@
               "status_code": 503
             }
           ],
-          "response_time_ms": 1028,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -2136,7 +2030,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1479,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -2161,7 +2054,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1098,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -2182,7 +2074,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 333,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -2199,7 +2090,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1026,
           "error": null,
           "scheme_used": "https",
           "is_final": true
@@ -2216,7 +2106,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1046,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -2235,7 +2124,6 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "response_time_ms": null,
           "error": "Connection error: HTTPConnectionPool(host='vip.hubslotxo1.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='vip.hubslotxo1.com', port=80): Failed to resolve 'vip.hubslotxo1.com' ([Errno -2] Name or service not known)\"))",
           "scheme_used": "https",
           "is_final": false
@@ -2247,7 +2135,6 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "response_time_ms": null,
           "error": "Connection error: HTTPSConnectionPool(host='vip.hubslotxo3.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='vip.hubslotxo3.com', port=443): Failed to resolve 'vip.hubslotxo3.com' ([Errno -2] Name or service not known)\"))",
           "scheme_used": "https",
           "is_final": false
@@ -2259,7 +2146,6 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "response_time_ms": null,
           "error": "Connection error: HTTPConnectionPool(host='vip.hubslotxo3.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='vip.hubslotxo3.com', port=80): Failed to resolve 'vip.hubslotxo3.com' ([Errno -2] Name or service not known)\"))",
           "scheme_used": "https",
           "is_final": false
@@ -2271,7 +2157,6 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "response_time_ms": null,
           "error": "Connection error: HTTPConnectionPool(host='vip.hubslotxo4.me', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='vip.hubslotxo4.me', port=80): Failed to resolve 'vip.hubslotxo4.me' ([Errno -2] Name or service not known)\"))",
           "scheme_used": "https",
           "is_final": false
@@ -2292,7 +2177,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1181,
           "error": null,
           "scheme_used": "https",
           "is_final": true
@@ -2311,7 +2195,6 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "response_time_ms": null,
           "error": "SSL error: HTTPSConnectionPool(host='hubpgslot.biz', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'hubpgslot.biz'. (_ssl.c:1010)\")))",
           "scheme_used": "https",
           "is_final": false
@@ -2328,7 +2211,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 146,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -2340,7 +2222,6 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "response_time_ms": null,
           "error": "Connection error: HTTPConnectionPool(host='hubpgslot.dev', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='hubpgslot.dev', port=80): Failed to resolve 'hubpgslot.dev' ([Errno -2] Name or service not known)\"))",
           "scheme_used": "https",
           "is_final": false
@@ -2352,7 +2233,6 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "response_time_ms": null,
           "error": "Connection error: HTTPConnectionPool(host='hubpgslot.biz%20(true)', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='hubpgslot.biz%20(true)', port=80): Failed to resolve 'hubpgslot.biz%20(true)' ([Errno -2] Name or service not known)\"))",
           "scheme_used": "https",
           "is_final": false
@@ -2381,7 +2261,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 1388,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -2398,7 +2277,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 882,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -2423,7 +2301,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 846,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -2444,7 +2321,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 896,
           "error": null,
           "scheme_used": "https",
           "is_final": false
@@ -2461,7 +2337,6 @@
               "status_code": 200
             }
           ],
-          "response_time_ms": 793,
           "error": null,
           "scheme_used": "https",
           "is_final": true
