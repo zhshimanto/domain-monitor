@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-07-16 16:11:35 UTC",
+  "last_checked_utc": "2026-07-17 05:34:16 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -925,15 +925,15 @@
           "requested_url": "https://pacvip.co",
           "ok": true,
           "status_code": 200,
-          "final_url": "http://pacvip.co/",
+          "final_url": "https://pacvip.co/",
           "redirect_chain": [
             {
-              "url": "http://pacvip.co/",
+              "url": "https://pacvip.co/",
               "status_code": 200
             }
           ],
           "error": null,
-          "scheme_used": "http",
+          "scheme_used": "https",
           "is_final": false
         },
         {
@@ -1022,29 +1022,24 @@
         {
           "domain": "pac168.org",
           "requested_url": "https://pac168.org",
-          "ok": true,
-          "status_code": 415,
-          "final_url": "http://pac168.org/",
-          "redirect_chain": [
-            {
-              "url": "http://pac168.org/",
-              "status_code": 415
-            }
-          ],
-          "error": null,
-          "scheme_used": "http",
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "SSL error: HTTPSConnectionPool(host='pac168.org', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'pac168.org'. (_ssl.c:1010)\")))",
+          "scheme_used": "https",
           "is_final": false
         },
         {
           "domain": "pac168.vip",
           "requested_url": "https://pac168.vip",
           "ok": true,
-          "status_code": 415,
+          "status_code": 200,
           "final_url": "https://pac168.vip/",
           "redirect_chain": [
             {
               "url": "https://pac168.vip/",
-              "status_code": 415
+              "status_code": 200
             }
           ],
           "error": null,
