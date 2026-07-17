@@ -156,6 +156,12 @@
         align-items: center;
         gap: 8px;
       }
+      .date-cell {
+        color: var(--text);
+      }
+      .date-cell-empty {
+        color: var(--muted);
+      }
       .final-badge {
         font-family: var(--mono);
         font-size: 9.5px;
@@ -294,17 +300,29 @@
 
       // Reads badge config straight from domains.json.
       // Each brand can set "live" (the live/final domain) and optionally
-      // "live_label" (defaults to "Live"). Reserve/backup domains live in
-      // their own "reserve" object: { "Reserve 1": "domain.com", ... } —
-      // the key is used as the badge text and the display order, so
+      // "live_label" (defaults to "Live") and "live_date_label" (defaults
+      // to "Live Domain", shown in the Date column for the live row).
+      // Each item in "domains" can be a plain string, or an object like
+      // {"domain": "pgslot.sh", "date": "May 24, 2024"} to show a date.
+      // Reserve/backup domains live in their own "reserve" object:
+      // { "Reserve 1": "domain.com", ... } — the key is used as the badge
+      // text (and Date-column text) and the display order, so
       // renaming/reordering keys is all that's needed to maintain them.
       function buildLabelConfig(domainsData) {
         const map = {};
         (domainsData.brands || []).forEach((b) => {
           const liveDomain = b.live || b.final || null;
           const liveLabel = b.live_label || "Live";
+          const liveDateLabel = b.live_date_label || "Live Domain";
           const labels = {}; // domain -> reserve badge text
+          const dates = {}; // domain -> date string
           const reserveOrder = []; // domains in the order reserve keys appear
+          (b.domains || []).forEach((d) => {
+            if (d && typeof d === "object" && d.domain) {
+              if (d.date) dates[d.domain] = d.date;
+              if (d.label) labels[d.domain] = d.label; // legacy inline label, still honored
+            }
+          });
           if (b.reserve && typeof b.reserve === "object") {
             Object.keys(b.reserve).forEach((label) => {
               const dom = b.reserve[label];
@@ -314,7 +332,14 @@
               }
             });
           }
-          map[b.name] = { liveDomain, liveLabel, labels, reserveOrder };
+          map[b.name] = {
+            liveDomain,
+            liveLabel,
+            liveDateLabel,
+            labels,
+            dates,
+            reserveOrder,
+          };
         });
         return map;
       }
@@ -346,7 +371,9 @@
           const cfg = labelConfig[brand.name] || {
             liveDomain: brand.final || null,
             liveLabel: "Live",
+            liveDateLabel: "Live Domain",
             labels: {},
+            dates: {},
             reserveOrder: [],
           };
 
@@ -361,7 +388,7 @@
 
           const table = document.createElement("table");
           table.innerHTML = `<thead><tr>
-        <th>Domain</th><th>Status</th><th>Redirect chain</th>
+        <th>Date</th><th>Domain</th><th>Status</th><th>Redirect chain</th>
       </tr></thead>`;
           const tbody = document.createElement("tbody");
 
@@ -407,6 +434,20 @@
             }
             const domainCell = `<div class="domain-cell">${escapeHtml(entry.domain)}${badge}</div>`;
 
+            let dateCell;
+            if (
+              entry.is_final ||
+              (cfg.liveDomain && entry.domain === cfg.liveDomain)
+            ) {
+              dateCell = `<span class="date-cell">${escapeHtml(cfg.liveDateLabel || "Live Domain")}</span>`;
+            } else if (cfg.labels && cfg.labels[entry.domain]) {
+              dateCell = `<span class="date-cell">${escapeHtml(cfg.labels[entry.domain])}</span>`;
+            } else if (cfg.dates && cfg.dates[entry.domain]) {
+              dateCell = `<span class="date-cell">${escapeHtml(cfg.dates[entry.domain])}</span>`;
+            } else {
+              dateCell = '<span class="date-cell date-cell-empty">—</span>';
+            }
+
             let statusCell;
             if (!entry.ok) {
               statusCell = `<span class="status-code st-err">ERROR</span><div class="error-msg">${escapeHtml(entry.error || "unreachable")}</div>`;
@@ -445,7 +486,7 @@
               chainCell = '<span class="chain">—</span>';
             }
 
-            tr.innerHTML = `<td>${domainCell}</td><td>${statusCell}</td><td>${chainCell}</td>`;
+            tr.innerHTML = `<td>${dateCell}</td><td>${domainCell}</td><td>${statusCell}</td><td>${chainCell}</td>`;
             tbody.appendChild(tr);
           });
 

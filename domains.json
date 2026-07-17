@@ -2,12 +2,16 @@
   "brands": [
     {
       "name": "PGSLOTSH",
-      "domains": ["pgslot.sh", "pgslot1.sh", "pgslot2.sh", "pgslot3.sh"],
+      "domains": [
+        { "domain": "pgslot.sh", "date": "May 24, 2024" },
+        { "domain": "pgslot1.sh", "date": "15 Jul, 2024" },
+        { "domain": "pgslot2.sh", "date": "June 11, 2025" },
+        { "domain": "pgslot3.sh", "date": "31 July, 2025" }
+      ],
       "live": "pgslot4.sh",
       "reserve": {
         "สำรอง 1": "pgslot5.sh",
-        "สำรอง 2": "pgslot6.sh",
-        "สำรอง 3": "pgslot6.sh"
+        "สำรอง 2": "pgslot6.sh"
       }
     },
     {
