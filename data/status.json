@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-07-17 10:06:49 UTC",
+  "last_checked_utc": "2026-07-17 16:08:52 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -905,7 +905,7 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "error": "Timed out after 10s",
+          "error": "Connection error: HTTPConnectionPool(host='www.pacman168.fun', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='www.pacman168.fun', port=80): Failed to resolve 'www.pacman168.fun' ([Errno -2] Name or service not known)\"))",
           "scheme_used": "https",
           "is_final": false
         },
