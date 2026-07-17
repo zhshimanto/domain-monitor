@@ -293,21 +293,28 @@
       }
 
       // Reads badge config straight from domains.json.
-      // Each brand can set "live" (the live/final domain) and optionally "live_label"
-      // (defaults to "Live"). Any entry inside "domains" can be a plain string
-      // (no badge) or an object { "domain": "...", "label": "..." } for a custom badge.
+      // Each brand can set "live" (the live/final domain) and optionally
+      // "live_label" (defaults to "Live"). Reserve/backup domains live in
+      // their own "reserve" object: { "Reserve 1": "domain.com", ... } —
+      // the key is used as the badge text and the display order, so
+      // renaming/reordering keys is all that's needed to maintain them.
       function buildLabelConfig(domainsData) {
         const map = {};
         (domainsData.brands || []).forEach((b) => {
           const liveDomain = b.live || b.final || null;
           const liveLabel = b.live_label || "Live";
-          const labels = {};
-          (b.domains || []).forEach((d) => {
-            if (d && typeof d === "object" && d.domain && d.label) {
-              labels[d.domain] = d.label;
-            }
-          });
-          map[b.name] = { liveDomain, liveLabel, labels };
+          const labels = {}; // domain -> reserve badge text
+          const reserveOrder = []; // domains in the order reserve keys appear
+          if (b.reserve && typeof b.reserve === "object") {
+            Object.keys(b.reserve).forEach((label) => {
+              const dom = b.reserve[label];
+              if (dom) {
+                labels[dom] = label;
+                reserveOrder.push(dom);
+              }
+            });
+          }
+          map[b.name] = { liveDomain, liveLabel, labels, reserveOrder };
         });
         return map;
       }
@@ -340,6 +347,7 @@
             liveDomain: brand.final || null,
             liveLabel: "Live",
             labels: {},
+            reserveOrder: [],
           };
 
           const section = document.createElement("div");
@@ -357,7 +365,29 @@
       </tr></thead>`;
           const tbody = document.createElement("tbody");
 
-          brand.domains.forEach((entry) => {
+          // Order: regular domains first, then the live domain, then
+          // reserve domains (in the order they're listed in domains.json).
+          const byDomain = {};
+          brand.domains.forEach((e) => {
+            byDomain[e.domain] = e;
+          });
+          const reserveSet = new Set(cfg.reserveOrder || []);
+          const regularEntries = brand.domains.filter(
+            (e) => e.domain !== cfg.liveDomain && !reserveSet.has(e.domain),
+          );
+          const liveEntries =
+            cfg.liveDomain && byDomain[cfg.liveDomain]
+              ? [byDomain[cfg.liveDomain]]
+              : [];
+          const reserveEntries = (cfg.reserveOrder || [])
+            .map((d) => byDomain[d])
+            .filter(Boolean);
+          const orderedEntries = regularEntries.concat(
+            liveEntries,
+            reserveEntries,
+          );
+
+          orderedEntries.forEach((entry) => {
             const cls = classify(entry);
             if (cls === "ok") totalOk++;
             else if (cls === "warn") totalWarn++;
