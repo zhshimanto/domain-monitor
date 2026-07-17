@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-07-17 05:34:16 UTC",
+  "last_checked_utc": "2026-07-17 08:59:50 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -345,42 +345,6 @@
           "is_final": false
         },
         {
-          "domain": "pg-slot.ceo",
-          "requested_url": "https://pg-slot.ceo",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://slotpg.ceo/",
-          "redirect_chain": [
-            {
-              "url": "https://pg-slot.ceo/",
-              "status_code": 301
-            },
-            {
-              "url": "https://slotpg.ceo/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
-          "scheme_used": "https",
-          "is_final": false
-        },
-        {
-          "domain": "slotpg.ceo",
-          "requested_url": "https://slotpg.ceo",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://slotpg.ceo/",
-          "redirect_chain": [
-            {
-              "url": "https://slotpg.ceo/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
-          "scheme_used": "https",
-          "is_final": false
-        },
-        {
           "domain": "pgslott.ceo",
           "requested_url": "https://pgslott.ceo",
           "ok": true,
@@ -407,6 +371,42 @@
               "url": "https://pgslotceo.work/",
               "status_code": 301
             },
+            {
+              "url": "https://slotpg.ceo/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
+          "scheme_used": "https",
+          "is_final": false
+        },
+        {
+          "domain": "pg-slot.ceo",
+          "requested_url": "https://pg-slot.ceo",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://slotpg.ceo/",
+          "redirect_chain": [
+            {
+              "url": "https://pg-slot.ceo/",
+              "status_code": 301
+            },
+            {
+              "url": "https://slotpg.ceo/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
+          "scheme_used": "https",
+          "is_final": false
+        },
+        {
+          "domain": "slotpg.ceo",
+          "requested_url": "https://slotpg.ceo",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://slotpg.ceo/",
+          "redirect_chain": [
             {
               "url": "https://slotpg.ceo/",
               "status_code": 200
@@ -468,38 +468,6 @@
           "is_final": false
         },
         {
-          "domain": "slotpromax.fun",
-          "requested_url": "https://slotpromax.fun",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://slotpromax.fun/",
-          "redirect_chain": [
-            {
-              "url": "https://slotpromax.fun/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
-          "scheme_used": "https",
-          "is_final": false
-        },
-        {
-          "domain": "slotpromax.pro",
-          "requested_url": "https://slotpromax.pro",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://slotpromax.pro/",
-          "redirect_chain": [
-            {
-              "url": "https://slotpromax.pro/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
-          "scheme_used": "https",
-          "is_final": false
-        },
-        {
           "domain": "slotpromax.club",
           "requested_url": "https://slotpromax.club",
           "ok": true,
@@ -524,6 +492,38 @@
           "redirect_chain": [
             {
               "url": "https://slotpromax.app/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
+          "scheme_used": "https",
+          "is_final": false
+        },
+        {
+          "domain": "slotpromax.fun",
+          "requested_url": "https://slotpromax.fun",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://slotpromax.fun/",
+          "redirect_chain": [
+            {
+              "url": "https://slotpromax.fun/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
+          "scheme_used": "https",
+          "is_final": false
+        },
+        {
+          "domain": "slotpromax.pro",
+          "requested_url": "https://slotpromax.pro",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://slotpromax.pro/",
+          "redirect_chain": [
+            {
+              "url": "https://slotpromax.pro/",
               "status_code": 200
             }
           ],
