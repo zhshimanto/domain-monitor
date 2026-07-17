@@ -172,17 +172,6 @@
         font-weight: 700;
         letter-spacing: 0.03em;
       }
-      .backup-badge {
-        font-family: var(--mono);
-        font-size: 9.5px;
-        color: var(--text);
-        background: transparent;
-        border: 1px solid var(--panel-border);
-        padding: 1px 5px;
-        border-radius: 3px;
-        font-weight: 600;
-        letter-spacing: 0.03em;
-      }
 
       .status-code {
         font-weight: 700;
@@ -429,8 +418,6 @@
               (cfg.liveDomain && entry.domain === cfg.liveDomain)
             ) {
               badge = `<span class="final-badge">${escapeHtml(cfg.liveLabel || "Live")}</span>`;
-            } else if (cfg.labels && cfg.labels[entry.domain]) {
-              badge = `<span class="backup-badge">${escapeHtml(cfg.labels[entry.domain])}</span>`;
             }
             const domainCell = `<div class="domain-cell">${escapeHtml(entry.domain)}${badge}</div>`;
 
