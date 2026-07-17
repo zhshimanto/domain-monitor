@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-07-17 09:38:41 UTC",
+  "last_checked_utc": "2026-07-17 10:06:49 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -158,8 +158,8 @@
     },
     {
       "name": "PGSLOTTO",
-      "final": "pg-slotto.to",
-      "live": "pg-slotto.to",
+      "final": "pg-slot-to.to",
+      "live": "pg-slot-to.to",
       "domains": [
         {
           "domain": "pgslott.to",
@@ -230,12 +230,24 @@
           "is_final": false
         },
         {
-          "domain": "pg-slot-to.to",
-          "requested_url": "https://pg-slot-to.to",
+          "domain": "pg-slotto.to",
+          "requested_url": "https://pg-slotto.to",
           "ok": true,
           "status_code": 200,
           "final_url": "https://pg-slot-to.to/",
           "redirect_chain": [
+            {
+              "url": "https://pg-slotto.to/",
+              "status_code": 301
+            },
+            {
+              "url": "https://playpgslot1.to/",
+              "status_code": 301
+            },
+            {
+              "url": "https://pgslotto.to/",
+              "status_code": 301
+            },
             {
               "url": "https://pg-slot-to.to/",
               "status_code": 200
@@ -290,24 +302,12 @@
           "is_final": false
         },
         {
-          "domain": "pg-slotto.to",
-          "requested_url": "https://pg-slotto.to",
+          "domain": "pg-slot-to.to",
+          "requested_url": "https://pg-slot-to.to",
           "ok": true,
           "status_code": 200,
           "final_url": "https://pg-slot-to.to/",
           "redirect_chain": [
-            {
-              "url": "https://pg-slotto.to/",
-              "status_code": 301
-            },
-            {
-              "url": "https://playpgslot1.to/",
-              "status_code": 301
-            },
-            {
-              "url": "https://pgslotto.to/",
-              "status_code": 301
-            },
             {
               "url": "https://pg-slot-to.to/",
               "status_code": 200
@@ -321,8 +321,8 @@
     },
     {
       "name": "PGSLOTCEO",
-      "final": "pgslots.ceo",
-      "live": "pgslots.ceo",
+      "final": "slotpg.ceo",
+      "live": "slotpg.ceo",
       "domains": [
         {
           "domain": "pgslot.ceo",
@@ -333,6 +333,46 @@
           "redirect_chain": [
             {
               "url": "https://pgslot.ceo/",
+              "status_code": 301
+            },
+            {
+              "url": "https://slotpg.ceo/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
+          "scheme_used": "https",
+          "is_final": false
+        },
+        {
+          "domain": "pgslots.ceo",
+          "requested_url": "https://pgslots.ceo",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://slotpg.ceo/",
+          "redirect_chain": [
+            {
+              "url": "https://pgslots.ceo/",
+              "status_code": 301
+            },
+            {
+              "url": "https://slotpg.ceo/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
+          "scheme_used": "https",
+          "is_final": false
+        },
+        {
+          "domain": "pg-slot.ceo",
+          "requested_url": "https://pg-slot.ceo",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://slotpg.ceo/",
+          "redirect_chain": [
+            {
+              "url": "https://pg-slot.ceo/",
               "status_code": 301
             },
             {
@@ -381,52 +421,12 @@
           "is_final": false
         },
         {
-          "domain": "pg-slot.ceo",
-          "requested_url": "https://pg-slot.ceo",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://slotpg.ceo/",
-          "redirect_chain": [
-            {
-              "url": "https://pg-slot.ceo/",
-              "status_code": 301
-            },
-            {
-              "url": "https://slotpg.ceo/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
-          "scheme_used": "https",
-          "is_final": false
-        },
-        {
           "domain": "slotpg.ceo",
           "requested_url": "https://slotpg.ceo",
           "ok": true,
           "status_code": 200,
           "final_url": "https://slotpg.ceo/",
           "redirect_chain": [
-            {
-              "url": "https://slotpg.ceo/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
-          "scheme_used": "https",
-          "is_final": false
-        },
-        {
-          "domain": "pgslots.ceo",
-          "requested_url": "https://pgslots.ceo",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://slotpg.ceo/",
-          "redirect_chain": [
-            {
-              "url": "https://pgslots.ceo/",
-              "status_code": 301
-            },
             {
               "url": "https://slotpg.ceo/",
               "status_code": 200
@@ -443,30 +443,6 @@
       "final": "slotpromax.vip",
       "live": "slotpromax.vip",
       "domains": [
-        {
-          "domain": "slotpromax.com",
-          "requested_url": "https://slotpromax.com",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://slotpromax.fun/",
-          "redirect_chain": [
-            {
-              "url": "https://slotpromax.com/",
-              "status_code": 301
-            },
-            {
-              "url": "https://slotpromax.vip/",
-              "status_code": 301
-            },
-            {
-              "url": "https://slotpromax.fun/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
-          "scheme_used": "https",
-          "is_final": false
-        },
         {
           "domain": "slotpromax.club",
           "requested_url": "https://slotpromax.club",
@@ -492,6 +468,30 @@
           "redirect_chain": [
             {
               "url": "https://slotpromax.app/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
+          "scheme_used": "https",
+          "is_final": false
+        },
+        {
+          "domain": "slotpromax.com",
+          "requested_url": "https://slotpromax.com",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://slotpromax.fun/",
+          "redirect_chain": [
+            {
+              "url": "https://slotpromax.com/",
+              "status_code": 301
+            },
+            {
+              "url": "https://slotpromax.vip/",
+              "status_code": 301
+            },
+            {
+              "url": "https://slotpromax.fun/",
               "status_code": 200
             }
           ],
@@ -849,14 +849,14 @@
           "is_final": false
         },
         {
-          "domain": "rsggame.app",
-          "requested_url": "https://rsggame.app",
+          "domain": "rsggames.app",
+          "requested_url": "https://rsggames.app",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://rsggame.app/",
+          "final_url": "https://rsggames.app/",
           "redirect_chain": [
             {
-              "url": "https://rsggame.app/",
+              "url": "https://rsggames.app/",
               "status_code": 200
             }
           ],
@@ -905,7 +905,7 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "error": "Connection error: HTTPConnectionPool(host='www.pacman168.fun', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='www.pacman168.fun', port=80): Failed to resolve 'www.pacman168.fun' ([Errno -2] Name or service not known)\"))",
+          "error": "Timed out after 10s",
           "scheme_used": "https",
           "is_final": false
         },
@@ -1741,16 +1741,11 @@
         {
           "domain": "hubhengjing888.club",
           "requested_url": "https://hubhengjing888.club",
-          "ok": true,
-          "status_code": 521,
-          "final_url": "https://hubhengjing888.club/",
-          "redirect_chain": [
-            {
-              "url": "https://hubhengjing888.club/",
-              "status_code": 521
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Timed out after 10s",
           "scheme_used": "https",
           "is_final": false
         },
@@ -1905,6 +1900,26 @@
               "url": "https://hubhengjing888.love/",
               "status_code": 301
             },
+            {
+              "url": "https://play.hubhengjing8884.com/",
+              "status_code": 301
+            },
+            {
+              "url": "https://hubhengjing888.today/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
+          "scheme_used": "https",
+          "is_final": false
+        },
+        {
+          "domain": "play.hubhengjing8884.com",
+          "requested_url": "https://play.hubhengjing8884.com",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://hubhengjing888.today/",
+          "redirect_chain": [
             {
               "url": "https://play.hubhengjing8884.com/",
               "status_code": 301
@@ -2079,22 +2094,6 @@
           "is_final": false
         },
         {
-          "domain": "slot1111.link",
-          "requested_url": "https://slot1111.link",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://slot1111.link/",
-          "redirect_chain": [
-            {
-              "url": "https://slot1111.link/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
-          "scheme_used": "https",
-          "is_final": true
-        },
-        {
           "domain": "slot1111.quest",
           "requested_url": "https://slot1111.quest",
           "ok": true,
@@ -2109,6 +2108,22 @@
           "error": null,
           "scheme_used": "https",
           "is_final": false
+        },
+        {
+          "domain": "slot1111.link",
+          "requested_url": "https://slot1111.link",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://slot1111.link/",
+          "redirect_chain": [
+            {
+              "url": "https://slot1111.link/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
+          "scheme_used": "https",
+          "is_final": true
         }
       ]
     },
@@ -2151,13 +2166,18 @@
           "is_final": false
         },
         {
-          "domain": "vip.hubslotxo4.me",
-          "requested_url": "https://vip.hubslotxo4.me",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Connection error: HTTPConnectionPool(host='vip.hubslotxo4.me', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='vip.hubslotxo4.me', port=80): Failed to resolve 'vip.hubslotxo4.me' ([Errno -2] Name or service not known)\"))",
+          "domain": "vip.hubslotxo.me",
+          "requested_url": "https://vip.hubslotxo.me",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://vip.hubslotxo.me/",
+          "redirect_chain": [
+            {
+              "url": "https://vip.hubslotxo.me/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
