@@ -6,7 +6,8 @@
       "live": "pgslot4.sh",
       "reserve": {
         "สำรอง 1": "pgslot5.sh",
-        "สำรอง 2": "pgslot6.sh"
+        "สำรอง 2": "pgslot6.sh",
+        "สำรอง 3": "pgslot6.sh"
       }
     },
     {
