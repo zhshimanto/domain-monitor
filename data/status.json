@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-07-18 15:47:40 UTC",
+  "last_checked_utc": "2026-07-19 05:43:39 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -1746,11 +1746,16 @@
         {
           "domain": "hubhengjing888.club",
           "requested_url": "https://hubhengjing888.club",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Timed out after 10s",
+          "ok": true,
+          "status_code": 521,
+          "final_url": "https://hubhengjing888.club/",
+          "redirect_chain": [
+            {
+              "url": "https://hubhengjing888.club/",
+              "status_code": 521
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
