@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-07-19 05:43:39 UTC",
+  "last_checked_utc": "2026-07-19 15:50:25 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -111,10 +111,14 @@
           "requested_url": "https://pgslot5.sh",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://pgslot5.sh/",
+          "final_url": "https://pgslot4.sh/",
           "redirect_chain": [
             {
               "url": "https://pgslot5.sh/",
+              "status_code": 301
+            },
+            {
+              "url": "https://pgslot4.sh/",
               "status_code": 200
             }
           ],
@@ -127,10 +131,14 @@
           "requested_url": "https://pgslot6.sh",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://pgslot6.sh/",
+          "final_url": "https://pgslot4.sh/",
           "redirect_chain": [
             {
               "url": "https://pgslot6.sh/",
+              "status_code": 301
+            },
+            {
+              "url": "https://pgslot4.sh/",
               "status_code": 200
             }
           ],
@@ -1110,16 +1118,11 @@
         {
           "domain": "slotsaiboon.games",
           "requested_url": "https://slotsaiboon.games",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://slotsaiboon.games/",
-          "redirect_chain": [
-            {
-              "url": "https://slotsaiboon.games/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Timed out after 10s",
           "scheme_used": "https",
           "is_final": false
         },
@@ -1762,11 +1765,16 @@
         {
           "domain": "hubhengjing888.app",
           "requested_url": "https://hubhengjing888.app",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Connection error: HTTPConnectionPool(host='hubhengjing888.app', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='hubhengjing888.app', port=80): Failed to resolve 'hubhengjing888.app' ([Errno -3] Temporary failure in name resolution)\"))",
+          "ok": true,
+          "status_code": 403,
+          "final_url": "https://hubhengjing888.app/",
+          "redirect_chain": [
+            {
+              "url": "https://hubhengjing888.app/",
+              "status_code": 403
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
