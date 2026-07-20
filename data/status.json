@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-07-20 06:08:55 UTC",
+  "last_checked_utc": "2026-07-20 16:20:38 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -1035,29 +1035,24 @@
         {
           "domain": "pac168.org",
           "requested_url": "https://pac168.org",
-          "ok": true,
-          "status_code": 415,
-          "final_url": "http://pac168.org/",
-          "redirect_chain": [
-            {
-              "url": "http://pac168.org/",
-              "status_code": 415
-            }
-          ],
-          "error": null,
-          "scheme_used": "http",
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "SSL error: HTTPSConnectionPool(host='pac168.org', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'pac168.org'. (_ssl.c:1010)\")))",
+          "scheme_used": "https",
           "is_final": false
         },
         {
           "domain": "pac168.vip",
           "requested_url": "https://pac168.vip",
           "ok": true,
-          "status_code": 415,
+          "status_code": 200,
           "final_url": "https://pac168.vip/",
           "redirect_chain": [
             {
               "url": "https://pac168.vip/",
-              "status_code": 415
+              "status_code": 200
             }
           ],
           "error": null,
@@ -1436,11 +1431,20 @@
         {
           "domain": "pgslot5.in",
           "requested_url": "https://pgslot5.in",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Timed out after 10s",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://pgslotin.asia/",
+          "redirect_chain": [
+            {
+              "url": "https://pgslot5.in/",
+              "status_code": 301
+            },
+            {
+              "url": "https://pgslotin.asia/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
@@ -1806,15 +1810,15 @@
           "requested_url": "https://hubhengjing888.world",
           "ok": true,
           "status_code": 200,
-          "final_url": "http://hubhengjing888.world/",
+          "final_url": "https://hubhengjing888.world/",
           "redirect_chain": [
             {
-              "url": "http://hubhengjing888.world/",
+              "url": "https://hubhengjing888.world/",
               "status_code": 200
             }
           ],
           "error": null,
-          "scheme_used": "http",
+          "scheme_used": "https",
           "is_final": false
         },
         {
@@ -2246,16 +2250,11 @@
         {
           "domain": "hubpgslot.net",
           "requested_url": "https://hubpgslot.net",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://hubpgslot.net/",
-          "redirect_chain": [
-            {
-              "url": "https://hubpgslot.net/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Connection error: HTTPConnectionPool(host='hubpgslot.net', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='hubpgslot.net', port=80): Failed to resolve 'hubpgslot.net' ([Errno -2] Name or service not known)\"))",
           "scheme_used": "https",
           "is_final": false
         },
