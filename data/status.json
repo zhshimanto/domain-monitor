@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-07-20 16:20:38 UTC",
+  "last_checked_utc": "2026-07-21 05:42:31 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -1035,24 +1035,29 @@
         {
           "domain": "pac168.org",
           "requested_url": "https://pac168.org",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "SSL error: HTTPSConnectionPool(host='pac168.org', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'pac168.org'. (_ssl.c:1010)\")))",
-          "scheme_used": "https",
+          "ok": true,
+          "status_code": 415,
+          "final_url": "http://pac168.org/",
+          "redirect_chain": [
+            {
+              "url": "http://pac168.org/",
+              "status_code": 415
+            }
+          ],
+          "error": null,
+          "scheme_used": "http",
           "is_final": false
         },
         {
           "domain": "pac168.vip",
           "requested_url": "https://pac168.vip",
           "ok": true,
-          "status_code": 200,
+          "status_code": 415,
           "final_url": "https://pac168.vip/",
           "redirect_chain": [
             {
               "url": "https://pac168.vip/",
-              "status_code": 200
+              "status_code": 415
             }
           ],
           "error": null,
@@ -1755,12 +1760,12 @@
           "domain": "hubhengjing888.club",
           "requested_url": "https://hubhengjing888.club",
           "ok": true,
-          "status_code": 521,
+          "status_code": 200,
           "final_url": "https://hubhengjing888.club/",
           "redirect_chain": [
             {
               "url": "https://hubhengjing888.club/",
-              "status_code": 521
+              "status_code": 200
             }
           ],
           "error": null,
@@ -1771,12 +1776,12 @@
           "domain": "hubhengjing888.app",
           "requested_url": "https://hubhengjing888.app",
           "ok": true,
-          "status_code": 403,
+          "status_code": 415,
           "final_url": "https://hubhengjing888.app/",
           "redirect_chain": [
             {
               "url": "https://hubhengjing888.app/",
-              "status_code": 403
+              "status_code": 415
             }
           ],
           "error": null,
