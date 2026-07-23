@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-07-22 16:16:18 UTC",
+  "last_checked_utc": "2026-07-23 05:46:18 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -2174,12 +2174,17 @@
         {
           "domain": "vip.hubslotxo2.com",
           "requested_url": "https://vip.hubslotxo2.com",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Connection error: HTTPSConnectionPool(host='vip.hubslotxo3.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='vip.hubslotxo3.com', port=443): Failed to resolve 'vip.hubslotxo3.com' ([Errno -2] Name or service not known)\"))",
-          "scheme_used": "https",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "http://vip.hubslotxo2.com/",
+          "redirect_chain": [
+            {
+              "url": "http://vip.hubslotxo2.com/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
+          "scheme_used": "http",
           "is_final": false
         },
         {
