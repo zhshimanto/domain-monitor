@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-07-23 16:21:31 UTC",
+  "last_checked_utc": "2026-07-24 05:42:38 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -2356,20 +2356,11 @@
         {
           "domain": "hubpgslot.tech",
           "requested_url": "https://hubpgslot.tech",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://hubpgslot.marketing/",
-          "redirect_chain": [
-            {
-              "url": "https://hubpgslot.tech/",
-              "status_code": 301
-            },
-            {
-              "url": "https://hubpgslot.marketing/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Timed out after 10s",
           "scheme_used": "https",
           "is_final": false
         },
