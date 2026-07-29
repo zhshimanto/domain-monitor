@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-07-28 16:28:46 UTC",
+  "last_checked_utc": "2026-07-29 05:44:12 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -1990,16 +1990,11 @@
         {
           "domain": "slot1111.live",
           "requested_url": "https://slot1111.live",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://slot1111.live/",
-          "redirect_chain": [
-            {
-              "url": "https://slot1111.live/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Timed out after 10s",
           "scheme_used": "https",
           "is_final": false
         },
