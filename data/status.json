@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-07-30 16:21:24 UTC",
+  "last_checked_utc": "2026-07-31 05:58:15 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -111,19 +111,15 @@
           "requested_url": "https://pgslot5.sh",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://pgslot4.sh/",
+          "final_url": "http://pgslot5.sh/",
           "redirect_chain": [
             {
-              "url": "https://pgslot5.sh/",
-              "status_code": 301
-            },
-            {
-              "url": "https://pgslot4.sh/",
+              "url": "http://pgslot5.sh/",
               "status_code": 200
             }
           ],
           "error": null,
-          "scheme_used": "https",
+          "scheme_used": "http",
           "is_final": false
         },
         {
@@ -131,19 +127,15 @@
           "requested_url": "https://pgslot6.sh",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://pgslot4.sh/",
+          "final_url": "http://pgslot6.sh/",
           "redirect_chain": [
             {
-              "url": "https://pgslot6.sh/",
-              "status_code": 301
-            },
-            {
-              "url": "https://pgslot4.sh/",
+              "url": "http://pgslot6.sh/",
               "status_code": 200
             }
           ],
           "error": null,
-          "scheme_used": "https",
+          "scheme_used": "http",
           "is_final": false
         },
         {
@@ -2018,12 +2010,12 @@
           "domain": "slot1111.games",
           "requested_url": "https://slot1111.games",
           "ok": true,
-          "status_code": 503,
+          "status_code": 404,
           "final_url": "https://slot1111.games/",
           "redirect_chain": [
             {
               "url": "https://slot1111.games/",
-              "status_code": 503
+              "status_code": 404
             }
           ],
           "error": null,
