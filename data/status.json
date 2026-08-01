@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-07-31 16:40:17 UTC",
+  "last_checked_utc": "2026-08-01 05:47:48 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -1013,12 +1013,17 @@
         {
           "domain": "pac168.org",
           "requested_url": "https://pac168.org",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "SSL error: HTTPSConnectionPool(host='pac168.org', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'pac168.org'. (_ssl.c:1010)\")))",
-          "scheme_used": "https",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "http://pac168.org/",
+          "redirect_chain": [
+            {
+              "url": "http://pac168.org/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
+          "scheme_used": "http",
           "is_final": false
         },
         {
