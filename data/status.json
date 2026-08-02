@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-08-02 05:48:41 UTC",
+  "last_checked_utc": "2026-08-02 15:55:08 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -876,12 +876,17 @@
         {
           "domain": "pacman168.in",
           "requested_url": "https://pacman168.in",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Connection error: HTTPConnectionPool(host='pacman168.in', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='pacman168.in', port=80): Failed to resolve 'pacman168.in' ([Errno -5] No address associated with hostname)\"))",
-          "scheme_used": "https",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "http://pacman168.in/",
+          "redirect_chain": [
+            {
+              "url": "http://pacman168.in/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
+          "scheme_used": "http",
           "is_final": false
         },
         {
@@ -1005,12 +1010,17 @@
         {
           "domain": "pac168.org",
           "requested_url": "https://pac168.org",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "SSL error: HTTPSConnectionPool(host='pac168.org', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'pac168.org'. (_ssl.c:1010)\")))",
-          "scheme_used": "https",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "http://pac168.org/",
+          "redirect_chain": [
+            {
+              "url": "http://pac168.org/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
+          "scheme_used": "http",
           "is_final": false
         },
         {
