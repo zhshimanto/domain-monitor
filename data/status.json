@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-08-03 06:12:33 UTC",
+  "last_checked_utc": "2026-08-03 17:05:03 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -878,15 +878,15 @@
           "requested_url": "https://pacman168.in",
           "ok": true,
           "status_code": 200,
-          "final_url": "http://pacman168.in/",
+          "final_url": "https://pacman168.in/",
           "redirect_chain": [
             {
-              "url": "http://pacman168.in/",
+              "url": "https://pacman168.in/",
               "status_code": 200
             }
           ],
           "error": null,
-          "scheme_used": "http",
+          "scheme_used": "https",
           "is_final": false
         },
         {
@@ -896,6 +896,10 @@
           "status_code": 200,
           "final_url": "http://pacman168.fun/",
           "redirect_chain": [
+            {
+              "url": "http://pacman168.fun/",
+              "status_code": 307
+            },
             {
               "url": "http://pacman168.fun/",
               "status_code": 200
@@ -1745,16 +1749,11 @@
         {
           "domain": "hubhengjing888.app",
           "requested_url": "https://hubhengjing888.app",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://hubhengjing888.app/",
-          "redirect_chain": [
-            {
-              "url": "https://hubhengjing888.app/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Timed out after 10s",
           "scheme_used": "https",
           "is_final": false
         },
