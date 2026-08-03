@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-08-02 15:55:08 UTC",
+  "last_checked_utc": "2026-08-03 06:12:33 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -1761,12 +1761,17 @@
         {
           "domain": "hubhengjing888.asia",
           "requested_url": "https://hubhengjing888.asia",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Connection error: HTTPConnectionPool(host='hubhengjing888.asia', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='hubhengjing888.asia', port=80): Failed to resolve 'hubhengjing888.asia' ([Errno -2] Name or service not known)\"))",
-          "scheme_used": "https",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "http://hubhengjing888.asia/",
+          "redirect_chain": [
+            {
+              "url": "http://hubhengjing888.asia/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
+          "scheme_used": "http",
           "is_final": false
         },
         {
