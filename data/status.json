@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-08-04 16:47:27 UTC",
+  "last_checked_utc": "2026-08-05 05:38:41 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -1751,12 +1751,17 @@
         {
           "domain": "hubhengjing888.asia",
           "requested_url": "https://hubhengjing888.asia",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Connection error: HTTPConnectionPool(host='hubhengjing888.asia', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='hubhengjing888.asia', port=80) at 0x7fdc24ff4ec0>, 'Connection to hubhengjing888.asia timed out. (connect timeout=10)'))",
-          "scheme_used": "https",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "http://hubhengjing888.asia/",
+          "redirect_chain": [
+            {
+              "url": "http://hubhengjing888.asia/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
+          "scheme_used": "http",
           "is_final": false
         },
         {
