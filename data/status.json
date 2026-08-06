@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-08-05 16:27:27 UTC",
+  "last_checked_utc": "2026-08-06 05:40:55 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -1010,17 +1010,12 @@
         {
           "domain": "pac168.org",
           "requested_url": "https://pac168.org",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "http://pac168.org/",
-          "redirect_chain": [
-            {
-              "url": "http://pac168.org/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
-          "scheme_used": "http",
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "SSL error: HTTPSConnectionPool(host='pac168.org', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'pac168.org'. (_ssl.c:1010)\")))",
+          "scheme_used": "https",
           "is_final": false
         },
         {
@@ -1729,22 +1724,6 @@
         {
           "domain": "hubhengjing888.club",
           "requested_url": "https://hubhengjing888.club",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://hubhengjing888.club/",
-          "redirect_chain": [
-            {
-              "url": "https://hubhengjing888.club/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
-          "scheme_used": "https",
-          "is_final": false
-        },
-        {
-          "domain": "hubhengjing888.app",
-          "requested_url": "https://hubhengjing888.app",
           "ok": false,
           "status_code": null,
           "final_url": null,
@@ -1754,13 +1733,34 @@
           "is_final": false
         },
         {
+          "domain": "hubhengjing888.app",
+          "requested_url": "https://hubhengjing888.app",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://hubhengjing888.app/",
+          "redirect_chain": [
+            {
+              "url": "https://hubhengjing888.app/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
+          "scheme_used": "https",
+          "is_final": false
+        },
+        {
           "domain": "hubhengjing888.asia",
           "requested_url": "https://hubhengjing888.asia",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Connection error: HTTPConnectionPool(host='hubhengjing888.asia', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='hubhengjing888.asia', port=80) at 0x7ff9ac1b1a30>, 'Connection to hubhengjing888.asia timed out. (connect timeout=10)'))",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://hubhengjing888.asia/",
+          "redirect_chain": [
+            {
+              "url": "https://hubhengjing888.asia/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
