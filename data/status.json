@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-08-06 05:40:55 UTC",
+  "last_checked_utc": "2026-08-07 04:49:31 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -109,33 +109,23 @@
         {
           "domain": "pgslot5.sh",
           "requested_url": "https://pgslot5.sh",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "http://pgslot5.sh/",
-          "redirect_chain": [
-            {
-              "url": "http://pgslot5.sh/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
-          "scheme_used": "http",
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Connection error: HTTPConnectionPool(host='pgslot5.sh', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='pgslot5.sh', port=80): Failed to resolve 'pgslot5.sh' ([Errno -3] Temporary failure in name resolution)\"))",
+          "scheme_used": "https",
           "is_final": false
         },
         {
           "domain": "pgslot6.sh",
           "requested_url": "https://pgslot6.sh",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "http://pgslot6.sh/",
-          "redirect_chain": [
-            {
-              "url": "http://pgslot6.sh/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
-          "scheme_used": "http",
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Connection error: HTTPConnectionPool(host='pgslot6.sh', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='pgslot6.sh', port=80): Failed to resolve 'pgslot6.sh' ([Errno -3] Temporary failure in name resolution)\"))",
+          "scheme_used": "https",
           "is_final": false
         },
         {
@@ -892,17 +882,12 @@
         {
           "domain": "pacman168.fun",
           "requested_url": "https://pacman168.fun",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "http://pacman168.fun/",
-          "redirect_chain": [
-            {
-              "url": "http://pacman168.fun/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
-          "scheme_used": "http",
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Connection error: HTTPConnectionPool(host='pacman168.fun', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='pacman168.fun', port=80) at 0x7f596e806150>, 'Connection to pacman168.fun timed out. (connect timeout=10)'))",
+          "scheme_used": "https",
           "is_final": false
         },
         {
@@ -1010,12 +995,17 @@
         {
           "domain": "pac168.org",
           "requested_url": "https://pac168.org",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "SSL error: HTTPSConnectionPool(host='pac168.org', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'pac168.org'. (_ssl.c:1010)\")))",
-          "scheme_used": "https",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "http://pac168.org/",
+          "redirect_chain": [
+            {
+              "url": "http://pac168.org/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
+          "scheme_used": "http",
           "is_final": false
         },
         {
@@ -1724,11 +1714,16 @@
         {
           "domain": "hubhengjing888.club",
           "requested_url": "https://hubhengjing888.club",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Timed out after 10s",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://hubhengjing888.club/",
+          "redirect_chain": [
+            {
+              "url": "https://hubhengjing888.club/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
@@ -1979,16 +1974,11 @@
         {
           "domain": "slot1111.live",
           "requested_url": "https://slot1111.live",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://slot1111.live/",
-          "redirect_chain": [
-            {
-              "url": "https://slot1111.live/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Timed out after 10s",
           "scheme_used": "https",
           "is_final": false
         },
@@ -2144,17 +2134,12 @@
         {
           "domain": "vip.hubslotxo2.com",
           "requested_url": "https://vip.hubslotxo2.com",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "http://vip.hubslotxo2.com/",
-          "redirect_chain": [
-            {
-              "url": "http://vip.hubslotxo2.com/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
-          "scheme_used": "http",
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Connection error: HTTPConnectionPool(host='vip.hubslotxo2.com', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='vip.hubslotxo2.com', port=80) at 0x7f596e847f80>, 'Connection to vip.hubslotxo2.com timed out. (connect timeout=10)'))",
+          "scheme_used": "https",
           "is_final": false
         },
         {
