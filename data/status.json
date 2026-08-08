@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-08-08 04:06:43 UTC",
+  "last_checked_utc": "2026-08-08 15:21:36 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -886,7 +886,7 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "error": "Connection error: HTTPConnectionPool(host='pacman168.fun', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='pacman168.fun', port=80) at 0x7fc88a972300>, 'Connection to pacman168.fun timed out. (connect timeout=10)'))",
+          "error": "Connection error: HTTPConnectionPool(host='pacman168.fun', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='pacman168.fun', port=80) at 0x7efddbb11ac0>, 'Connection to pacman168.fun timed out. (connect timeout=10)'))",
           "scheme_used": "https",
           "is_final": false
         },
@@ -2138,7 +2138,7 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "error": "Connection error: HTTPConnectionPool(host='vip.hubslotxo2.com', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='vip.hubslotxo2.com', port=80) at 0x7fc88a9b0590>, 'Connection to vip.hubslotxo2.com timed out. (connect timeout=10)'))",
+          "error": "Connection error: HTTPConnectionPool(host='vip.hubslotxo2.com', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='vip.hubslotxo2.com', port=80) at 0x7efddbb5f3e0>, 'Connection to vip.hubslotxo2.com timed out. (connect timeout=10)'))",
           "scheme_used": "https",
           "is_final": false
         },
