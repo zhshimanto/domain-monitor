@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-08-09 04:12:04 UTC",
+  "last_checked_utc": "2026-08-09 15:22:57 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -882,12 +882,17 @@
         {
           "domain": "pacman168.fun",
           "requested_url": "https://pacman168.fun",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Connection error: HTTPConnectionPool(host='pacman168.fun', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='pacman168.fun', port=80) at 0x7fb60eca76e0>, 'Connection to pacman168.fun timed out. (connect timeout=10)'))",
-          "scheme_used": "https",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "http://pacman168.fun/",
+          "redirect_chain": [
+            {
+              "url": "http://pacman168.fun/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
+          "scheme_used": "http",
           "is_final": false
         },
         {
@@ -995,17 +1000,12 @@
         {
           "domain": "pac168.org",
           "requested_url": "https://pac168.org",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "http://pac168.org/",
-          "redirect_chain": [
-            {
-              "url": "http://pac168.org/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
-          "scheme_used": "http",
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "SSL error: HTTPSConnectionPool(host='pac168.org', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'pac168.org'. (_ssl.c:1010)\")))",
+          "scheme_used": "https",
           "is_final": false
         },
         {
@@ -1974,16 +1974,11 @@
         {
           "domain": "slot1111.live",
           "requested_url": "https://slot1111.live",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://slot1111.live/",
-          "redirect_chain": [
-            {
-              "url": "https://slot1111.live/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Timed out after 10s",
           "scheme_used": "https",
           "is_final": false
         },
@@ -2139,12 +2134,17 @@
         {
           "domain": "vip.hubslotxo2.com",
           "requested_url": "https://vip.hubslotxo2.com",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Connection error: HTTPConnectionPool(host='vip.hubslotxo2.com', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='vip.hubslotxo2.com', port=80) at 0x7fb60ecebe00>, 'Connection to vip.hubslotxo2.com timed out. (connect timeout=10)'))",
-          "scheme_used": "https",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "http://vip.hubslotxo2.com/",
+          "redirect_chain": [
+            {
+              "url": "http://vip.hubslotxo2.com/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
+          "scheme_used": "http",
           "is_final": false
         },
         {
