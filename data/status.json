@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-08-10 04:23:31 UTC",
+  "last_checked_utc": "2026-08-10 15:52:37 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -113,7 +113,7 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "error": "Connection error: HTTPConnectionPool(host='pgslot5.sh', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='pgslot5.sh', port=80): Failed to resolve 'pgslot5.sh' ([Errno -3] Temporary failure in name resolution)\"))",
+          "error": "Connection error: HTTPConnectionPool(host='pgslot5.sh', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='pgslot5.sh', port=80): Failed to resolve 'pgslot5.sh' ([Errno -5] No address associated with hostname)\"))",
           "scheme_used": "https",
           "is_final": false
         },
@@ -124,7 +124,7 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "error": "Connection error: HTTPConnectionPool(host='pgslot6.sh', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='pgslot6.sh', port=80): Failed to resolve 'pgslot6.sh' ([Errno -3] Temporary failure in name resolution)\"))",
+          "error": "Connection error: HTTPConnectionPool(host='pgslot6.sh', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='pgslot6.sh', port=80): Failed to resolve 'pgslot6.sh' ([Errno -5] No address associated with hostname)\"))",
           "scheme_used": "https",
           "is_final": false
         },
@@ -1613,16 +1613,11 @@
         {
           "domain": "pgslotin.asia",
           "requested_url": "https://pgslotin.asia",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://pgslotin.asia/",
-          "redirect_chain": [
-            {
-              "url": "https://pgslotin.asia/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Timed out after 10s",
           "scheme_used": "https",
           "is_final": true
         }
