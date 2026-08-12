@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-08-12 04:42:40 UTC",
+  "last_checked_utc": "2026-08-12 15:52:37 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -1229,8 +1229,8 @@
           "domain": "pgslot.in",
           "requested_url": "https://pgslot.in",
           "ok": true,
-          "status_code": 200,
-          "final_url": "https://pgsoft.pgin.club/",
+          "status_code": 403,
+          "final_url": "https://pgslotin.buzz/",
           "redirect_chain": [
             {
               "url": "https://pgslot.in/",
@@ -1241,8 +1241,8 @@
               "status_code": 301
             },
             {
-              "url": "https://pgsoft.pgin.club/",
-              "status_code": 200
+              "url": "https://pgslotin.buzz/",
+              "status_code": 403
             }
           ],
           "error": null,
@@ -1264,8 +1264,8 @@
           "domain": "pgslots.in",
           "requested_url": "https://pgslots.in",
           "ok": true,
-          "status_code": 200,
-          "final_url": "https://pgsoft.pgin.club/",
+          "status_code": 403,
+          "final_url": "https://pgslotin.buzz/",
           "redirect_chain": [
             {
               "url": "https://pgslots.in/",
@@ -1276,8 +1276,8 @@
               "status_code": 301
             },
             {
-              "url": "https://pgsoft.pgin.club/",
-              "status_code": 200
+              "url": "https://pgslotin.buzz/",
+              "status_code": 403
             }
           ],
           "error": null,
@@ -1288,8 +1288,8 @@
           "domain": "pgslotss.in",
           "requested_url": "https://pgslotss.in",
           "ok": true,
-          "status_code": 200,
-          "final_url": "https://pgsoft.pgin.club/",
+          "status_code": 403,
+          "final_url": "https://pgslotin.buzz/",
           "redirect_chain": [
             {
               "url": "https://pgslotss.in/",
@@ -1300,8 +1300,8 @@
               "status_code": 301
             },
             {
-              "url": "https://pgsoft.pgin.club/",
-              "status_code": 200
+              "url": "https://pgslotin.buzz/",
+              "status_code": 403
             }
           ],
           "error": null,
@@ -1312,8 +1312,8 @@
           "domain": "pgslot1.in",
           "requested_url": "https://pgslot1.in",
           "ok": true,
-          "status_code": 200,
-          "final_url": "https://pgsoft.pgin.club/",
+          "status_code": 403,
+          "final_url": "https://pgslotin.buzz/",
           "redirect_chain": [
             {
               "url": "https://pgslot1.in/",
@@ -1324,8 +1324,8 @@
               "status_code": 301
             },
             {
-              "url": "https://pgsoft.pgin.club/",
-              "status_code": 200
+              "url": "https://pgslotin.buzz/",
+              "status_code": 403
             }
           ],
           "error": null,
@@ -1336,8 +1336,8 @@
           "domain": "pgslot2.in",
           "requested_url": "https://pgslot2.in",
           "ok": true,
-          "status_code": 200,
-          "final_url": "https://pgsoft.pgin.club/",
+          "status_code": 403,
+          "final_url": "https://pgslotin.buzz/",
           "redirect_chain": [
             {
               "url": "https://pgslot2.in/",
@@ -1348,8 +1348,8 @@
               "status_code": 301
             },
             {
-              "url": "https://pgsoft.pgin.club/",
-              "status_code": 200
+              "url": "https://pgslotin.buzz/",
+              "status_code": 403
             }
           ],
           "error": null,
@@ -1360,8 +1360,8 @@
           "domain": "pgslot3.in",
           "requested_url": "https://pgslot3.in",
           "ok": true,
-          "status_code": 200,
-          "final_url": "https://pgsoft.pgin.club/",
+          "status_code": 403,
+          "final_url": "https://pgslotin.buzz/",
           "redirect_chain": [
             {
               "url": "https://pgslot3.in/",
@@ -1372,8 +1372,8 @@
               "status_code": 301
             },
             {
-              "url": "https://pgsoft.pgin.club/",
-              "status_code": 200
+              "url": "https://pgslotin.buzz/",
+              "status_code": 403
             }
           ],
           "error": null,
@@ -1384,8 +1384,8 @@
           "domain": "pgslot4.in",
           "requested_url": "https://pgslot4.in",
           "ok": true,
-          "status_code": 200,
-          "final_url": "https://pgsoft.pgin.club/",
+          "status_code": 403,
+          "final_url": "https://pgslotin.buzz/",
           "redirect_chain": [
             {
               "url": "https://pgslot4.in/",
@@ -1396,8 +1396,8 @@
               "status_code": 301
             },
             {
-              "url": "https://pgsoft.pgin.club/",
-              "status_code": 200
+              "url": "https://pgslotin.buzz/",
+              "status_code": 403
             }
           ],
           "error": null,
@@ -1408,8 +1408,8 @@
           "domain": "pg-slot.in",
           "requested_url": "https://pg-slot.in",
           "ok": true,
-          "status_code": 200,
-          "final_url": "https://pgsoft.pgin.club/",
+          "status_code": 403,
+          "final_url": "https://pgslotin.buzz/",
           "redirect_chain": [
             {
               "url": "https://pg-slot.in/",
@@ -1420,8 +1420,8 @@
               "status_code": 301
             },
             {
-              "url": "https://pgsoft.pgin.club/",
-              "status_code": 200
+              "url": "https://pgslotin.buzz/",
+              "status_code": 403
             }
           ],
           "error": null,
@@ -1432,8 +1432,8 @@
           "domain": "pgslott.in",
           "requested_url": "https://pgslott.in",
           "ok": true,
-          "status_code": 200,
-          "final_url": "https://pgsoft.pgin.club/",
+          "status_code": 403,
+          "final_url": "https://pgslotin.buzz/",
           "redirect_chain": [
             {
               "url": "https://pgslott.in/",
@@ -1444,8 +1444,8 @@
               "status_code": 301
             },
             {
-              "url": "https://pgsoft.pgin.club/",
-              "status_code": 200
+              "url": "https://pgslotin.buzz/",
+              "status_code": 403
             }
           ],
           "error": null,
@@ -1456,8 +1456,8 @@
           "domain": "pgslot5.in",
           "requested_url": "https://pgslot5.in",
           "ok": true,
-          "status_code": 200,
-          "final_url": "https://pgsoft.pgin.club/",
+          "status_code": 403,
+          "final_url": "https://pgslotin.buzz/",
           "redirect_chain": [
             {
               "url": "https://pgslot5.in/",
@@ -1468,8 +1468,8 @@
               "status_code": 301
             },
             {
-              "url": "https://pgsoft.pgin.club/",
-              "status_code": 200
+              "url": "https://pgslotin.buzz/",
+              "status_code": 403
             }
           ],
           "error": null,
@@ -1480,8 +1480,8 @@
           "domain": "pgslot6.in",
           "requested_url": "https://pgslot6.in",
           "ok": true,
-          "status_code": 200,
-          "final_url": "https://pgsoft.pgin.club/",
+          "status_code": 403,
+          "final_url": "https://pgslotin.buzz/",
           "redirect_chain": [
             {
               "url": "https://pgslot6.in/",
@@ -1492,8 +1492,8 @@
               "status_code": 301
             },
             {
-              "url": "https://pgsoft.pgin.club/",
-              "status_code": 200
+              "url": "https://pgslotin.buzz/",
+              "status_code": 403
             }
           ],
           "error": null,
@@ -1504,8 +1504,8 @@
           "domain": "pgslot7.in",
           "requested_url": "https://pgslot7.in",
           "ok": true,
-          "status_code": 200,
-          "final_url": "https://pgsoft.pgin.club/",
+          "status_code": 403,
+          "final_url": "https://pgslotin.buzz/",
           "redirect_chain": [
             {
               "url": "https://pgslot7.in/",
@@ -1516,8 +1516,8 @@
               "status_code": 301
             },
             {
-              "url": "https://pgsoft.pgin.club/",
-              "status_code": 200
+              "url": "https://pgslotin.buzz/",
+              "status_code": 403
             }
           ],
           "error": null,
@@ -1528,8 +1528,8 @@
           "domain": "continuumbooks.com",
           "requested_url": "https://continuumbooks.com",
           "ok": true,
-          "status_code": 200,
-          "final_url": "https://pgsoft.pgin.club/",
+          "status_code": 403,
+          "final_url": "https://pgslotin.buzz/",
           "redirect_chain": [
             {
               "url": "https://continuumbooks.com/",
@@ -1540,8 +1540,8 @@
               "status_code": 301
             },
             {
-              "url": "https://pgsoft.pgin.club/",
-              "status_code": 200
+              "url": "https://pgslotin.buzz/",
+              "status_code": 403
             }
           ],
           "error": null,
@@ -1552,8 +1552,8 @@
           "domain": "pgslot8.in",
           "requested_url": "https://pgslot8.in",
           "ok": true,
-          "status_code": 200,
-          "final_url": "https://pgsoft.pgin.club/",
+          "status_code": 403,
+          "final_url": "https://pgslotin.buzz/",
           "redirect_chain": [
             {
               "url": "https://pgslot8.in/",
@@ -1564,8 +1564,8 @@
               "status_code": 301
             },
             {
-              "url": "https://pgsoft.pgin.club/",
-              "status_code": 200
+              "url": "https://pgslotin.buzz/",
+              "status_code": 403
             }
           ],
           "error": null,
@@ -1576,8 +1576,8 @@
           "domain": "pgslot9.in",
           "requested_url": "https://pgslot9.in",
           "ok": true,
-          "status_code": 200,
-          "final_url": "https://pgsoft.pgin.club/",
+          "status_code": 403,
+          "final_url": "https://pgslotin.buzz/",
           "redirect_chain": [
             {
               "url": "https://pgslot9.in/",
@@ -1588,8 +1588,8 @@
               "status_code": 301
             },
             {
-              "url": "https://pgsoft.pgin.club/",
-              "status_code": 200
+              "url": "https://pgslotin.buzz/",
+              "status_code": 403
             }
           ],
           "error": null,
@@ -1600,8 +1600,8 @@
           "domain": "pgslot10.in",
           "requested_url": "https://pgslot10.in",
           "ok": true,
-          "status_code": 200,
-          "final_url": "https://pgsoft.pgin.club/",
+          "status_code": 403,
+          "final_url": "https://pgslotin.buzz/",
           "redirect_chain": [
             {
               "url": "https://pgslot10.in/",
@@ -1612,8 +1612,8 @@
               "status_code": 301
             },
             {
-              "url": "https://pgsoft.pgin.club/",
-              "status_code": 200
+              "url": "https://pgslotin.buzz/",
+              "status_code": 403
             }
           ],
           "error": null,
@@ -1690,12 +1690,12 @@
           "domain": "pgslotin.buzz",
           "requested_url": "https://pgslotin.buzz",
           "ok": true,
-          "status_code": 200,
+          "status_code": 403,
           "final_url": "https://pgslotin.buzz/",
           "redirect_chain": [
             {
               "url": "https://pgslotin.buzz/",
-              "status_code": 200
+              "status_code": 403
             }
           ],
           "error": null,
@@ -1706,16 +1706,16 @@
           "domain": "pgslotin.asia",
           "requested_url": "https://pgslotin.asia",
           "ok": true,
-          "status_code": 200,
-          "final_url": "https://pgsoft.pgin.club/",
+          "status_code": 403,
+          "final_url": "https://pgslotin.buzz/",
           "redirect_chain": [
             {
               "url": "https://pgslotin.asia/",
               "status_code": 301
             },
             {
-              "url": "https://pgsoft.pgin.club/",
-              "status_code": 200
+              "url": "https://pgslotin.buzz/",
+              "status_code": 403
             }
           ],
           "error": null,
@@ -1826,11 +1826,16 @@
         {
           "domain": "hubhengjing888.app",
           "requested_url": "https://hubhengjing888.app",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Timed out after 10s",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://hubhengjing888.app/",
+          "redirect_chain": [
+            {
+              "url": "https://hubhengjing888.app/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
