@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-08-13 04:46:07 UTC",
+  "last_checked_utc": "2026-08-13 15:51:56 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -11,7 +11,7 @@
           "requested_url": "https://pgslot.sh",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://pgslot4.sh/",
+          "final_url": "https://pgslotsh7.com/",
           "redirect_chain": [
             {
               "url": "https://pgslot.sh/",
@@ -27,6 +27,14 @@
             },
             {
               "url": "https://pgslot4.sh/",
+              "status_code": 301
+            },
+            {
+              "url": "https://pgslot6.sh/",
+              "status_code": 301
+            },
+            {
+              "url": "https://pgslotsh7.com/",
               "status_code": 200
             }
           ],
@@ -39,7 +47,7 @@
           "requested_url": "https://pgslot1.sh",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://pgslot4.sh/",
+          "final_url": "https://pgslotsh7.com/",
           "redirect_chain": [
             {
               "url": "https://pgslot1.sh/",
@@ -55,6 +63,14 @@
             },
             {
               "url": "https://pgslot4.sh/",
+              "status_code": 301
+            },
+            {
+              "url": "https://pgslot6.sh/",
+              "status_code": 301
+            },
+            {
+              "url": "https://pgslotsh7.com/",
               "status_code": 200
             }
           ],
@@ -67,7 +83,7 @@
           "requested_url": "https://pgslot2.sh",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://pgslot4.sh/",
+          "final_url": "https://pgslotsh7.com/",
           "redirect_chain": [
             {
               "url": "https://pgslot2.sh/",
@@ -79,6 +95,14 @@
             },
             {
               "url": "https://pgslot4.sh/",
+              "status_code": 301
+            },
+            {
+              "url": "https://pgslot6.sh/",
+              "status_code": 301
+            },
+            {
+              "url": "https://pgslotsh7.com/",
               "status_code": 200
             }
           ],
@@ -91,7 +115,7 @@
           "requested_url": "https://pgslot3.sh",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://pgslot4.sh/",
+          "final_url": "https://pgslotsh7.com/",
           "redirect_chain": [
             {
               "url": "https://pgslot3.sh/",
@@ -99,6 +123,14 @@
             },
             {
               "url": "https://pgslot4.sh/",
+              "status_code": 301
+            },
+            {
+              "url": "https://pgslot6.sh/",
+              "status_code": 301
+            },
+            {
+              "url": "https://pgslotsh7.com/",
               "status_code": 200
             }
           ],
@@ -120,11 +152,20 @@
         {
           "domain": "pgslot6.sh",
           "requested_url": "https://pgslot6.sh",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Connection error: HTTPConnectionPool(host='pgslot6.sh', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='pgslot6.sh', port=80): Failed to resolve 'pgslot6.sh' ([Errno -5] No address associated with hostname)\"))",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://pgslotsh7.com/",
+          "redirect_chain": [
+            {
+              "url": "https://pgslot6.sh/",
+              "status_code": 301
+            },
+            {
+              "url": "https://pgslotsh7.com/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
@@ -133,10 +174,18 @@
           "requested_url": "https://pgslot4.sh",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://pgslot4.sh/",
+          "final_url": "https://pgslotsh7.com/",
           "redirect_chain": [
             {
               "url": "https://pgslot4.sh/",
+              "status_code": 301
+            },
+            {
+              "url": "https://pgslot6.sh/",
+              "status_code": 301
+            },
+            {
+              "url": "https://pgslotsh7.com/",
               "status_code": 200
             }
           ],
