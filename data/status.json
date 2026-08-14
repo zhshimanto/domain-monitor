@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-08-14 04:43:01 UTC",
+  "last_checked_utc": "2026-08-14 15:43:01 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -251,31 +251,15 @@
           "requested_url": "https://pgslot-to.to",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://pg-slot-to.to/",
+          "final_url": "http://pgslot-to.to/",
           "redirect_chain": [
             {
-              "url": "https://pgslot-to.to/",
-              "status_code": 301
-            },
-            {
-              "url": "https://pg-slotto.to/",
-              "status_code": 301
-            },
-            {
-              "url": "https://playpgslot1.to/",
-              "status_code": 301
-            },
-            {
-              "url": "https://pgslotto.to/",
-              "status_code": 301
-            },
-            {
-              "url": "https://pg-slot-to.to/",
+              "url": "http://pgslot-to.to/",
               "status_code": 200
             }
           ],
           "error": null,
-          "scheme_used": "https",
+          "scheme_used": "http",
           "is_final": false
         },
         {
@@ -1915,11 +1899,16 @@
         {
           "domain": "hubhengjing888.app",
           "requested_url": "https://hubhengjing888.app",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Timed out after 10s",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://hubhengjing888.app/",
+          "redirect_chain": [
+            {
+              "url": "https://hubhengjing888.app/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
@@ -2525,11 +2514,24 @@
         {
           "domain": "hubpgslot.tech",
           "requested_url": "https://hubpgslot.tech",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Timed out after 10s",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://hubpgslot.shop/",
+          "redirect_chain": [
+            {
+              "url": "https://hubpgslot.tech/",
+              "status_code": 301
+            },
+            {
+              "url": "https://hubpgslot.marketing/",
+              "status_code": 301
+            },
+            {
+              "url": "https://hubpgslot.shop/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
