@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-08-16 03:40:55 UTC",
+  "last_checked_utc": "2026-08-16 15:13:33 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -10,8 +10,8 @@
           "domain": "pgslot.sh",
           "requested_url": "https://pgslot.sh",
           "ok": true,
-          "status_code": 200,
-          "final_url": "https://pgslotsh9.com/",
+          "status_code": 403,
+          "final_url": "https://pg-slot.sh/",
           "redirect_chain": [
             {
               "url": "https://pgslot.sh/",
@@ -30,16 +30,8 @@
               "status_code": 301
             },
             {
-              "url": "https://pgslot6.sh/",
-              "status_code": 301
-            },
-            {
-              "url": "https://pgslotsh7.com/",
-              "status_code": 301
-            },
-            {
-              "url": "https://pgslotsh9.com/",
-              "status_code": 200
+              "url": "https://pg-slot.sh/",
+              "status_code": 403
             }
           ],
           "error": null,
@@ -50,8 +42,8 @@
           "domain": "pgslot1.sh",
           "requested_url": "https://pgslot1.sh",
           "ok": true,
-          "status_code": 200,
-          "final_url": "https://pgslotsh9.com/",
+          "status_code": 403,
+          "final_url": "https://pg-slot.sh/",
           "redirect_chain": [
             {
               "url": "https://pgslot1.sh/",
@@ -70,16 +62,8 @@
               "status_code": 301
             },
             {
-              "url": "https://pgslot6.sh/",
-              "status_code": 301
-            },
-            {
-              "url": "https://pgslotsh7.com/",
-              "status_code": 301
-            },
-            {
-              "url": "https://pgslotsh9.com/",
-              "status_code": 200
+              "url": "https://pg-slot.sh/",
+              "status_code": 403
             }
           ],
           "error": null,
@@ -90,8 +74,8 @@
           "domain": "pgslot2.sh",
           "requested_url": "https://pgslot2.sh",
           "ok": true,
-          "status_code": 200,
-          "final_url": "https://pgslotsh9.com/",
+          "status_code": 403,
+          "final_url": "https://pg-slot.sh/",
           "redirect_chain": [
             {
               "url": "https://pgslot2.sh/",
@@ -106,16 +90,8 @@
               "status_code": 301
             },
             {
-              "url": "https://pgslot6.sh/",
-              "status_code": 301
-            },
-            {
-              "url": "https://pgslotsh7.com/",
-              "status_code": 301
-            },
-            {
-              "url": "https://pgslotsh9.com/",
-              "status_code": 200
+              "url": "https://pg-slot.sh/",
+              "status_code": 403
             }
           ],
           "error": null,
@@ -126,8 +102,8 @@
           "domain": "pgslot3.sh",
           "requested_url": "https://pgslot3.sh",
           "ok": true,
-          "status_code": 200,
-          "final_url": "https://pgslotsh9.com/",
+          "status_code": 403,
+          "final_url": "https://pg-slot.sh/",
           "redirect_chain": [
             {
               "url": "https://pgslot3.sh/",
@@ -138,16 +114,8 @@
               "status_code": 301
             },
             {
-              "url": "https://pgslot6.sh/",
-              "status_code": 301
-            },
-            {
-              "url": "https://pgslotsh7.com/",
-              "status_code": 301
-            },
-            {
-              "url": "https://pgslotsh9.com/",
-              "status_code": 200
+              "url": "https://pg-slot.sh/",
+              "status_code": 403
             }
           ],
           "error": null,
@@ -193,24 +161,16 @@
           "domain": "pgslot4.sh",
           "requested_url": "https://pgslot4.sh",
           "ok": true,
-          "status_code": 200,
-          "final_url": "https://pgslotsh9.com/",
+          "status_code": 403,
+          "final_url": "https://pg-slot.sh/",
           "redirect_chain": [
             {
               "url": "https://pgslot4.sh/",
               "status_code": 301
             },
             {
-              "url": "https://pgslot6.sh/",
-              "status_code": 301
-            },
-            {
-              "url": "https://pgslotsh7.com/",
-              "status_code": 301
-            },
-            {
-              "url": "https://pgslotsh9.com/",
-              "status_code": 200
+              "url": "https://pg-slot.sh/",
+              "status_code": 403
             }
           ],
           "error": null,
@@ -438,14 +398,10 @@
           "requested_url": "https://pgslotceo.work",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://slotpg.ceo/",
+          "final_url": "https://pgslotceo.work/",
           "redirect_chain": [
             {
               "url": "https://pgslotceo.work/",
-              "status_code": 301
-            },
-            {
-              "url": "https://slotpg.ceo/",
               "status_code": 200
             }
           ],
@@ -1085,12 +1041,17 @@
         {
           "domain": "pac168.org",
           "requested_url": "https://pac168.org",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "SSL error: HTTPSConnectionPool(host='pac168.org', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'pac168.org'. (_ssl.c:1010)\")))",
-          "scheme_used": "https",
+          "ok": true,
+          "status_code": 403,
+          "final_url": "http://pac168.org/",
+          "redirect_chain": [
+            {
+              "url": "http://pac168.org/",
+              "status_code": 403
+            }
+          ],
+          "error": null,
+          "scheme_used": "http",
           "is_final": false
         },
         {
@@ -1899,16 +1860,11 @@
         {
           "domain": "hubhengjing888.app",
           "requested_url": "https://hubhengjing888.app",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://hubhengjing888.app/",
-          "redirect_chain": [
-            {
-              "url": "https://hubhengjing888.app/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Timed out after 10s",
           "scheme_used": "https",
           "is_final": false
         },
