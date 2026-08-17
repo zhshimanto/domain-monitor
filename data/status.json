@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-08-17 03:42:09 UTC",
+  "last_checked_utc": "2026-08-17 15:18:19 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -225,88 +225,44 @@
         {
           "domain": "pg-slotto.to",
           "requested_url": "https://pg-slotto.to",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://pg-slot-to.to/",
-          "redirect_chain": [
-            {
-              "url": "https://pg-slotto.to/",
-              "status_code": 301
-            },
-            {
-              "url": "https://playpgslot1.to/",
-              "status_code": 301
-            },
-            {
-              "url": "https://pgslotto.to/",
-              "status_code": 301
-            },
-            {
-              "url": "https://pg-slot-to.to/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "SSL error: HTTPSConnectionPool(host='pg-slot-to.to', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'pg-slot-to.to'. (_ssl.c:1010)\")))",
           "scheme_used": "https",
           "is_final": false
         },
         {
           "domain": "playpgslot1.to",
           "requested_url": "https://playpgslot1.to",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://pg-slot-to.to/",
-          "redirect_chain": [
-            {
-              "url": "https://playpgslot1.to/",
-              "status_code": 301
-            },
-            {
-              "url": "https://pgslotto.to/",
-              "status_code": 301
-            },
-            {
-              "url": "https://pg-slot-to.to/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "SSL error: HTTPSConnectionPool(host='pg-slot-to.to', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'pg-slot-to.to'. (_ssl.c:1010)\")))",
           "scheme_used": "https",
           "is_final": false
         },
         {
           "domain": "pgslotto.to",
           "requested_url": "https://pgslotto.to",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://pg-slot-to.to/",
-          "redirect_chain": [
-            {
-              "url": "https://pgslotto.to/",
-              "status_code": 301
-            },
-            {
-              "url": "https://pg-slot-to.to/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "SSL error: HTTPSConnectionPool(host='pg-slot-to.to', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'pg-slot-to.to'. (_ssl.c:1010)\")))",
           "scheme_used": "https",
           "is_final": false
         },
         {
           "domain": "pg-slot-to.to",
           "requested_url": "https://pg-slot-to.to",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://pg-slot-to.to/",
-          "redirect_chain": [
-            {
-              "url": "https://pg-slot-to.to/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "SSL error: HTTPSConnectionPool(host='pg-slot-to.to', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'pg-slot-to.to'. (_ssl.c:1010)\")))",
           "scheme_used": "https",
           "is_final": true
         }
@@ -451,16 +407,11 @@
         {
           "domain": "slotpromax.app",
           "requested_url": "https://slotpromax.app",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://slotpromax.app/",
-          "redirect_chain": [
-            {
-              "url": "https://slotpromax.app/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Connection error: HTTPConnectionPool(host='slotpromax.app', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='slotpromax.app', port=80): Failed to resolve 'slotpromax.app' ([Errno -5] No address associated with hostname)\"))",
           "scheme_used": "https",
           "is_final": false
         },
@@ -1828,16 +1779,11 @@
         {
           "domain": "hubhengjing888.in",
           "requested_url": "https://hubhengjing888.in",
-          "ok": true,
-          "status_code": 404,
-          "final_url": "https://hubhengjing888.in/",
-          "redirect_chain": [
-            {
-              "url": "https://hubhengjing888.in/",
-              "status_code": 404
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Timed out after 10s",
           "scheme_used": "https",
           "is_final": false
         },
@@ -2381,7 +2327,7 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "error": "Connection error: HTTPConnectionPool(host='hubpgslot.dev', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='hubpgslot.dev', port=80): Failed to resolve 'hubpgslot.dev' ([Errno -2] Name or service not known)\"))",
+          "error": "Connection error: HTTPConnectionPool(host='hubpgslot.dev', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='hubpgslot.dev', port=80): Failed to resolve 'hubpgslot.dev' ([Errno -5] No address associated with hostname)\"))",
           "scheme_used": "https",
           "is_final": false
         },
@@ -2399,120 +2345,55 @@
         {
           "domain": "hubpgslot.love",
           "requested_url": "https://hubpgslot.love",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://hubpgslot.shop/",
-          "redirect_chain": [
-            {
-              "url": "https://hubpgslot.love/",
-              "status_code": 301
-            },
-            {
-              "url": "https://hubpgslot.fyi/",
-              "status_code": 301
-            },
-            {
-              "url": "https://hubpgslot.tech/",
-              "status_code": 301
-            },
-            {
-              "url": "https://hubpgslot.marketing/",
-              "status_code": 301
-            },
-            {
-              "url": "https://hubpgslot.shop/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Timed out after 10s",
           "scheme_used": "https",
           "is_final": false
         },
         {
           "domain": "member.hubpgslot6.com",
           "requested_url": "https://member.hubpgslot6.com",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://member.hubpgslot6.com/",
-          "redirect_chain": [
-            {
-              "url": "https://member.hubpgslot6.com/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Timed out after 10s",
           "scheme_used": "https",
           "is_final": false
         },
         {
           "domain": "hubpgslot.fyi",
           "requested_url": "https://hubpgslot.fyi",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://hubpgslot.shop/",
-          "redirect_chain": [
-            {
-              "url": "https://hubpgslot.fyi/",
-              "status_code": 301
-            },
-            {
-              "url": "https://hubpgslot.tech/",
-              "status_code": 301
-            },
-            {
-              "url": "https://hubpgslot.marketing/",
-              "status_code": 301
-            },
-            {
-              "url": "https://hubpgslot.shop/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Timed out after 10s",
           "scheme_used": "https",
           "is_final": false
         },
         {
           "domain": "hubpgslot.tech",
           "requested_url": "https://hubpgslot.tech",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://hubpgslot.shop/",
-          "redirect_chain": [
-            {
-              "url": "https://hubpgslot.tech/",
-              "status_code": 301
-            },
-            {
-              "url": "https://hubpgslot.marketing/",
-              "status_code": 301
-            },
-            {
-              "url": "https://hubpgslot.shop/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Timed out after 10s",
           "scheme_used": "https",
           "is_final": false
         },
         {
           "domain": "hubpgslot.marketing",
           "requested_url": "https://hubpgslot.marketing",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://hubpgslot.shop/",
-          "redirect_chain": [
-            {
-              "url": "https://hubpgslot.marketing/",
-              "status_code": 301
-            },
-            {
-              "url": "https://hubpgslot.shop/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Timed out after 10s",
           "scheme_used": "https",
           "is_final": true
         }
