@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-08-17 15:18:19 UTC",
+  "last_checked_utc": "2026-08-18 03:37:32 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -1779,11 +1779,16 @@
         {
           "domain": "hubhengjing888.in",
           "requested_url": "https://hubhengjing888.in",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Timed out after 10s",
+          "ok": true,
+          "status_code": 404,
+          "final_url": "https://hubhengjing888.in/",
+          "redirect_chain": [
+            {
+              "url": "https://hubhengjing888.in/",
+              "status_code": 404
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
@@ -2050,16 +2055,11 @@
         {
           "domain": "slot1111.live",
           "requested_url": "https://slot1111.live",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://slot1111.live/",
-          "redirect_chain": [
-            {
-              "url": "https://slot1111.live/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Timed out after 10s",
           "scheme_used": "https",
           "is_final": false
         },
@@ -2345,55 +2345,120 @@
         {
           "domain": "hubpgslot.love",
           "requested_url": "https://hubpgslot.love",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Timed out after 10s",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://hubpgslot.shop/",
+          "redirect_chain": [
+            {
+              "url": "https://hubpgslot.love/",
+              "status_code": 301
+            },
+            {
+              "url": "https://hubpgslot.fyi/",
+              "status_code": 301
+            },
+            {
+              "url": "https://hubpgslot.tech/",
+              "status_code": 301
+            },
+            {
+              "url": "https://hubpgslot.marketing/",
+              "status_code": 301
+            },
+            {
+              "url": "https://hubpgslot.shop/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
         {
           "domain": "member.hubpgslot6.com",
           "requested_url": "https://member.hubpgslot6.com",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Timed out after 10s",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://member.hubpgslot6.com/",
+          "redirect_chain": [
+            {
+              "url": "https://member.hubpgslot6.com/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
         {
           "domain": "hubpgslot.fyi",
           "requested_url": "https://hubpgslot.fyi",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Timed out after 10s",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://hubpgslot.shop/",
+          "redirect_chain": [
+            {
+              "url": "https://hubpgslot.fyi/",
+              "status_code": 301
+            },
+            {
+              "url": "https://hubpgslot.tech/",
+              "status_code": 301
+            },
+            {
+              "url": "https://hubpgslot.marketing/",
+              "status_code": 301
+            },
+            {
+              "url": "https://hubpgslot.shop/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
         {
           "domain": "hubpgslot.tech",
           "requested_url": "https://hubpgslot.tech",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Timed out after 10s",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://hubpgslot.shop/",
+          "redirect_chain": [
+            {
+              "url": "https://hubpgslot.tech/",
+              "status_code": 301
+            },
+            {
+              "url": "https://hubpgslot.marketing/",
+              "status_code": 301
+            },
+            {
+              "url": "https://hubpgslot.shop/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
         {
           "domain": "hubpgslot.marketing",
           "requested_url": "https://hubpgslot.marketing",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Timed out after 10s",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://hubpgslot.shop/",
+          "redirect_chain": [
+            {
+              "url": "https://hubpgslot.marketing/",
+              "status_code": 301
+            },
+            {
+              "url": "https://hubpgslot.shop/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": true
         }
