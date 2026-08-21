@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-08-21 03:43:15 UTC",
+  "last_checked_utc": "2026-08-21 15:25:11 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -285,7 +285,7 @@
           "domain": "pgslot.ceo",
           "requested_url": "https://pgslot.ceo",
           "ok": true,
-          "status_code": 200,
+          "status_code": 403,
           "final_url": "https://slotpg.ceo/",
           "redirect_chain": [
             {
@@ -294,7 +294,7 @@
             },
             {
               "url": "https://slotpg.ceo/",
-              "status_code": 200
+              "status_code": 403
             }
           ],
           "error": null,
@@ -305,7 +305,7 @@
           "domain": "pgslots.ceo",
           "requested_url": "https://pgslots.ceo",
           "ok": true,
-          "status_code": 200,
+          "status_code": 403,
           "final_url": "https://slotpg.ceo/",
           "redirect_chain": [
             {
@@ -314,7 +314,7 @@
             },
             {
               "url": "https://slotpg.ceo/",
-              "status_code": 200
+              "status_code": 403
             }
           ],
           "error": null,
@@ -325,7 +325,7 @@
           "domain": "pg-slot.ceo",
           "requested_url": "https://pg-slot.ceo",
           "ok": true,
-          "status_code": 200,
+          "status_code": 403,
           "final_url": "https://slotpg.ceo/",
           "redirect_chain": [
             {
@@ -334,7 +334,7 @@
             },
             {
               "url": "https://slotpg.ceo/",
-              "status_code": 200
+              "status_code": 403
             }
           ],
           "error": null,
@@ -377,12 +377,12 @@
           "domain": "slotpg.ceo",
           "requested_url": "https://slotpg.ceo",
           "ok": true,
-          "status_code": 200,
+          "status_code": 403,
           "final_url": "https://slotpg.ceo/",
           "redirect_chain": [
             {
               "url": "https://slotpg.ceo/",
-              "status_code": 200
+              "status_code": 403
             }
           ],
           "error": null,
@@ -1734,16 +1734,11 @@
         {
           "domain": "hubhengjing888.club",
           "requested_url": "https://hubhengjing888.club",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://hubhengjing888.club/",
-          "redirect_chain": [
-            {
-              "url": "https://hubhengjing888.club/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Timed out after 10s",
           "scheme_used": "https",
           "is_final": false
         },
@@ -1994,11 +1989,16 @@
         {
           "domain": "slot1111.live",
           "requested_url": "https://slot1111.live",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Timed out after 10s",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://slot1111.live/",
+          "redirect_chain": [
+            {
+              "url": "https://slot1111.live/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
