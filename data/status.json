@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-08-22 15:12:33 UTC",
+  "last_checked_utc": "2026-08-23 03:43:02 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -1047,15 +1047,15 @@
           "requested_url": "https://slotsaiboon.fun",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://slotsaiboon.fun/",
+          "final_url": "http://slotsaiboon.fun/",
           "redirect_chain": [
             {
-              "url": "https://slotsaiboon.fun/",
+              "url": "http://slotsaiboon.fun/",
               "status_code": 200
             }
           ],
           "error": null,
-          "scheme_used": "https",
+          "scheme_used": "http",
           "is_final": false
         },
         {
@@ -1750,11 +1750,16 @@
         {
           "domain": "hubhengjing888.app",
           "requested_url": "https://hubhengjing888.app",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Timed out after 10s",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://hubhengjing888.app/",
+          "redirect_chain": [
+            {
+              "url": "https://hubhengjing888.app/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
