@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-08-26 03:46:34 UTC",
+  "last_checked_utc": "2026-08-26 16:11:24 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -1222,14 +1222,14 @@
           "requested_url": "https://pgslot.in",
           "ok": true,
           "status_code": 403,
-          "final_url": "https://pgslotin.buzz/",
+          "final_url": "https://pgslotin.tech/",
           "redirect_chain": [
             {
               "url": "https://pgslot.in/",
               "status_code": 301
             },
             {
-              "url": "https://pgslotin.buzz/",
+              "url": "https://pgslotin.tech/",
               "status_code": 403
             }
           ],
@@ -1253,14 +1253,14 @@
           "requested_url": "https://pgslots.in",
           "ok": true,
           "status_code": 403,
-          "final_url": "https://pgslotin.buzz/",
+          "final_url": "https://pgslotin.tech/",
           "redirect_chain": [
             {
               "url": "https://pgslots.in/",
               "status_code": 301
             },
             {
-              "url": "https://pgslotin.buzz/",
+              "url": "https://pgslotin.tech/",
               "status_code": 403
             }
           ],
@@ -1273,14 +1273,14 @@
           "requested_url": "https://pgslotss.in",
           "ok": true,
           "status_code": 403,
-          "final_url": "https://pgslotin.buzz/",
+          "final_url": "https://pgslotin.tech/",
           "redirect_chain": [
             {
               "url": "https://pgslotss.in/",
               "status_code": 301
             },
             {
-              "url": "https://pgslotin.buzz/",
+              "url": "https://pgslotin.tech/",
               "status_code": 403
             }
           ],
@@ -1293,14 +1293,14 @@
           "requested_url": "https://pgslot1.in",
           "ok": true,
           "status_code": 403,
-          "final_url": "https://pgslotin.buzz/",
+          "final_url": "https://pgslotin.tech/",
           "redirect_chain": [
             {
               "url": "https://pgslot1.in/",
               "status_code": 301
             },
             {
-              "url": "https://pgslotin.buzz/",
+              "url": "https://pgslotin.tech/",
               "status_code": 403
             }
           ],
@@ -1313,14 +1313,14 @@
           "requested_url": "https://pgslot2.in",
           "ok": true,
           "status_code": 403,
-          "final_url": "https://pgslotin.buzz/",
+          "final_url": "https://pgslotin.tech/",
           "redirect_chain": [
             {
               "url": "https://pgslot2.in/",
               "status_code": 301
             },
             {
-              "url": "https://pgslotin.buzz/",
+              "url": "https://pgslotin.tech/",
               "status_code": 403
             }
           ],
@@ -1333,14 +1333,14 @@
           "requested_url": "https://pgslot3.in",
           "ok": true,
           "status_code": 403,
-          "final_url": "https://pgslotin.buzz/",
+          "final_url": "https://pgslotin.tech/",
           "redirect_chain": [
             {
               "url": "https://pgslot3.in/",
               "status_code": 301
             },
             {
-              "url": "https://pgslotin.buzz/",
+              "url": "https://pgslotin.tech/",
               "status_code": 403
             }
           ],
@@ -1353,14 +1353,14 @@
           "requested_url": "https://pgslot4.in",
           "ok": true,
           "status_code": 403,
-          "final_url": "https://pgslotin.buzz/",
+          "final_url": "https://pgslotin.tech/",
           "redirect_chain": [
             {
               "url": "https://pgslot4.in/",
               "status_code": 301
             },
             {
-              "url": "https://pgslotin.buzz/",
+              "url": "https://pgslotin.tech/",
               "status_code": 403
             }
           ],
@@ -1373,14 +1373,14 @@
           "requested_url": "https://pg-slot.in",
           "ok": true,
           "status_code": 403,
-          "final_url": "https://pgslotin.buzz/",
+          "final_url": "https://pgslotin.tech/",
           "redirect_chain": [
             {
               "url": "https://pg-slot.in/",
               "status_code": 301
             },
             {
-              "url": "https://pgslotin.buzz/",
+              "url": "https://pgslotin.tech/",
               "status_code": 403
             }
           ],
@@ -1393,14 +1393,14 @@
           "requested_url": "https://pgslott.in",
           "ok": true,
           "status_code": 403,
-          "final_url": "https://pgslotin.buzz/",
+          "final_url": "https://pgslotin.tech/",
           "redirect_chain": [
             {
               "url": "https://pgslott.in/",
               "status_code": 301
             },
             {
-              "url": "https://pgslotin.buzz/",
+              "url": "https://pgslotin.tech/",
               "status_code": 403
             }
           ],
@@ -1413,14 +1413,14 @@
           "requested_url": "https://pgslot5.in",
           "ok": true,
           "status_code": 403,
-          "final_url": "https://pgslotin.buzz/",
+          "final_url": "https://pgslotin.tech/",
           "redirect_chain": [
             {
               "url": "https://pgslot5.in/",
               "status_code": 301
             },
             {
-              "url": "https://pgslotin.buzz/",
+              "url": "https://pgslotin.tech/",
               "status_code": 403
             }
           ],
@@ -1433,14 +1433,14 @@
           "requested_url": "https://pgslot6.in",
           "ok": true,
           "status_code": 403,
-          "final_url": "https://pgslotin.buzz/",
+          "final_url": "https://pgslotin.tech/",
           "redirect_chain": [
             {
               "url": "https://pgslot6.in/",
               "status_code": 301
             },
             {
-              "url": "https://pgslotin.buzz/",
+              "url": "https://pgslotin.tech/",
               "status_code": 403
             }
           ],
@@ -1453,14 +1453,14 @@
           "requested_url": "https://pgslot7.in",
           "ok": true,
           "status_code": 403,
-          "final_url": "https://pgslotin.buzz/",
+          "final_url": "https://pgslotin.tech/",
           "redirect_chain": [
             {
               "url": "https://pgslot7.in/",
               "status_code": 301
             },
             {
-              "url": "https://pgslotin.buzz/",
+              "url": "https://pgslotin.tech/",
               "status_code": 403
             }
           ],
@@ -1473,14 +1473,14 @@
           "requested_url": "https://continuumbooks.com",
           "ok": true,
           "status_code": 403,
-          "final_url": "https://pgslotin.buzz/",
+          "final_url": "https://pgslotin.tech/",
           "redirect_chain": [
             {
               "url": "https://continuumbooks.com/",
               "status_code": 301
             },
             {
-              "url": "https://pgslotin.buzz/",
+              "url": "https://pgslotin.tech/",
               "status_code": 403
             }
           ],
@@ -1493,14 +1493,14 @@
           "requested_url": "https://pgslot8.in",
           "ok": true,
           "status_code": 403,
-          "final_url": "https://pgslotin.buzz/",
+          "final_url": "https://pgslotin.tech/",
           "redirect_chain": [
             {
               "url": "https://pgslot8.in/",
               "status_code": 301
             },
             {
-              "url": "https://pgslotin.buzz/",
+              "url": "https://pgslotin.tech/",
               "status_code": 403
             }
           ],
@@ -1513,14 +1513,14 @@
           "requested_url": "https://pgslot9.in",
           "ok": true,
           "status_code": 403,
-          "final_url": "https://pgslotin.buzz/",
+          "final_url": "https://pgslotin.tech/",
           "redirect_chain": [
             {
               "url": "https://pgslot9.in/",
               "status_code": 301
             },
             {
-              "url": "https://pgslotin.buzz/",
+              "url": "https://pgslotin.tech/",
               "status_code": 403
             }
           ],
@@ -1533,14 +1533,14 @@
           "requested_url": "https://pgslot10.in",
           "ok": true,
           "status_code": 403,
-          "final_url": "https://pgslotin.buzz/",
+          "final_url": "https://pgslotin.tech/",
           "redirect_chain": [
             {
               "url": "https://pgslot10.in/",
               "status_code": 301
             },
             {
-              "url": "https://pgslotin.buzz/",
+              "url": "https://pgslotin.tech/",
               "status_code": 403
             }
           ],
@@ -1619,10 +1619,14 @@
           "requested_url": "https://pgslotin.buzz",
           "ok": true,
           "status_code": 403,
-          "final_url": "https://pgslotin.buzz/",
+          "final_url": "https://pgslotin.tech/",
           "redirect_chain": [
             {
               "url": "https://pgslotin.buzz/",
+              "status_code": 301
+            },
+            {
+              "url": "https://pgslotin.tech/",
               "status_code": 403
             }
           ],
@@ -1635,14 +1639,14 @@
           "requested_url": "https://pgslotin.asia",
           "ok": true,
           "status_code": 403,
-          "final_url": "https://pgslotin.buzz/",
+          "final_url": "https://pgslotin.tech/",
           "redirect_chain": [
             {
               "url": "https://pgslotin.asia/",
               "status_code": 301
             },
             {
-              "url": "https://pgslotin.buzz/",
+              "url": "https://pgslotin.tech/",
               "status_code": 403
             }
           ],
@@ -1998,11 +2002,16 @@
         {
           "domain": "slot1111.live",
           "requested_url": "https://slot1111.live",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Timed out after 10s",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://slot1111.live/",
+          "redirect_chain": [
+            {
+              "url": "https://slot1111.live/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
