@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-08-28 00:10:31 UTC",
+  "last_checked_utc": "2026-08-28 14:45:28 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -906,14 +906,14 @@
           "requested_url": "https://pacvip.co",
           "ok": true,
           "status_code": 200,
-          "final_url": "http://ww19.pacvip.co",
+          "final_url": "http://ww547.pacvip.co",
           "redirect_chain": [
             {
               "url": "http://pacvip.co/",
               "status_code": 302
             },
             {
-              "url": "http://ww19.pacvip.co",
+              "url": "http://ww547.pacvip.co",
               "status_code": 200
             }
           ],
@@ -1038,11 +1038,20 @@
         {
           "domain": "slotsaiboon.com",
           "requested_url": "https://slotsaiboon.com",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Connection error: HTTPSConnectionPool(host='slotsaiboon.casino', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='slotsaiboon.casino', port=443): Failed to resolve 'slotsaiboon.casino' ([Errno -2] Name or service not known)\"))",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://slotsaiboon.casino/",
+          "redirect_chain": [
+            {
+              "url": "https://slotsaiboon.com/",
+              "status_code": 301
+            },
+            {
+              "url": "https://slotsaiboon.casino/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
@@ -1065,22 +1074,36 @@
         {
           "domain": "slotsaiboon.vip",
           "requested_url": "https://slotsaiboon.vip",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Connection error: HTTPSConnectionPool(host='slotsaiboon.casino', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='slotsaiboon.casino', port=443): Failed to resolve 'slotsaiboon.casino' ([Errno -2] Name or service not known)\"))",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://slotsaiboon.casino/",
+          "redirect_chain": [
+            {
+              "url": "https://slotsaiboon.vip/",
+              "status_code": 301
+            },
+            {
+              "url": "https://slotsaiboon.casino/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
         {
           "domain": "slotsaiboon.casino",
           "requested_url": "https://slotsaiboon.casino",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Connection error: HTTPConnectionPool(host='slotsaiboon.casino', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='slotsaiboon.casino', port=80): Failed to resolve 'slotsaiboon.casino' ([Errno -2] Name or service not known)\"))",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://slotsaiboon.casino/",
+          "redirect_chain": [
+            {
+              "url": "https://slotsaiboon.casino/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
@@ -2002,11 +2025,16 @@
         {
           "domain": "slot1111.live",
           "requested_url": "https://slot1111.live",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Timed out after 10s",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://slot1111.live/",
+          "redirect_chain": [
+            {
+              "url": "https://slot1111.live/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
