@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-08-28 14:45:28 UTC",
+  "last_checked_utc": "2026-08-28 23:47:19 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -1766,12 +1766,12 @@
           "domain": "hubhengjing888.club",
           "requested_url": "https://hubhengjing888.club",
           "ok": true,
-          "status_code": 200,
+          "status_code": 404,
           "final_url": "https://hubhengjing888.club/",
           "redirect_chain": [
             {
               "url": "https://hubhengjing888.club/",
-              "status_code": 200
+              "status_code": 404
             }
           ],
           "error": null,
