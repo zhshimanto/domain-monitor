@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-08-28 23:47:19 UTC",
+  "last_checked_utc": "2026-08-29 09:36:29 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -877,16 +877,11 @@
         {
           "domain": "pacman168.fun",
           "requested_url": "https://pacman168.fun",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://pacman168.fun/",
-          "redirect_chain": [
-            {
-              "url": "https://pacman168.fun/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Connection error: HTTPConnectionPool(host='pacman168.fun', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='pacman168.fun', port=80): Failed to resolve 'pacman168.fun' ([Errno -2] Name or service not known)\"))",
           "scheme_used": "https",
           "is_final": false
         },
@@ -1765,16 +1760,11 @@
         {
           "domain": "hubhengjing888.club",
           "requested_url": "https://hubhengjing888.club",
-          "ok": true,
-          "status_code": 404,
-          "final_url": "https://hubhengjing888.club/",
-          "redirect_chain": [
-            {
-              "url": "https://hubhengjing888.club/",
-              "status_code": 404
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Timed out after 10s",
           "scheme_used": "https",
           "is_final": false
         },
@@ -1825,12 +1815,12 @@
           "domain": "hubhengjing888.world",
           "requested_url": "https://hubhengjing888.world",
           "ok": true,
-          "status_code": 200,
+          "status_code": 520,
           "final_url": "https://hubhengjing888.world/",
           "redirect_chain": [
             {
               "url": "https://hubhengjing888.world/",
-              "status_code": 200
+              "status_code": 520
             }
           ],
           "error": null,
@@ -2025,16 +2015,11 @@
         {
           "domain": "slot1111.live",
           "requested_url": "https://slot1111.live",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://slot1111.live/",
-          "redirect_chain": [
-            {
-              "url": "https://slot1111.live/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Timed out after 10s",
           "scheme_used": "https",
           "is_final": false
         },
