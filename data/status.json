@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-08-29 09:36:29 UTC",
+  "last_checked_utc": "2026-08-29 18:04:30 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -901,14 +901,14 @@
           "requested_url": "https://pacvip.co",
           "ok": true,
           "status_code": 200,
-          "final_url": "http://ww547.pacvip.co",
+          "final_url": "http://ww19.pacvip.co",
           "redirect_chain": [
             {
               "url": "http://pacvip.co/",
               "status_code": 302
             },
             {
-              "url": "http://ww547.pacvip.co",
+              "url": "http://ww19.pacvip.co",
               "status_code": 200
             }
           ],
@@ -1815,12 +1815,12 @@
           "domain": "hubhengjing888.world",
           "requested_url": "https://hubhengjing888.world",
           "ok": true,
-          "status_code": 520,
+          "status_code": 200,
           "final_url": "https://hubhengjing888.world/",
           "redirect_chain": [
             {
               "url": "https://hubhengjing888.world/",
-              "status_code": 520
+              "status_code": 200
             }
           ],
           "error": null,
@@ -2015,11 +2015,16 @@
         {
           "domain": "slot1111.live",
           "requested_url": "https://slot1111.live",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Timed out after 10s",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://slot1111.live/",
+          "redirect_chain": [
+            {
+              "url": "https://slot1111.live/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
