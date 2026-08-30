@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-08-29 18:04:30 UTC",
+  "last_checked_utc": "2026-08-30 08:46:34 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -901,14 +901,14 @@
           "requested_url": "https://pacvip.co",
           "ok": true,
           "status_code": 200,
-          "final_url": "http://ww19.pacvip.co",
+          "final_url": "http://ww547.pacvip.co",
           "redirect_chain": [
             {
               "url": "http://pacvip.co/",
               "status_code": 302
             },
             {
-              "url": "http://ww19.pacvip.co",
+              "url": "http://ww547.pacvip.co",
               "status_code": 200
             }
           ],
@@ -2225,10 +2225,14 @@
           "requested_url": "https://vip.hubslotxo.me",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://vip.hubslotxo.me/",
+          "final_url": "https://vip.hubslotxo.buzz/",
           "redirect_chain": [
             {
               "url": "https://vip.hubslotxo.me/",
+              "status_code": 301
+            },
+            {
+              "url": "https://vip.hubslotxo.buzz/",
               "status_code": 200
             }
           ],
@@ -2241,7 +2245,7 @@
           "requested_url": "https://vip.hubslotxo4.com",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://vip.hubslotxo.me/",
+          "final_url": "https://vip.hubslotxo.buzz/",
           "redirect_chain": [
             {
               "url": "https://vip.hubslotxo4.com/",
@@ -2249,6 +2253,10 @@
             },
             {
               "url": "https://vip.hubslotxo.me/",
+              "status_code": 301
+            },
+            {
+              "url": "https://vip.hubslotxo.buzz/",
               "status_code": 200
             }
           ],
