@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-09-01 08:09:27 UTC",
+  "last_checked_utc": "2026-09-01 18:04:42 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -897,14 +897,14 @@
           "requested_url": "https://pacvip.co",
           "ok": true,
           "status_code": 200,
-          "final_url": "http://ww19.pacvip.co",
+          "final_url": "http://ww547.pacvip.co",
           "redirect_chain": [
             {
               "url": "http://pacvip.co/",
               "status_code": 302
             },
             {
-              "url": "http://ww19.pacvip.co",
+              "url": "http://ww547.pacvip.co",
               "status_code": 200
             }
           ],
