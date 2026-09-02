@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-09-01 18:04:42 UTC",
+  "last_checked_utc": "2026-09-02 07:28:46 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -897,14 +897,14 @@
           "requested_url": "https://pacvip.co",
           "ok": true,
           "status_code": 200,
-          "final_url": "http://ww547.pacvip.co",
+          "final_url": "http://ww19.pacvip.co",
           "redirect_chain": [
             {
               "url": "http://pacvip.co/",
               "status_code": 302
             },
             {
-              "url": "http://ww547.pacvip.co",
+              "url": "http://ww19.pacvip.co",
               "status_code": 200
             }
           ],
@@ -2292,11 +2292,16 @@
         {
           "domain": "hubpgslot.dev",
           "requested_url": "https://hubpgslot.dev",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Connection error: HTTPConnectionPool(host='hubpgslot.dev', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='hubpgslot.dev', port=80): Failed to resolve 'hubpgslot.dev' ([Errno -5] No address associated with hostname)\"))",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://hubpgslot.dev/",
+          "redirect_chain": [
+            {
+              "url": "https://hubpgslot.dev/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
