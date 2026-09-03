@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-09-02 18:17:21 UTC",
+  "last_checked_utc": "2026-09-03 07:33:58 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -1767,11 +1767,16 @@
         {
           "domain": "hubhengjing888.app",
           "requested_url": "https://hubhengjing888.app",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Timed out after 10s",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://hubhengjing888.app/",
+          "redirect_chain": [
+            {
+              "url": "https://hubhengjing888.app/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
@@ -2133,16 +2138,11 @@
         {
           "domain": "slot1111.quest",
           "requested_url": "https://slot1111.quest",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://slot1111.quest/",
-          "redirect_chain": [
-            {
-              "url": "https://slot1111.quest/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Timed out after 10s",
           "scheme_used": "https",
           "is_final": false
         },
@@ -2187,17 +2187,12 @@
         {
           "domain": "vip.hubslotxo2.com",
           "requested_url": "https://vip.hubslotxo2.com",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "http://vip.hubslotxo2.com/",
-          "redirect_chain": [
-            {
-              "url": "http://vip.hubslotxo2.com/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
-          "scheme_used": "http",
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Connection error: HTTPConnectionPool(host='vip.hubslotxo2.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='vip.hubslotxo2.com', port=80): Failed to resolve 'vip.hubslotxo2.com' ([Errno -2] Name or service not known)\"))",
+          "scheme_used": "https",
           "is_final": false
         },
         {
