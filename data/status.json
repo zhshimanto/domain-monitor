@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-09-03 07:33:58 UTC",
+  "last_checked_utc": "2026-09-03 18:15:48 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -897,14 +897,14 @@
           "requested_url": "https://pacvip.co",
           "ok": true,
           "status_code": 200,
-          "final_url": "http://ww19.pacvip.co",
+          "final_url": "http://ww547.pacvip.co",
           "redirect_chain": [
             {
               "url": "http://pacvip.co/",
               "status_code": 302
             },
             {
-              "url": "http://ww19.pacvip.co",
+              "url": "http://ww547.pacvip.co",
               "status_code": 200
             }
           ],
@@ -2138,11 +2138,16 @@
         {
           "domain": "slot1111.quest",
           "requested_url": "https://slot1111.quest",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Timed out after 10s",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://slot1111.quest/",
+          "redirect_chain": [
+            {
+              "url": "https://slot1111.quest/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
@@ -2284,10 +2289,14 @@
           "requested_url": "https://hubpgslot.dev",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://hubpgslot.dev/",
+          "final_url": "https://potentialability.co/",
           "redirect_chain": [
             {
               "url": "https://hubpgslot.dev/",
+              "status_code": 301
+            },
+            {
+              "url": "https://potentialability.co/",
               "status_code": 200
             }
           ],
