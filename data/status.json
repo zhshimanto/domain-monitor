@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-09-03 18:15:48 UTC",
+  "last_checked_utc": "2026-09-04 07:34:41 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -900,7 +900,7 @@
           "final_url": "http://ww547.pacvip.co",
           "redirect_chain": [
             {
-              "url": "http://pacvip.co/",
+              "url": "https://pacvip.co/",
               "status_code": 302
             },
             {
@@ -909,7 +909,7 @@
             }
           ],
           "error": null,
-          "scheme_used": "http",
+          "scheme_used": "https",
           "is_final": false
         },
         {
@@ -1029,20 +1029,11 @@
         {
           "domain": "slotsaiboon.com",
           "requested_url": "https://slotsaiboon.com",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://slotsaiboon.casino/",
-          "redirect_chain": [
-            {
-              "url": "https://slotsaiboon.com/",
-              "status_code": 301
-            },
-            {
-              "url": "https://slotsaiboon.casino/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "SSL error: HTTPSConnectionPool(host='slotsaiboon.casino', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))",
           "scheme_used": "https",
           "is_final": false
         },
@@ -1065,20 +1056,11 @@
         {
           "domain": "slotsaiboon.vip",
           "requested_url": "https://slotsaiboon.vip",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://slotsaiboon.casino/",
-          "redirect_chain": [
-            {
-              "url": "https://slotsaiboon.vip/",
-              "status_code": 301
-            },
-            {
-              "url": "https://slotsaiboon.casino/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "SSL error: HTTPSConnectionPool(host='slotsaiboon.casino', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))",
           "scheme_used": "https",
           "is_final": false
         },
@@ -1086,16 +1068,16 @@
           "domain": "slotsaiboon.casino",
           "requested_url": "https://slotsaiboon.casino",
           "ok": true,
-          "status_code": 200,
-          "final_url": "https://slotsaiboon.casino/",
+          "status_code": 403,
+          "final_url": "http://slotsaiboon.casino/",
           "redirect_chain": [
             {
-              "url": "https://slotsaiboon.casino/",
-              "status_code": 200
+              "url": "http://slotsaiboon.casino/",
+              "status_code": 403
             }
           ],
           "error": null,
-          "scheme_used": "https",
+          "scheme_used": "http",
           "is_final": false
         },
         {
