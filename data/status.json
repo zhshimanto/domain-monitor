@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-09-04 17:56:33 UTC",
+  "last_checked_utc": "2026-09-05 07:15:37 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -897,14 +897,14 @@
           "requested_url": "https://pacvip.co",
           "ok": true,
           "status_code": 200,
-          "final_url": "http://ww19.pacvip.co",
+          "final_url": "http://ww547.pacvip.co",
           "redirect_chain": [
             {
               "url": "https://pacvip.co/",
               "status_code": 302
             },
             {
-              "url": "http://ww19.pacvip.co",
+              "url": "http://ww547.pacvip.co",
               "status_code": 200
             }
           ],
@@ -991,12 +991,12 @@
           "domain": "pac168.org",
           "requested_url": "https://pac168.org",
           "ok": true,
-          "status_code": 403,
+          "status_code": 200,
           "final_url": "http://pac168.org/",
           "redirect_chain": [
             {
               "url": "http://pac168.org/",
-              "status_code": 403
+              "status_code": 200
             }
           ],
           "error": null,
@@ -1749,16 +1749,11 @@
         {
           "domain": "hubhengjing888.app",
           "requested_url": "https://hubhengjing888.app",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://hubhengjing888.app/",
-          "redirect_chain": [
-            {
-              "url": "https://hubhengjing888.app/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Timed out after 10s",
           "scheme_used": "https",
           "is_final": false
         },
