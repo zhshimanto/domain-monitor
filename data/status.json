@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-09-05 07:15:37 UTC",
+  "last_checked_utc": "2026-09-05 17:02:49 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -897,14 +897,14 @@
           "requested_url": "https://pacvip.co",
           "ok": true,
           "status_code": 200,
-          "final_url": "http://ww547.pacvip.co",
+          "final_url": "http://ww19.pacvip.co",
           "redirect_chain": [
             {
               "url": "https://pacvip.co/",
               "status_code": 302
             },
             {
-              "url": "http://ww547.pacvip.co",
+              "url": "http://ww19.pacvip.co",
               "status_code": 200
             }
           ],
@@ -991,12 +991,12 @@
           "domain": "pac168.org",
           "requested_url": "https://pac168.org",
           "ok": true,
-          "status_code": 200,
+          "status_code": 403,
           "final_url": "http://pac168.org/",
           "redirect_chain": [
             {
               "url": "http://pac168.org/",
-              "status_code": 200
+              "status_code": 403
             }
           ],
           "error": null,
@@ -2266,14 +2266,14 @@
           "requested_url": "https://hubpgslot.dev",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://kumisslot7.vip/",
+          "final_url": "https://masterslot188.me/",
           "redirect_chain": [
             {
               "url": "https://hubpgslot.dev/",
               "status_code": 301
             },
             {
-              "url": "https://kumisslot7.vip/",
+              "url": "https://masterslot188.me/",
               "status_code": 200
             }
           ],
