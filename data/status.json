@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-09-06 07:27:48 UTC",
+  "last_checked_utc": "2026-09-06 17:26:09 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -100,11 +100,24 @@
         {
           "domain": "pgslot6.sh",
           "requested_url": "https://pgslot6.sh",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "SSL error: HTTPSConnectionPool(host='pgslotsh7.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'pgslotsh7.com'. (_ssl.c:1010)\")))",
+          "ok": true,
+          "status_code": 403,
+          "final_url": "https://pg-slot.sh/",
+          "redirect_chain": [
+            {
+              "url": "https://pgslot6.sh/",
+              "status_code": 301
+            },
+            {
+              "url": "https://pgslotsh7.com/",
+              "status_code": 301
+            },
+            {
+              "url": "https://pg-slot.sh/",
+              "status_code": 403
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
@@ -884,14 +897,14 @@
           "requested_url": "https://pacvip.co",
           "ok": true,
           "status_code": 200,
-          "final_url": "http://ww19.pacvip.co",
+          "final_url": "http://ww547.pacvip.co/?tkn=19vnMT3S",
           "redirect_chain": [
             {
               "url": "https://pacvip.co/",
               "status_code": 302
             },
             {
-              "url": "http://ww19.pacvip.co",
+              "url": "http://ww547.pacvip.co/?tkn=19vnMT3S",
               "status_code": 200
             }
           ],
@@ -1020,7 +1033,7 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "error": "SSL error: HTTPSConnectionPool(host='slotsaiboon.casino', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))",
+          "error": "Connection error: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
           "scheme_used": "https",
           "is_final": false
         },
@@ -1043,11 +1056,16 @@
         {
           "domain": "slotsaiboon.vip",
           "requested_url": "https://slotsaiboon.vip",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "SSL error: HTTPSConnectionPool(host='slotsaiboon.casino', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://slotsaiboon.vip/",
+          "redirect_chain": [
+            {
+              "url": "https://slotsaiboon.vip/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
