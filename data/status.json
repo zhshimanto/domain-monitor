@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-09-05 17:02:49 UTC",
+  "last_checked_utc": "2026-09-06 07:27:48 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -100,24 +100,11 @@
         {
           "domain": "pgslot6.sh",
           "requested_url": "https://pgslot6.sh",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://pgslotsh9.com/",
-          "redirect_chain": [
-            {
-              "url": "https://pgslot6.sh/",
-              "status_code": 301
-            },
-            {
-              "url": "https://pgslotsh7.com/",
-              "status_code": 301
-            },
-            {
-              "url": "https://pgslotsh9.com/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "SSL error: HTTPSConnectionPool(host='pgslotsh7.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'pgslotsh7.com'. (_ssl.c:1010)\")))",
           "scheme_used": "https",
           "is_final": false
         },
@@ -1749,11 +1736,16 @@
         {
           "domain": "hubhengjing888.app",
           "requested_url": "https://hubhengjing888.app",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Timed out after 10s",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://hubhengjing888.app/",
+          "redirect_chain": [
+            {
+              "url": "https://hubhengjing888.app/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
