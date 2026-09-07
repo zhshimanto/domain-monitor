@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-09-07 07:44:28 UTC",
+  "last_checked_utc": "2026-09-07 18:56:15 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -915,16 +915,11 @@
         {
           "domain": "pacvip.life",
           "requested_url": "https://pacvip.life",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://pacvip.life/",
-          "redirect_chain": [
-            {
-              "url": "https://pacvip.life/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Connection error: HTTPConnectionPool(host='pacvip.life', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='pacvip.life', port=80): Failed to resolve 'pacvip.life' ([Errno -2] Name or service not known)\"))",
           "scheme_used": "https",
           "is_final": false
         },
@@ -1754,16 +1749,11 @@
         {
           "domain": "hubhengjing888.app",
           "requested_url": "https://hubhengjing888.app",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://hubhengjing888.app/",
-          "redirect_chain": [
-            {
-              "url": "https://hubhengjing888.app/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Timed out after 10s",
           "scheme_used": "https",
           "is_final": false
         },
