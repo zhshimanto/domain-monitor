@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-09-08 07:38:00 UTC",
+  "last_checked_utc": "2026-09-08 18:13:06 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -857,16 +857,11 @@
         {
           "domain": "pacman168.in",
           "requested_url": "https://pacman168.in",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://pacman168.in/",
-          "redirect_chain": [
-            {
-              "url": "https://pacman168.in/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Connection error: HTTPConnectionPool(host='pacman168.in', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='pacman168.in', port=80): Failed to resolve 'pacman168.in' ([Errno -2] Name or service not known)\"))",
           "scheme_used": "https",
           "is_final": false
         },
@@ -897,14 +892,14 @@
           "requested_url": "https://pacvip.co",
           "ok": true,
           "status_code": 200,
-          "final_url": "http://ww19.pacvip.co",
+          "final_url": "http://ww547.pacvip.co/?tkn=19vnMT3S",
           "redirect_chain": [
             {
               "url": "https://pacvip.co/",
               "status_code": 302
             },
             {
-              "url": "http://ww19.pacvip.co",
+              "url": "http://ww547.pacvip.co/?tkn=19vnMT3S",
               "status_code": 200
             }
           ],
