@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-09-07 18:56:15 UTC",
+  "last_checked_utc": "2026-09-08 07:38:00 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -1749,11 +1749,16 @@
         {
           "domain": "hubhengjing888.app",
           "requested_url": "https://hubhengjing888.app",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Timed out after 10s",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://hubhengjing888.app/",
+          "redirect_chain": [
+            {
+              "url": "https://hubhengjing888.app/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
@@ -2266,14 +2271,14 @@
           "requested_url": "https://hubpgslot.dev",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://masterslot188.me/",
+          "final_url": "https://ringo.my/",
           "redirect_chain": [
             {
               "url": "https://hubpgslot.dev/",
               "status_code": 301
             },
             {
-              "url": "https://masterslot188.me/",
+              "url": "https://ringo.my/",
               "status_code": 200
             }
           ],
