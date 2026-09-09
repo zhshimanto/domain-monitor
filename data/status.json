@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-09-09 07:43:11 UTC",
+  "last_checked_utc": "2026-09-09 18:12:49 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -175,15 +175,15 @@
           "requested_url": "https://pgslot-to.to",
           "ok": true,
           "status_code": 200,
-          "final_url": "http://pgslot-to.to/",
+          "final_url": "https://pgslot-to.to/",
           "redirect_chain": [
             {
-              "url": "http://pgslot-to.to/",
+              "url": "https://pgslot-to.to/",
               "status_code": 200
             }
           ],
           "error": null,
-          "scheme_used": "http",
+          "scheme_used": "https",
           "is_final": false
         },
         {
@@ -1023,7 +1023,7 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "error": "Connection error: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+          "error": "SSL error: HTTPSConnectionPool(host='slotsaiboon.casino', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))",
           "scheme_used": "https",
           "is_final": false
         },
