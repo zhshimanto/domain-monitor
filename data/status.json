@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-09-08 18:13:06 UTC",
+  "last_checked_utc": "2026-09-09 07:43:11 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -892,14 +892,14 @@
           "requested_url": "https://pacvip.co",
           "ok": true,
           "status_code": 200,
-          "final_url": "http://ww547.pacvip.co/?tkn=19vnMT3S",
+          "final_url": "http://ww19.pacvip.co",
           "redirect_chain": [
             {
               "url": "https://pacvip.co/",
               "status_code": 302
             },
             {
-              "url": "http://ww547.pacvip.co/?tkn=19vnMT3S",
+              "url": "http://ww19.pacvip.co",
               "status_code": 200
             }
           ],
@@ -981,12 +981,12 @@
           "domain": "pac168.org",
           "requested_url": "https://pac168.org",
           "ok": true,
-          "status_code": 403,
+          "status_code": 200,
           "final_url": "http://pac168.org/",
           "redirect_chain": [
             {
               "url": "http://pac168.org/",
-              "status_code": 403
+              "status_code": 200
             }
           ],
           "error": null,
@@ -1023,7 +1023,7 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "error": "SSL error: HTTPSConnectionPool(host='slotsaiboon.casino', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))",
+          "error": "Connection error: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
           "scheme_used": "https",
           "is_final": false
         },
