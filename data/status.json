@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-09-10 17:58:36 UTC",
+  "last_checked_utc": "2026-09-11 07:38:30 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -2266,14 +2266,14 @@
           "requested_url": "https://hubpgslot.dev",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://15nj.org/",
+          "final_url": "https://roosterfish.media/",
           "redirect_chain": [
             {
               "url": "https://hubpgslot.dev/",
               "status_code": 301
             },
             {
-              "url": "https://15nj.org/",
+              "url": "https://roosterfish.media/",
               "status_code": 200
             }
           ],
