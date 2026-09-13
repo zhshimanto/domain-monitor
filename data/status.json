@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-09-12 17:34:30 UTC",
+  "last_checked_utc": "2026-09-13 07:51:44 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -1023,7 +1023,7 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "error": "SSL error: HTTPSConnectionPool(host='slotsaiboon.casino', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))",
+          "error": "Connection error: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
           "scheme_used": "https",
           "is_final": false
         },
