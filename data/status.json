@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-09-13 07:51:44 UTC",
+  "last_checked_utc": "2026-09-13 17:48:29 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -289,7 +289,7 @@
           "final_url": "https://slotpg.ceo/",
           "redirect_chain": [
             {
-              "url": "https://pgslot.ceo/",
+              "url": "http://pgslot.ceo/",
               "status_code": 301
             },
             {
@@ -298,7 +298,7 @@
             }
           ],
           "error": null,
-          "scheme_used": "https",
+          "scheme_used": "http",
           "is_final": false
         },
         {
@@ -401,15 +401,15 @@
           "requested_url": "https://slotpromax.club",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://slotpromax.club/",
+          "final_url": "http://slotpromax.club/",
           "redirect_chain": [
             {
-              "url": "https://slotpromax.club/",
+              "url": "http://slotpromax.club/",
               "status_code": 200
             }
           ],
           "error": null,
-          "scheme_used": "https",
+          "scheme_used": "http",
           "is_final": false
         },
         {
@@ -836,15 +836,15 @@
           "requested_url": "https://rsggames.org",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://rsggames.org/",
+          "final_url": "http://rsggames.org/",
           "redirect_chain": [
             {
-              "url": "https://rsggames.org/",
+              "url": "http://rsggames.org/",
               "status_code": 200
             }
           ],
           "error": null,
-          "scheme_used": "https",
+          "scheme_used": "http",
           "is_final": true
         }
       ]
@@ -1023,7 +1023,7 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "error": "Connection error: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+          "error": "SSL error: HTTPSConnectionPool(host='slotsaiboon.casino', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))",
           "scheme_used": "https",
           "is_final": false
         },
@@ -1094,7 +1094,7 @@
           "final_url": "https://slotsaiboon6.com/",
           "redirect_chain": [
             {
-              "url": "https://slotsaiboon.guru/",
+              "url": "http://slotsaiboon.guru/",
               "status_code": 301
             },
             {
@@ -1115,7 +1115,7 @@
             }
           ],
           "error": null,
-          "scheme_used": "https",
+          "scheme_used": "http",
           "is_final": false
         },
         {
@@ -1126,7 +1126,7 @@
           "final_url": "https://slotsaiboon6.com/",
           "redirect_chain": [
             {
-              "url": "https://slotsaiboon.plus/",
+              "url": "http://slotsaiboon.plus/",
               "status_code": 301
             },
             {
@@ -1143,7 +1143,7 @@
             }
           ],
           "error": null,
-          "scheme_used": "https",
+          "scheme_used": "http",
           "is_final": false
         },
         {
@@ -1307,7 +1307,7 @@
           "final_url": "https://pgslotin.tech/",
           "redirect_chain": [
             {
-              "url": "https://pgslot2.in/",
+              "url": "http://pgslot2.in/",
               "status_code": 301
             },
             {
@@ -1316,7 +1316,7 @@
             }
           ],
           "error": null,
-          "scheme_used": "https",
+          "scheme_used": "http",
           "is_final": false
         },
         {
@@ -1744,16 +1744,11 @@
         {
           "domain": "hubhengjing888.app",
           "requested_url": "https://hubhengjing888.app",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://hubhengjing888.app/",
-          "redirect_chain": [
-            {
-              "url": "https://hubhengjing888.app/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Timed out after 10s",
           "scheme_used": "https",
           "is_final": false
         },
@@ -2117,15 +2112,15 @@
           "requested_url": "https://slot1111.quest",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://slot1111.quest/",
+          "final_url": "http://slot1111.quest/",
           "redirect_chain": [
             {
-              "url": "https://slot1111.quest/",
+              "url": "http://slot1111.quest/",
               "status_code": 200
             }
           ],
           "error": null,
-          "scheme_used": "https",
+          "scheme_used": "http",
           "is_final": false
         },
         {
@@ -2216,7 +2211,7 @@
           "final_url": "https://vip.hubslotxo.buzz/",
           "redirect_chain": [
             {
-              "url": "https://vip.hubslotxo4.com/",
+              "url": "http://vip.hubslotxo4.com/",
               "status_code": 301
             },
             {
@@ -2229,7 +2224,7 @@
             }
           ],
           "error": null,
-          "scheme_used": "https",
+          "scheme_used": "http",
           "is_final": true
         }
       ]
@@ -2266,14 +2261,14 @@
           "requested_url": "https://hubpgslot.dev",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://roosterfish.media/",
+          "final_url": "https://cibef.com.mx/",
           "redirect_chain": [
             {
               "url": "https://hubpgslot.dev/",
               "status_code": 301
             },
             {
-              "url": "https://roosterfish.media/",
+              "url": "https://cibef.com.mx/",
               "status_code": 200
             }
           ],
