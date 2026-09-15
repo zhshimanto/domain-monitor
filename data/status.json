@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-09-15 08:15:01 UTC",
+  "last_checked_utc": "2026-09-15 18:38:09 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -194,7 +194,7 @@
           "final_url": "https://pg-slot-to.to/",
           "redirect_chain": [
             {
-              "url": "http://pg-slotto.to/",
+              "url": "https://pg-slotto.to/",
               "status_code": 301
             },
             {
@@ -211,7 +211,7 @@
             }
           ],
           "error": null,
-          "scheme_used": "http",
+          "scheme_used": "https",
           "is_final": false
         },
         {
@@ -436,7 +436,7 @@
           "final_url": "https://slotpromax.club/",
           "redirect_chain": [
             {
-              "url": "http://slotpromax.com/",
+              "url": "https://slotpromax.com/",
               "status_code": 301
             },
             {
@@ -457,7 +457,7 @@
             }
           ],
           "error": null,
-          "scheme_used": "http",
+          "scheme_used": "https",
           "is_final": false
         },
         {
@@ -512,7 +512,7 @@
           "final_url": "https://slotpromax.club/",
           "redirect_chain": [
             {
-              "url": "http://slotpromax.vip/",
+              "url": "https://slotpromax.vip/",
               "status_code": 301
             },
             {
@@ -529,7 +529,7 @@
             }
           ],
           "error": null,
-          "scheme_used": "http",
+          "scheme_used": "https",
           "is_final": true
         }
       ]
@@ -892,14 +892,14 @@
           "requested_url": "https://pacvip.co",
           "ok": true,
           "status_code": 200,
-          "final_url": "http://ww547.pacvip.co/?tkn=19vnMT3S",
+          "final_url": "http://ww19.pacvip.co",
           "redirect_chain": [
             {
               "url": "https://pacvip.co/",
               "status_code": 302
             },
             {
-              "url": "http://ww547.pacvip.co/?tkn=19vnMT3S",
+              "url": "http://ww19.pacvip.co",
               "status_code": 200
             }
           ],
@@ -981,12 +981,12 @@
           "domain": "pac168.org",
           "requested_url": "https://pac168.org",
           "ok": true,
-          "status_code": 200,
+          "status_code": 403,
           "final_url": "http://pac168.org/",
           "redirect_chain": [
             {
               "url": "http://pac168.org/",
-              "status_code": 200
+              "status_code": 403
             }
           ],
           "error": null,
@@ -1427,7 +1427,7 @@
           "final_url": "https://pgslotin.tech/",
           "redirect_chain": [
             {
-              "url": "http://pgslot6.in/",
+              "url": "https://pgslot6.in/",
               "status_code": 301
             },
             {
@@ -1436,7 +1436,7 @@
             }
           ],
           "error": null,
-          "scheme_used": "http",
+          "scheme_used": "https",
           "is_final": false
         },
         {
@@ -1744,11 +1744,16 @@
         {
           "domain": "hubhengjing888.app",
           "requested_url": "https://hubhengjing888.app",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Timed out after 10s",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://hubhengjing888.app/",
+          "redirect_chain": [
+            {
+              "url": "https://hubhengjing888.app/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
@@ -2063,7 +2068,7 @@
           "final_url": "https://slot1111.city/",
           "redirect_chain": [
             {
-              "url": "http://slot1111.news/",
+              "url": "https://slot1111.news/",
               "status_code": 301
             },
             {
@@ -2080,7 +2085,7 @@
             }
           ],
           "error": null,
-          "scheme_used": "http",
+          "scheme_used": "https",
           "is_final": false
         },
         {
@@ -2295,7 +2300,7 @@
           "final_url": "https://hubpgslot.beer/",
           "redirect_chain": [
             {
-              "url": "http://hubpgslot.love/",
+              "url": "https://hubpgslot.love/",
               "status_code": 301
             },
             {
@@ -2320,7 +2325,7 @@
             }
           ],
           "error": null,
-          "scheme_used": "http",
+          "scheme_used": "https",
           "is_final": false
         },
         {
