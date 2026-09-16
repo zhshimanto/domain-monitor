@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-09-15 18:38:09 UTC",
+  "last_checked_utc": "2026-09-16 08:08:41 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -892,14 +892,14 @@
           "requested_url": "https://pacvip.co",
           "ok": true,
           "status_code": 200,
-          "final_url": "http://ww19.pacvip.co",
+          "final_url": "http://ww547.pacvip.co/?tkn=19vnMT3S",
           "redirect_chain": [
             {
               "url": "https://pacvip.co/",
               "status_code": 302
             },
             {
-              "url": "http://ww19.pacvip.co",
+              "url": "http://ww547.pacvip.co/?tkn=19vnMT3S",
               "status_code": 200
             }
           ],
@@ -923,7 +923,7 @@
           "requested_url": "https://pacvip.online",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://pacvip.fun/",
+          "final_url": "https://pacvip.me/",
           "redirect_chain": [
             {
               "url": "https://pacvip.online/",
@@ -931,6 +931,10 @@
             },
             {
               "url": "https://pacvip.fun/",
+              "status_code": 301
+            },
+            {
+              "url": "https://pacvip.me/",
               "status_code": 200
             }
           ],
@@ -959,10 +963,14 @@
           "requested_url": "https://pacvip.fun",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://pacvip.fun/",
+          "final_url": "https://pacvip.me/",
           "redirect_chain": [
             {
               "url": "https://pacvip.fun/",
+              "status_code": 301
+            },
+            {
+              "url": "https://pacvip.me/",
               "status_code": 200
             }
           ],
@@ -2004,12 +2012,17 @@
         {
           "domain": "slot1111.casino",
           "requested_url": "https://slot1111.casino",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Connection error: HTTPConnectionPool(host='slot1111.casino', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='slot1111.casino', port=80): Failed to resolve 'slot1111.casino' ([Errno -2] Name or service not known)\"))",
-          "scheme_used": "https",
+          "ok": true,
+          "status_code": 403,
+          "final_url": "http://slot1111.casino/",
+          "redirect_chain": [
+            {
+              "url": "http://slot1111.casino/",
+              "status_code": 403
+            }
+          ],
+          "error": null,
+          "scheme_used": "http",
           "is_final": false
         },
         {
@@ -2288,7 +2301,7 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "error": "Connection error: HTTPConnectionPool(host='hubpgslot.biz%20(true)', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='hubpgslot.biz%20(true)', port=80): Failed to resolve 'hubpgslot.biz%20(true)' ([Errno -2] Name or service not known)\"))",
+          "error": "Request failed: Failed to parse: Host 'hubpgslot.biz (True)' contains invalid character ' '",
           "scheme_used": "https",
           "is_final": false
         },
