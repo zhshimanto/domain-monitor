@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-09-17 08:15:27 UTC",
+  "last_checked_utc": "2026-09-17 18:42:33 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -155,7 +155,7 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "error": "Connection error: HTTPSConnectionPool(host='pgslot1.to', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='pgslot1.to', port=443): Failed to resolve 'pgslot1.to' ([Errno -2] Name or service not known)\"))",
+          "error": "Connection error: HTTPSConnectionPool(host='pgslot1.to', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='pgslot1.to', port=443): Failed to resolve 'pgslot1.to' ([Errno -5] No address associated with hostname)\"))",
           "scheme_used": "https",
           "is_final": false
         },
@@ -166,7 +166,7 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "error": "Connection error: HTTPConnectionPool(host='pgslot1.to', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='pgslot1.to', port=80): Failed to resolve 'pgslot1.to' ([Errno -2] Name or service not known)\"))",
+          "error": "Connection error: HTTPConnectionPool(host='pgslot1.to', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='pgslot1.to', port=80): Failed to resolve 'pgslot1.to' ([Errno -5] No address associated with hostname)\"))",
           "scheme_used": "https",
           "is_final": false
         },
@@ -892,14 +892,14 @@
           "requested_url": "https://pacvip.co",
           "ok": true,
           "status_code": 200,
-          "final_url": "http://ww547.pacvip.co/?tkn=19vnMT3S",
+          "final_url": "http://ww19.pacvip.co",
           "redirect_chain": [
             {
               "url": "https://pacvip.co/",
               "status_code": 302
             },
             {
-              "url": "http://ww547.pacvip.co/?tkn=19vnMT3S",
+              "url": "http://ww19.pacvip.co",
               "status_code": 200
             }
           ],
@@ -1752,16 +1752,11 @@
         {
           "domain": "hubhengjing888.app",
           "requested_url": "https://hubhengjing888.app",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://hubhengjing888.app/",
-          "redirect_chain": [
-            {
-              "url": "https://hubhengjing888.app/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Timed out after 10s",
           "scheme_used": "https",
           "is_final": false
         },
