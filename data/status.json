@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-09-18 07:49:16 UTC",
+  "last_checked_utc": "2026-09-18 17:58:56 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -151,33 +151,52 @@
         {
           "domain": "pgslott.to",
           "requested_url": "https://pgslott.to",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Connection error: HTTPSConnectionPool(host='pgslot1.to', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='pgslot1.to', port=443): Failed to resolve 'pgslot1.to' ([Errno -5] No address associated with hostname)\"))",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://pgslot1.to/",
+          "redirect_chain": [
+            {
+              "url": "https://pgslott.to/",
+              "status_code": 301
+            },
+            {
+              "url": "https://pgslot1.to/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
         {
           "domain": "pgslot1.to",
           "requested_url": "https://pgslot1.to",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Connection error: HTTPConnectionPool(host='pgslot1.to', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='pgslot1.to', port=80): Failed to resolve 'pgslot1.to' ([Errno -5] No address associated with hostname)\"))",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://pgslot1.to/",
+          "redirect_chain": [
+            {
+              "url": "https://pgslot1.to/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
         {
           "domain": "pgslot-to.to",
           "requested_url": "https://pgslot-to.to",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Connection error: HTTPConnectionPool(host='pgslot-to.to', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='pgslot-to.to', port=80): Failed to resolve 'pgslot-to.to' ([Errno -3] Temporary failure in name resolution)\"))",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://pgslot-to.to/",
+          "redirect_chain": [
+            {
+              "url": "https://pgslot-to.to/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
@@ -886,7 +905,7 @@
           "domain": "pacvip.co",
           "requested_url": "https://pacvip.co",
           "ok": true,
-          "status_code": 504,
+          "status_code": 200,
           "final_url": "http://ww19.pacvip.co",
           "redirect_chain": [
             {
@@ -895,7 +914,7 @@
             },
             {
               "url": "http://ww19.pacvip.co",
-              "status_code": 504
+              "status_code": 200
             }
           ],
           "error": null,
@@ -2274,14 +2293,14 @@
           "requested_url": "https://hubpgslot.dev",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://mach1.my/",
+          "final_url": "https://bd-sm.nl/",
           "redirect_chain": [
             {
               "url": "https://hubpgslot.dev/",
               "status_code": 301
             },
             {
-              "url": "https://mach1.my/",
+              "url": "https://bd-sm.nl/",
               "status_code": 200
             }
           ],
