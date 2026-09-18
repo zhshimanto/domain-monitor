@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-09-17 18:42:33 UTC",
+  "last_checked_utc": "2026-09-18 07:49:16 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -173,16 +173,11 @@
         {
           "domain": "pgslot-to.to",
           "requested_url": "https://pgslot-to.to",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://pgslot-to.to/",
-          "redirect_chain": [
-            {
-              "url": "https://pgslot-to.to/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Connection error: HTTPConnectionPool(host='pgslot-to.to', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='pgslot-to.to', port=80): Failed to resolve 'pgslot-to.to' ([Errno -3] Temporary failure in name resolution)\"))",
           "scheme_used": "https",
           "is_final": false
         },
@@ -891,7 +886,7 @@
           "domain": "pacvip.co",
           "requested_url": "https://pacvip.co",
           "ok": true,
-          "status_code": 200,
+          "status_code": 504,
           "final_url": "http://ww19.pacvip.co",
           "redirect_chain": [
             {
@@ -900,7 +895,7 @@
             },
             {
               "url": "http://ww19.pacvip.co",
-              "status_code": 200
+              "status_code": 504
             }
           ],
           "error": null,
@@ -1752,11 +1747,16 @@
         {
           "domain": "hubhengjing888.app",
           "requested_url": "https://hubhengjing888.app",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Timed out after 10s",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://hubhengjing888.app/",
+          "redirect_chain": [
+            {
+              "url": "https://hubhengjing888.app/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
