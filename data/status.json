@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-09-19 07:41:33 UTC",
+  "last_checked_utc": "2026-09-19 17:37:54 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -906,10 +906,14 @@
           "requested_url": "https://pacvip.co",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://pacvip.co/",
+          "final_url": "http://ww547.pacvip.co/?tkn=19vnMT3S",
           "redirect_chain": [
             {
               "url": "https://pacvip.co/",
+              "status_code": 302
+            },
+            {
+              "url": "http://ww547.pacvip.co/?tkn=19vnMT3S",
               "status_code": 200
             }
           ],
@@ -1112,7 +1116,7 @@
           "final_url": "https://slotsaiboon6.com/",
           "redirect_chain": [
             {
-              "url": "https://slotsaiboon.guru/",
+              "url": "http://slotsaiboon.guru/",
               "status_code": 301
             },
             {
@@ -1133,7 +1137,7 @@
             }
           ],
           "error": null,
-          "scheme_used": "https",
+          "scheme_used": "http",
           "is_final": false
         },
         {
@@ -1485,6 +1489,10 @@
           "final_url": "https://pgslotin.tech/",
           "redirect_chain": [
             {
+              "url": "http://continuumbooks.com/",
+              "status_code": 301
+            },
+            {
               "url": "https://continuumbooks.com/",
               "status_code": 301
             },
@@ -1494,7 +1502,7 @@
             }
           ],
           "error": null,
-          "scheme_used": "https",
+          "scheme_used": "http",
           "is_final": false
         },
         {
@@ -1826,7 +1834,7 @@
           "final_url": "https://hubhengjing888.today/",
           "redirect_chain": [
             {
-              "url": "https://hubhengjing888.guru/",
+              "url": "http://hubhengjing888.guru/",
               "status_code": 301
             },
             {
@@ -1851,7 +1859,7 @@
             }
           ],
           "error": null,
-          "scheme_used": "https",
+          "scheme_used": "http",
           "is_final": false
         },
         {
@@ -1988,19 +1996,24 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "error": "Connection error: HTTPSConnectionPool(host='slot1111.life', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='slot1111.life', port=443): Failed to resolve 'slot1111.life' ([Errno -2] Name or service not known)\"))",
+          "error": "Connection error: HTTPSConnectionPool(host='slot1111.life', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='slot1111.life', port=443) at 0x7f952aeabd40>, 'Connection to slot1111.life timed out. (connect timeout=10)'))",
           "scheme_used": "https",
           "is_final": false
         },
         {
           "domain": "slot1111.life",
           "requested_url": "https://slot1111.life",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Connection error: HTTPConnectionPool(host='slot1111.life', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='slot1111.life', port=80): Failed to resolve 'slot1111.life' ([Errno -2] Name or service not known)\"))",
-          "scheme_used": "https",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "http://slot1111.life/",
+          "redirect_chain": [
+            {
+              "url": "http://slot1111.life/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
+          "scheme_used": "http",
           "is_final": false
         },
         {
@@ -2435,7 +2448,7 @@
           "final_url": "https://hubpgslot.beer/",
           "redirect_chain": [
             {
-              "url": "https://hubpgslot.marketing/",
+              "url": "http://hubpgslot.marketing/",
               "status_code": 301
             },
             {
@@ -2448,7 +2461,7 @@
             }
           ],
           "error": null,
-          "scheme_used": "https",
+          "scheme_used": "http",
           "is_final": true
         }
       ]
