@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-09-19 17:37:54 UTC",
+  "last_checked_utc": "2026-09-20 08:08:56 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -1116,7 +1116,7 @@
           "final_url": "https://slotsaiboon6.com/",
           "redirect_chain": [
             {
-              "url": "http://slotsaiboon.guru/",
+              "url": "https://slotsaiboon.guru/",
               "status_code": 301
             },
             {
@@ -1137,7 +1137,7 @@
             }
           ],
           "error": null,
-          "scheme_used": "http",
+          "scheme_used": "https",
           "is_final": false
         },
         {
@@ -1489,10 +1489,6 @@
           "final_url": "https://pgslotin.tech/",
           "redirect_chain": [
             {
-              "url": "http://continuumbooks.com/",
-              "status_code": 301
-            },
-            {
               "url": "https://continuumbooks.com/",
               "status_code": 301
             },
@@ -1502,7 +1498,7 @@
             }
           ],
           "error": null,
-          "scheme_used": "http",
+          "scheme_used": "https",
           "is_final": false
         },
         {
@@ -1834,7 +1830,7 @@
           "final_url": "https://hubhengjing888.today/",
           "redirect_chain": [
             {
-              "url": "http://hubhengjing888.guru/",
+              "url": "https://hubhengjing888.guru/",
               "status_code": 301
             },
             {
@@ -1859,7 +1855,7 @@
             }
           ],
           "error": null,
-          "scheme_used": "http",
+          "scheme_used": "https",
           "is_final": false
         },
         {
@@ -1996,7 +1992,7 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "error": "Connection error: HTTPSConnectionPool(host='slot1111.life', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='slot1111.life', port=443) at 0x7f952aeabd40>, 'Connection to slot1111.life timed out. (connect timeout=10)'))",
+          "error": "Connection error: HTTPSConnectionPool(host='slot1111.life', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='slot1111.life', port=443) at 0x7f2e831458e0>, 'Connection to slot1111.life timed out. (connect timeout=10)'))",
           "scheme_used": "https",
           "is_final": false
         },
@@ -2448,7 +2444,7 @@
           "final_url": "https://hubpgslot.beer/",
           "redirect_chain": [
             {
-              "url": "http://hubpgslot.marketing/",
+              "url": "https://hubpgslot.marketing/",
               "status_code": 301
             },
             {
@@ -2461,7 +2457,7 @@
             }
           ],
           "error": null,
-          "scheme_used": "http",
+          "scheme_used": "https",
           "is_final": true
         }
       ]
