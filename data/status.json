@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-09-21 19:49:18 UTC",
+  "last_checked_utc": "2026-09-22 08:06:43 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -906,14 +906,14 @@
           "requested_url": "https://pacvip.co",
           "ok": true,
           "status_code": 200,
-          "final_url": "http://ww19.pacvip.co",
+          "final_url": "http://ww547.pacvip.co/?tkn=19vnMT3S",
           "redirect_chain": [
             {
               "url": "https://pacvip.co/",
               "status_code": 302
             },
             {
-              "url": "http://ww19.pacvip.co",
+              "url": "http://ww547.pacvip.co/?tkn=19vnMT3S",
               "status_code": 200
             }
           ],
@@ -2336,36 +2336,11 @@
         {
           "domain": "hubpgslot.love",
           "requested_url": "https://hubpgslot.love",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://hubpgslot.beer/",
-          "redirect_chain": [
-            {
-              "url": "https://hubpgslot.love/",
-              "status_code": 301
-            },
-            {
-              "url": "https://hubpgslot.fyi/",
-              "status_code": 301
-            },
-            {
-              "url": "https://hubpgslot.tech/",
-              "status_code": 301
-            },
-            {
-              "url": "https://hubpgslot.marketing/",
-              "status_code": 301
-            },
-            {
-              "url": "https://hubpgslot.shop/",
-              "status_code": 301
-            },
-            {
-              "url": "https://hubpgslot.beer/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Timed out after 10s",
           "scheme_used": "https",
           "is_final": false
         },
