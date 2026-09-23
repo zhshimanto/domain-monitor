@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-09-23 08:08:54 UTC",
+  "last_checked_utc": "2026-09-23 18:45:11 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -152,20 +152,16 @@
           "domain": "pgslott.to",
           "requested_url": "https://pgslott.to",
           "ok": true,
-          "status_code": 200,
-          "final_url": "https://pgslot789slot.vip/",
+          "status_code": 403,
+          "final_url": "https://pgslotto.win/",
           "redirect_chain": [
             {
               "url": "https://pgslott.to/",
               "status_code": 301
             },
             {
-              "url": "https://pgslot1.to/",
-              "status_code": 301
-            },
-            {
-              "url": "https://pgslot789slot.vip/",
-              "status_code": 200
+              "url": "https://pgslotto.win/",
+              "status_code": 403
             }
           ],
           "error": null,
@@ -213,22 +209,14 @@
           "requested_url": "https://pg-slotto.to",
           "ok": true,
           "status_code": 403,
-          "final_url": "https://pg-slot-to.to/",
+          "final_url": "https://pgslotto.win/",
           "redirect_chain": [
             {
               "url": "https://pg-slotto.to/",
               "status_code": 301
             },
             {
-              "url": "https://playpgslot1.to/",
-              "status_code": 301
-            },
-            {
-              "url": "https://pgslotto.to/",
-              "status_code": 301
-            },
-            {
-              "url": "https://pg-slot-to.to/",
+              "url": "https://pgslotto.win/",
               "status_code": 403
             }
           ],
@@ -241,7 +229,7 @@
           "requested_url": "https://playpgslot1.to",
           "ok": true,
           "status_code": 403,
-          "final_url": "https://pg-slot-to.to/",
+          "final_url": "https://pgslotto.win/",
           "redirect_chain": [
             {
               "url": "https://playpgslot1.to/",
@@ -253,6 +241,10 @@
             },
             {
               "url": "https://pg-slot-to.to/",
+              "status_code": 301
+            },
+            {
+              "url": "https://pgslotto.win/",
               "status_code": 403
             }
           ],
@@ -265,7 +257,7 @@
           "requested_url": "https://pgslotto.to",
           "ok": true,
           "status_code": 403,
-          "final_url": "https://pg-slot-to.to/",
+          "final_url": "https://pgslotto.win/",
           "redirect_chain": [
             {
               "url": "https://pgslotto.to/",
@@ -273,6 +265,10 @@
             },
             {
               "url": "https://pg-slot-to.to/",
+              "status_code": 301
+            },
+            {
+              "url": "https://pgslotto.win/",
               "status_code": 403
             }
           ],
@@ -285,10 +281,14 @@
           "requested_url": "https://pg-slot-to.to",
           "ok": true,
           "status_code": 403,
-          "final_url": "https://pg-slot-to.to/",
+          "final_url": "https://pgslotto.win/",
           "redirect_chain": [
             {
               "url": "https://pg-slot-to.to/",
+              "status_code": 301
+            },
+            {
+              "url": "https://pgslotto.win/",
               "status_code": 403
             }
           ],
