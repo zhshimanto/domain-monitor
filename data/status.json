@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-09-22 18:26:03 UTC",
+  "last_checked_utc": "2026-09-23 08:08:54 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -2273,20 +2273,11 @@
         {
           "domain": "hubpgslot.dev",
           "requested_url": "https://hubpgslot.dev",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://uu88-mb66.com/",
-          "redirect_chain": [
-            {
-              "url": "https://hubpgslot.dev/",
-              "status_code": 301
-            },
-            {
-              "url": "https://uu88-mb66.com/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Connection error: HTTPConnectionPool(host='hubpgslot.dev', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='hubpgslot.dev', port=80): Failed to resolve 'hubpgslot.dev' ([Errno -5] No address associated with hostname)\"))",
           "scheme_used": "https",
           "is_final": false
         },
