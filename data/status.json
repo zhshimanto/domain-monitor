@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-09-24 18:45:45 UTC",
+  "last_checked_utc": "2026-09-25 08:24:01 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -1053,7 +1053,7 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "error": "SSL error: HTTPSConnectionPool(host='slotsaiboon.casino', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))",
+          "error": "Connection error: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
           "scheme_used": "https",
           "is_final": false
         },
@@ -1727,16 +1727,11 @@
         {
           "domain": "hubhengjing888.in",
           "requested_url": "https://hubhengjing888.in",
-          "ok": true,
-          "status_code": 404,
-          "final_url": "https://hubhengjing888.in/",
-          "redirect_chain": [
-            {
-              "url": "https://hubhengjing888.in/",
-              "status_code": 404
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Timed out after 10s",
           "scheme_used": "https",
           "is_final": false
         },
@@ -1754,11 +1749,16 @@
         {
           "domain": "hubhengjing888.app",
           "requested_url": "https://hubhengjing888.app",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Timed out after 10s",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://hubhengjing888.app/",
+          "redirect_chain": [
+            {
+              "url": "https://hubhengjing888.app/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
@@ -2294,7 +2294,7 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "error": "Connection error: HTTPSConnectionPool(host='hubpgslot.shop', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='hubpgslot.shop', port=443): Failed to resolve 'hubpgslot.shop' ([Errno -2] Name or service not known)\"))",
+          "error": "Timed out after 10s",
           "scheme_used": "https",
           "is_final": false
         },
@@ -2312,22 +2312,60 @@
         {
           "domain": "hubpgslot.fyi",
           "requested_url": "https://hubpgslot.fyi",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Connection error: HTTPSConnectionPool(host='hubpgslot.shop', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='hubpgslot.shop', port=443): Failed to resolve 'hubpgslot.shop' ([Errno -2] Name or service not known)\"))",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://hubpgslot.beer/",
+          "redirect_chain": [
+            {
+              "url": "https://hubpgslot.fyi/",
+              "status_code": 301
+            },
+            {
+              "url": "https://hubpgslot.tech/",
+              "status_code": 301
+            },
+            {
+              "url": "https://hubpgslot.marketing/",
+              "status_code": 301
+            },
+            {
+              "url": "https://hubpgslot.shop/",
+              "status_code": 301
+            },
+            {
+              "url": "https://hubpgslot.beer/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
         {
           "domain": "hubpgslot.tech",
           "requested_url": "https://hubpgslot.tech",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Connection error: HTTPSConnectionPool(host='hubpgslot.shop', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='hubpgslot.shop', port=443): Failed to resolve 'hubpgslot.shop' ([Errno -2] Name or service not known)\"))",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://hubpgslot.beer/",
+          "redirect_chain": [
+            {
+              "url": "https://hubpgslot.tech/",
+              "status_code": 301
+            },
+            {
+              "url": "https://hubpgslot.marketing/",
+              "status_code": 301
+            },
+            {
+              "url": "https://hubpgslot.shop/",
+              "status_code": 301
+            },
+            {
+              "url": "https://hubpgslot.beer/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
@@ -2338,7 +2376,7 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "error": "Connection error: HTTPSConnectionPool(host='hubpgslot.shop', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='hubpgslot.shop', port=443): Failed to resolve 'hubpgslot.shop' ([Errno -2] Name or service not known)\"))",
+          "error": "Timed out after 10s",
           "scheme_used": "https",
           "is_final": true
         }
