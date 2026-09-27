@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-09-26 18:11:40 UTC",
+  "last_checked_utc": "2026-09-27 08:47:42 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -173,14 +173,14 @@
           "requested_url": "https://pgslot1.to",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://pgslot789slot.vip/",
+          "final_url": "https://789slots.top/",
           "redirect_chain": [
             {
               "url": "https://pgslot1.to/",
               "status_code": 301
             },
             {
-              "url": "https://pgslot789slot.vip/",
+              "url": "https://789slots.top/",
               "status_code": 200
             }
           ],
@@ -1055,17 +1055,12 @@
         {
           "domain": "slotsaiboon.fun",
           "requested_url": "https://slotsaiboon.fun",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "http://slotsaiboon.fun/",
-          "redirect_chain": [
-            {
-              "url": "http://slotsaiboon.fun/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
-          "scheme_used": "http",
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Connection error: HTTPConnectionPool(host='slotsaiboon.fun', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='slotsaiboon.fun', port=80): Failed to resolve 'slotsaiboon.fun' ([Errno -2] Name or service not known)\"))",
+          "scheme_used": "https",
           "is_final": false
         },
         {
