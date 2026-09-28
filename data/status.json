@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-09-28 09:11:46 UTC",
+  "last_checked_utc": "2026-09-28 20:58:05 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -171,20 +171,11 @@
         {
           "domain": "pgslot1.to",
           "requested_url": "https://pgslot1.to",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://789slots.top/",
-          "redirect_chain": [
-            {
-              "url": "https://pgslot1.to/",
-              "status_code": 301
-            },
-            {
-              "url": "https://789slots.top/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Connection error: HTTPSConnectionPool(host='789win666.net', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='789win666.net', port=443): Failed to resolve '789win666.net' ([Errno -2] Name or service not known)\"))",
           "scheme_used": "https",
           "is_final": false
         },
@@ -652,27 +643,15 @@
           "requested_url": "https://hubbet.co",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://hubbet.online/",
+          "final_url": "http://hubbet.co/",
           "redirect_chain": [
             {
-              "url": "https://hubbet.co/",
-              "status_code": 301
-            },
-            {
-              "url": "https://hubbet.bet/",
-              "status_code": 301
-            },
-            {
-              "url": "https://hubbet.vip/",
-              "status_code": 301
-            },
-            {
-              "url": "https://hubbet.online/",
+              "url": "http://hubbet.co/",
               "status_code": 200
             }
           ],
           "error": null,
-          "scheme_used": "https",
+          "scheme_used": "http",
           "is_final": false
         },
         {
@@ -1745,12 +1724,12 @@
           "domain": "hubhengjing888.app",
           "requested_url": "https://hubhengjing888.app",
           "ok": true,
-          "status_code": 200,
+          "status_code": 500,
           "final_url": "https://hubhengjing888.app/",
           "redirect_chain": [
             {
               "url": "https://hubhengjing888.app/",
-              "status_code": 200
+              "status_code": 500
             }
           ],
           "error": null,
