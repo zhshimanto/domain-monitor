@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-09-28 20:58:05 UTC",
+  "last_checked_utc": "2026-09-29 09:20:13 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -171,11 +171,20 @@
         {
           "domain": "pgslot1.to",
           "requested_url": "https://pgslot1.to",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Connection error: HTTPSConnectionPool(host='789win666.net', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='789win666.net', port=443): Failed to resolve '789win666.net' ([Errno -2] Name or service not known)\"))",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://789win4.biz/",
+          "redirect_chain": [
+            {
+              "url": "https://pgslot1.to/",
+              "status_code": 301
+            },
+            {
+              "url": "https://789win4.biz/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
@@ -643,15 +652,15 @@
           "requested_url": "https://hubbet.co",
           "ok": true,
           "status_code": 200,
-          "final_url": "http://hubbet.co/",
+          "final_url": "https://hubbet.co/",
           "redirect_chain": [
             {
-              "url": "http://hubbet.co/",
+              "url": "https://hubbet.co/",
               "status_code": 200
             }
           ],
           "error": null,
-          "scheme_used": "http",
+          "scheme_used": "https",
           "is_final": false
         },
         {
@@ -1724,12 +1733,12 @@
           "domain": "hubhengjing888.app",
           "requested_url": "https://hubhengjing888.app",
           "ok": true,
-          "status_code": 500,
+          "status_code": 200,
           "final_url": "https://hubhengjing888.app/",
           "redirect_chain": [
             {
               "url": "https://hubhengjing888.app/",
-              "status_code": 500
+              "status_code": 200
             }
           ],
           "error": null,
