@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-09-30 19:45:26 UTC",
+  "last_checked_utc": "2026-10-01 09:38:35 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -895,20 +895,11 @@
         {
           "domain": "pacvip.co",
           "requested_url": "https://pacvip.co",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "http://ww547.pacvip.co/?tkn=19vnMT3S",
-          "redirect_chain": [
-            {
-              "url": "https://pacvip.co/",
-              "status_code": 302
-            },
-            {
-              "url": "http://ww547.pacvip.co/?tkn=19vnMT3S",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Connection error: HTTPConnectionPool(host='pacvip.co', port=80): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPConnection(host='pacvip.co', port=80): Failed to establish a new connection: [Errno 111] Connection refused\"))",
           "scheme_used": "https",
           "is_final": false
         },
@@ -1036,7 +1027,7 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "error": "Connection error: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+          "error": "SSL error: HTTPSConnectionPool(host='slotsaiboon.casino', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))",
           "scheme_used": "https",
           "is_final": false
         },
@@ -1732,11 +1723,16 @@
         {
           "domain": "hubhengjing888.app",
           "requested_url": "https://hubhengjing888.app",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Timed out after 10s",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://hubhengjing888.app/",
+          "redirect_chain": [
+            {
+              "url": "https://hubhengjing888.app/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
