@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-10-06 09:39:15 UTC",
+  "last_checked_utc": "2026-10-06 19:55:28 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -1054,16 +1054,11 @@
         {
           "domain": "slotsaiboon.vip",
           "requested_url": "https://slotsaiboon.vip",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://slotsaiboon.vip/",
-          "redirect_chain": [
-            {
-              "url": "https://slotsaiboon.vip/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "SSL error: HTTPSConnectionPool(host='slotsaiboon.casino', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))",
           "scheme_used": "https",
           "is_final": false
         },
@@ -1099,26 +1094,10 @@
           "requested_url": "https://slotsaiboon.guru",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://slotsaiboon6.com/",
+          "final_url": "https://slotsaiboon.guru/",
           "redirect_chain": [
             {
               "url": "https://slotsaiboon.guru/",
-              "status_code": 301
-            },
-            {
-              "url": "https://slotsaiboon.plus/",
-              "status_code": 301
-            },
-            {
-              "url": "https://slotsaiboon.ltd/",
-              "status_code": 301
-            },
-            {
-              "url": "https://slotsaiboon.cool/",
-              "status_code": 301
-            },
-            {
-              "url": "https://slotsaiboon6.com/",
               "status_code": 200
             }
           ],
@@ -1201,12 +1180,17 @@
         {
           "domain": "slotsaiboon4.com",
           "requested_url": "https://slotsaiboon4.com",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Connection error: HTTPConnectionPool(host='slotsaiboon4.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='slotsaiboon4.com', port=80): Failed to resolve 'slotsaiboon4.com' ([Errno -5] No address associated with hostname)\"))",
-          "scheme_used": "https",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "http://slotsaiboon4.com/",
+          "redirect_chain": [
+            {
+              "url": "http://slotsaiboon4.com/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
+          "scheme_used": "http",
           "is_final": true
         }
       ]
@@ -1970,11 +1954,16 @@
         {
           "domain": "slot1111.live",
           "requested_url": "https://slot1111.live",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Timed out after 10s",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://slot1111.live/",
+          "redirect_chain": [
+            {
+              "url": "https://slot1111.live/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
