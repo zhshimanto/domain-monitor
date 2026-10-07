@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-10-06 19:55:28 UTC",
+  "last_checked_utc": "2026-10-07 09:35:49 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -801,16 +801,11 @@
         {
           "domain": "rsggame.fun",
           "requested_url": "https://rsggame.fun",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://rsggame.fun/",
-          "redirect_chain": [
-            {
-              "url": "https://rsggame.fun/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Connection error: HTTPConnectionPool(host='rsggame.fun', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='rsggame.fun', port=80): Failed to resolve 'rsggame.fun' ([Errno -2] Name or service not known)\"))",
           "scheme_used": "https",
           "is_final": false
         },
@@ -1054,11 +1049,16 @@
         {
           "domain": "slotsaiboon.vip",
           "requested_url": "https://slotsaiboon.vip",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "SSL error: HTTPSConnectionPool(host='slotsaiboon.casino', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://slotsaiboon.vip/",
+          "redirect_chain": [
+            {
+              "url": "https://slotsaiboon.vip/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
