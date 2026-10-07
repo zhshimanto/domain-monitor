@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-10-07 09:35:49 UTC",
+  "last_checked_utc": "2026-10-07 20:21:47 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -1182,15 +1182,15 @@
           "requested_url": "https://slotsaiboon4.com",
           "ok": true,
           "status_code": 200,
-          "final_url": "http://slotsaiboon4.com/",
+          "final_url": "https://slotsaiboon4.com/",
           "redirect_chain": [
             {
-              "url": "http://slotsaiboon4.com/",
+              "url": "https://slotsaiboon4.com/",
               "status_code": 200
             }
           ],
           "error": null,
-          "scheme_used": "http",
+          "scheme_used": "https",
           "is_final": true
         }
       ]
