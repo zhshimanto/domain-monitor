@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-10-09 09:51:13 UTC",
+  "last_checked_utc": "2026-10-09 19:56:49 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -767,7 +767,7 @@
           "requested_url": "https://rsggames.co",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://rsggames.org/",
+          "final_url": "https://rsggame.app/",
           "redirect_chain": [
             {
               "url": "https://rsggames.co/",
@@ -775,6 +775,14 @@
             },
             {
               "url": "https://rsggames.org/",
+              "status_code": 301
+            },
+            {
+              "url": "https://rsggame.org/",
+              "status_code": 301
+            },
+            {
+              "url": "https://rsggame.app/",
               "status_code": 200
             }
           ],
@@ -836,10 +844,18 @@
           "requested_url": "https://rsggames.org",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://rsggames.org/",
+          "final_url": "https://rsggame.app/",
           "redirect_chain": [
             {
               "url": "https://rsggames.org/",
+              "status_code": 301
+            },
+            {
+              "url": "https://rsggame.org/",
+              "status_code": 301
+            },
+            {
+              "url": "https://rsggame.app/",
               "status_code": 200
             }
           ],
