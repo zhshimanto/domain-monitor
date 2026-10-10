@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-10-09 19:56:49 UTC",
+  "last_checked_utc": "2026-10-10 09:15:31 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -906,20 +906,11 @@
         {
           "domain": "pacvip.co",
           "requested_url": "https://pacvip.co",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "http://ww547.pacvip.co/?tkn=19vnMT3S",
-          "redirect_chain": [
-            {
-              "url": "https://pacvip.co/",
-              "status_code": 302
-            },
-            {
-              "url": "http://ww547.pacvip.co/?tkn=19vnMT3S",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Connection error: HTTPConnectionPool(host='pacvip.co', port=80): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPConnection(host='pacvip.co', port=80): Failed to establish a new connection: [Errno 111] Connection refused\"))",
           "scheme_used": "https",
           "is_final": false
         },
