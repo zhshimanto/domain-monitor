@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-10-12 10:02:36 UTC",
+  "last_checked_utc": "2026-10-12 22:19:58 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -909,20 +909,11 @@
         {
           "domain": "pacvip.co",
           "requested_url": "https://pacvip.co",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "http://ww547.pacvip.co/?tkn=19vnMT3S",
-          "redirect_chain": [
-            {
-              "url": "https://pacvip.co/",
-              "status_code": 302
-            },
-            {
-              "url": "http://ww547.pacvip.co/?tkn=19vnMT3S",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Connection error: HTTPConnectionPool(host='pacvip.co', port=80): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPConnection(host='pacvip.co', port=80): Failed to establish a new connection: [Errno 111] Connection refused\"))",
           "scheme_used": "https",
           "is_final": false
         },
@@ -942,18 +933,10 @@
           "requested_url": "https://pacvip.online",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://pacvip.me/",
+          "final_url": "https://pacvip.online/",
           "redirect_chain": [
             {
               "url": "https://pacvip.online/",
-              "status_code": 301
-            },
-            {
-              "url": "https://pacvip.fun/",
-              "status_code": 301
-            },
-            {
-              "url": "https://pacvip.me/",
               "status_code": 200
             }
           ],
@@ -965,16 +948,16 @@
           "domain": "pacvip.xyz",
           "requested_url": "https://pacvip.xyz",
           "ok": true,
-          "status_code": 404,
-          "final_url": "https://pacvip.xyz/",
+          "status_code": 200,
+          "final_url": "http://pacvip.xyz/",
           "redirect_chain": [
             {
-              "url": "https://pacvip.xyz/",
-              "status_code": 404
+              "url": "http://pacvip.xyz/",
+              "status_code": 200
             }
           ],
           "error": null,
-          "scheme_used": "https",
+          "scheme_used": "http",
           "is_final": false
         },
         {
@@ -2225,7 +2208,7 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "error": "Connection error: HTTPConnectionPool(host='hubpgslot.net', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='hubpgslot.net', port=80) at 0x7f4c17e46870>, 'Connection to hubpgslot.net timed out. (connect timeout=10)'))",
+          "error": "Connection error: HTTPConnectionPool(host='hubpgslot.net', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='hubpgslot.net', port=80) at 0x7fc276f4d610>, 'Connection to hubpgslot.net timed out. (connect timeout=10)'))",
           "scheme_used": "https",
           "is_final": false
         },
