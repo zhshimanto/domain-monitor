@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-10-12 22:19:58 UTC",
+  "last_checked_utc": "2026-10-13 09:55:07 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -909,11 +909,20 @@
         {
           "domain": "pacvip.co",
           "requested_url": "https://pacvip.co",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Connection error: HTTPConnectionPool(host='pacvip.co', port=80): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPConnection(host='pacvip.co', port=80): Failed to establish a new connection: [Errno 111] Connection refused\"))",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "http://ww547.pacvip.co/?tkn=19vnMT3S",
+          "redirect_chain": [
+            {
+              "url": "https://pacvip.co/",
+              "status_code": 302
+            },
+            {
+              "url": "http://ww547.pacvip.co/?tkn=19vnMT3S",
+              "status_code": 200
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
@@ -1051,16 +1060,11 @@
         {
           "domain": "slotsaiboon.vip",
           "requested_url": "https://slotsaiboon.vip",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://slotsaiboon.vip/",
-          "redirect_chain": [
-            {
-              "url": "https://slotsaiboon.vip/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Connection error: HTTPConnectionPool(host='slotsaiboon.vip', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='slotsaiboon.vip', port=80): Failed to resolve 'slotsaiboon.vip' ([Errno -2] Name or service not known)\"))",
           "scheme_used": "https",
           "is_final": false
         },
@@ -1957,12 +1961,12 @@
           "domain": "slot1111.live",
           "requested_url": "https://slot1111.live",
           "ok": true,
-          "status_code": 200,
+          "status_code": 520,
           "final_url": "https://slot1111.live/",
           "redirect_chain": [
             {
               "url": "https://slot1111.live/",
-              "status_code": 200
+              "status_code": 520
             }
           ],
           "error": null,
@@ -2208,7 +2212,7 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "error": "Connection error: HTTPConnectionPool(host='hubpgslot.net', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='hubpgslot.net', port=80) at 0x7fc276f4d610>, 'Connection to hubpgslot.net timed out. (connect timeout=10)'))",
+          "error": "Connection error: HTTPConnectionPool(host='hubpgslot.net', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='hubpgslot.net', port=80) at 0x7fdc4ce46540>, 'Connection to hubpgslot.net timed out. (connect timeout=10)'))",
           "scheme_used": "https",
           "is_final": false
         },
