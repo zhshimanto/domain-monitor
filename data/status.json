@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-10-15 07:52:40 UTC",
+  "last_checked_utc": "2026-10-15 18:47:41 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -676,23 +676,15 @@
           "requested_url": "https://hubbet.bet",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://hubbet.online/",
+          "final_url": "http://hubbet.bet/",
           "redirect_chain": [
             {
-              "url": "https://hubbet.bet/",
-              "status_code": 301
-            },
-            {
-              "url": "https://hubbet.vip/",
-              "status_code": 301
-            },
-            {
-              "url": "https://hubbet.online/",
+              "url": "http://hubbet.bet/",
               "status_code": 200
             }
           ],
           "error": null,
-          "scheme_used": "https",
+          "scheme_used": "http",
           "is_final": false
         },
         {
@@ -700,19 +692,15 @@
           "requested_url": "https://hubbet.vip",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://hubbet.online/",
+          "final_url": "http://hubbet.vip/",
           "redirect_chain": [
             {
-              "url": "https://hubbet.vip/",
-              "status_code": 301
-            },
-            {
-              "url": "https://hubbet.online/",
+              "url": "http://hubbet.vip/",
               "status_code": 200
             }
           ],
           "error": null,
-          "scheme_used": "https",
+          "scheme_used": "http",
           "is_final": false
         },
         {
@@ -752,15 +740,15 @@
           "requested_url": "https://hubbet.online",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://hubbet.online/",
+          "final_url": "http://hubbet.online/",
           "redirect_chain": [
             {
-              "url": "https://hubbet.online/",
+              "url": "http://hubbet.online/",
               "status_code": 200
             }
           ],
           "error": null,
-          "scheme_used": "https",
+          "scheme_used": "http",
           "is_final": true
         }
       ]
@@ -2212,7 +2200,7 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "error": "Connection error: HTTPConnectionPool(host='hubpgslot.net', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='hubpgslot.net', port=80) at 0x7f6391d66570>, 'Connection to hubpgslot.net timed out. (connect timeout=10)'))",
+          "error": "Connection error: HTTPConnectionPool(host='hubpgslot.net', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='hubpgslot.net', port=80) at 0x7fd79605aed0>, 'Connection to hubpgslot.net timed out. (connect timeout=10)'))",
           "scheme_used": "https",
           "is_final": false
         },
