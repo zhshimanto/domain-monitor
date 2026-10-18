@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-10-17 17:40:20 UTC",
+  "last_checked_utc": "2026-10-18 07:37:22 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -173,7 +173,7 @@
           "requested_url": "https://pgslot1.to",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://trix.rest/",
+          "final_url": "https://kiemthehoangkim.com/",
           "redirect_chain": [
             {
               "url": "https://pgslot1.to/",
@@ -188,7 +188,7 @@
               "status_code": 301
             },
             {
-              "url": "https://trix.rest/",
+              "url": "https://kiemthehoangkim.com/",
               "status_code": 200
             }
           ],
@@ -2200,7 +2200,7 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "error": "Connection error: HTTPConnectionPool(host='hubpgslot.net', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='hubpgslot.net', port=80) at 0x7f0f082366c0>, 'Connection to hubpgslot.net timed out. (connect timeout=10)'))",
+          "error": "Connection error: HTTPConnectionPool(host='hubpgslot.net', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='hubpgslot.net', port=80) at 0x7fdd1a6f8e90>, 'Connection to hubpgslot.net timed out. (connect timeout=10)'))",
           "scheme_used": "https",
           "is_final": false
         },
