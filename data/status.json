@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-10-18 17:41:53 UTC",
+  "last_checked_utc": "2026-10-19 08:19:33 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -1026,11 +1026,20 @@
         {
           "domain": "slotsaiboon.com",
           "requested_url": "https://slotsaiboon.com",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "SSL error: HTTPSConnectionPool(host='slotsaiboon.casino', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://slotsaiboon.casino/",
+          "redirect_chain": [
+            {
+              "url": "https://slotsaiboon.com/",
+              "status_code": 301
+            },
+            {
+              "url": "https://slotsaiboon.casino/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
@@ -1060,16 +1069,16 @@
           "domain": "slotsaiboon.casino",
           "requested_url": "https://slotsaiboon.casino",
           "ok": true,
-          "status_code": 403,
-          "final_url": "http://slotsaiboon.casino/",
+          "status_code": 200,
+          "final_url": "https://slotsaiboon.casino/",
           "redirect_chain": [
             {
-              "url": "http://slotsaiboon.casino/",
-              "status_code": 403
+              "url": "https://slotsaiboon.casino/",
+              "status_code": 200
             }
           ],
           "error": null,
-          "scheme_used": "http",
+          "scheme_used": "https",
           "is_final": false
         },
         {
@@ -2195,7 +2204,7 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "error": "Connection error: HTTPConnectionPool(host='hubpgslot.net', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='hubpgslot.net', port=80) at 0x7f231f6c3ec0>, 'Connection to hubpgslot.net timed out. (connect timeout=10)'))",
+          "error": "Connection error: HTTPConnectionPool(host='hubpgslot.net', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='hubpgslot.net', port=80) at 0x7fa9108b0710>, 'Connection to hubpgslot.net timed out. (connect timeout=10)'))",
           "scheme_used": "https",
           "is_final": false
         },
