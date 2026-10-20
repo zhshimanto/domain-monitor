@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-10-19 20:18:19 UTC",
+  "last_checked_utc": "2026-10-20 08:04:12 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -740,15 +740,15 @@
           "requested_url": "https://hubbet.online",
           "ok": true,
           "status_code": 200,
-          "final_url": "http://hubbet.online/",
+          "final_url": "https://hubbet.online/",
           "redirect_chain": [
             {
-              "url": "http://hubbet.online/",
+              "url": "https://hubbet.online/",
               "status_code": 200
             }
           ],
           "error": null,
-          "scheme_used": "http",
+          "scheme_used": "https",
           "is_final": true
         }
       ]
@@ -897,20 +897,11 @@
         {
           "domain": "pacvip.co",
           "requested_url": "https://pacvip.co",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "http://ww547.pacvip.co/?tkn=19vnMT3S",
-          "redirect_chain": [
-            {
-              "url": "https://pacvip.co/",
-              "status_code": 302
-            },
-            {
-              "url": "http://ww547.pacvip.co/?tkn=19vnMT3S",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Connection error: HTTPConnectionPool(host='pacvip.co', port=80): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPConnection(host='pacvip.co', port=80): Failed to establish a new connection: [Errno 111] Connection refused\"))",
           "scheme_used": "https",
           "is_final": false
         },
@@ -2209,7 +2200,7 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "error": "Connection error: HTTPConnectionPool(host='hubpgslot.net', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='hubpgslot.net', port=80) at 0x7f7018cd3b90>, 'Connection to hubpgslot.net timed out. (connect timeout=10)'))",
+          "error": "Connection error: HTTPConnectionPool(host='hubpgslot.net', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='hubpgslot.net', port=80) at 0x7f5d651f0530>, 'Connection to hubpgslot.net timed out. (connect timeout=10)'))",
           "scheme_used": "https",
           "is_final": false
         },
