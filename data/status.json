@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-10-20 08:04:12 UTC",
+  "last_checked_utc": "2026-10-20 18:50:41 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -173,7 +173,7 @@
           "requested_url": "https://pgslot1.to",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://kiemthehoangkim.com/",
+          "final_url": "https://twochimneys.co.uk/",
           "redirect_chain": [
             {
               "url": "https://pgslot1.to/",
@@ -188,7 +188,7 @@
               "status_code": 301
             },
             {
-              "url": "https://kiemthehoangkim.com/",
+              "url": "https://twochimneys.co.uk/",
               "status_code": 200
             }
           ],
@@ -897,11 +897,20 @@
         {
           "domain": "pacvip.co",
           "requested_url": "https://pacvip.co",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Connection error: HTTPConnectionPool(host='pacvip.co', port=80): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPConnection(host='pacvip.co', port=80): Failed to establish a new connection: [Errno 111] Connection refused\"))",
+          "ok": true,
+          "status_code": 401,
+          "final_url": "http://ww547.pacvip.co/?tkn=19vnMT3S",
+          "redirect_chain": [
+            {
+              "url": "https://pacvip.co/",
+              "status_code": 302
+            },
+            {
+              "url": "http://ww547.pacvip.co/?tkn=19vnMT3S",
+              "status_code": 401
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
@@ -1701,15 +1710,15 @@
           "requested_url": "https://hubhengjing888.club",
           "ok": true,
           "status_code": 200,
-          "final_url": "http://hubhengjing888.club/",
+          "final_url": "https://hubhengjing888.club/",
           "redirect_chain": [
             {
-              "url": "http://hubhengjing888.club/",
+              "url": "https://hubhengjing888.club/",
               "status_code": 200
             }
           ],
           "error": null,
-          "scheme_used": "http",
+          "scheme_used": "https",
           "is_final": false
         },
         {
@@ -1953,11 +1962,16 @@
         {
           "domain": "slot1111.live",
           "requested_url": "https://slot1111.live",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Timed out after 10s",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://slot1111.live/",
+          "redirect_chain": [
+            {
+              "url": "https://slot1111.live/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
@@ -2200,7 +2214,7 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "error": "Connection error: HTTPConnectionPool(host='hubpgslot.net', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='hubpgslot.net', port=80) at 0x7f5d651f0530>, 'Connection to hubpgslot.net timed out. (connect timeout=10)'))",
+          "error": "Connection error: HTTPConnectionPool(host='hubpgslot.net', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='hubpgslot.net', port=80) at 0x7f8753984950>, 'Connection to hubpgslot.net timed out. (connect timeout=10)'))",
           "scheme_used": "https",
           "is_final": false
         },
