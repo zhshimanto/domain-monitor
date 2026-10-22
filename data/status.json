@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-10-22 08:10:02 UTC",
+  "last_checked_utc": "2026-10-22 18:58:47 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -11,7 +11,7 @@
           "requested_url": "https://pgslot.sh",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://pg-slot.sh/",
+          "final_url": "https://pgslot7.sh/",
           "redirect_chain": [
             {
               "url": "https://pgslot.sh/",
@@ -19,6 +19,10 @@
             },
             {
               "url": "https://pg-slot.sh/",
+              "status_code": 301
+            },
+            {
+              "url": "https://pgslot7.sh/",
               "status_code": 200
             }
           ],
@@ -31,7 +35,7 @@
           "requested_url": "https://pgslot1.sh",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://pg-slot.sh/",
+          "final_url": "https://pgslot7.sh/",
           "redirect_chain": [
             {
               "url": "https://pgslot1.sh/",
@@ -39,6 +43,10 @@
             },
             {
               "url": "https://pg-slot.sh/",
+              "status_code": 301
+            },
+            {
+              "url": "https://pgslot7.sh/",
               "status_code": 200
             }
           ],
@@ -51,7 +59,7 @@
           "requested_url": "https://pgslot2.sh",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://pg-slot.sh/",
+          "final_url": "https://pgslot7.sh/",
           "redirect_chain": [
             {
               "url": "https://pgslot2.sh/",
@@ -59,6 +67,10 @@
             },
             {
               "url": "https://pg-slot.sh/",
+              "status_code": 301
+            },
+            {
+              "url": "https://pgslot7.sh/",
               "status_code": 200
             }
           ],
@@ -71,7 +83,7 @@
           "requested_url": "https://pgslot3.sh",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://pg-slot.sh/",
+          "final_url": "https://pgslot7.sh/",
           "redirect_chain": [
             {
               "url": "https://pgslot3.sh/",
@@ -79,6 +91,10 @@
             },
             {
               "url": "https://pg-slot.sh/",
+              "status_code": 301
+            },
+            {
+              "url": "https://pgslot7.sh/",
               "status_code": 200
             }
           ],
@@ -102,7 +118,7 @@
           "requested_url": "https://pgslot6.sh",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://pg-slot.sh/",
+          "final_url": "https://pgslot7.sh/",
           "redirect_chain": [
             {
               "url": "https://pgslot6.sh/",
@@ -114,6 +130,10 @@
             },
             {
               "url": "https://pg-slot.sh/",
+              "status_code": 301
+            },
+            {
+              "url": "https://pgslot7.sh/",
               "status_code": 200
             }
           ],
@@ -126,7 +146,7 @@
           "requested_url": "https://pgslot4.sh",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://pg-slot.sh/",
+          "final_url": "https://pgslot7.sh/",
           "redirect_chain": [
             {
               "url": "https://pgslot4.sh/",
@@ -134,6 +154,10 @@
             },
             {
               "url": "https://pg-slot.sh/",
+              "status_code": 301
+            },
+            {
+              "url": "https://pgslot7.sh/",
               "status_code": 200
             }
           ],
@@ -2222,7 +2246,7 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "error": "Connection error: HTTPConnectionPool(host='hubpgslot.net', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='hubpgslot.net', port=80) at 0x7671d86d0ec0>, 'Connection to hubpgslot.net timed out. (connect timeout=10)'))",
+          "error": "Connection error: HTTPConnectionPool(host='hubpgslot.net', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='hubpgslot.net', port=80) at 0x70c72c8c5370>, 'Connection to hubpgslot.net timed out. (connect timeout=10)'))",
           "scheme_used": "https",
           "is_final": false
         },
