@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-10-25 07:58:18 UTC",
+  "last_checked_utc": "2026-10-25 18:00:20 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -197,7 +197,7 @@
           "requested_url": "https://pgslot1.to",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://tvmrising.in/",
+          "final_url": "https://one-football.co/",
           "redirect_chain": [
             {
               "url": "https://pgslot1.to/",
@@ -212,7 +212,7 @@
               "status_code": 301
             },
             {
-              "url": "https://tvmrising.in/",
+              "url": "https://one-football.co/",
               "status_code": 200
             }
           ],
@@ -716,15 +716,15 @@
           "requested_url": "https://hubbet.vip",
           "ok": true,
           "status_code": 200,
-          "final_url": "http://hubbet.vip/",
+          "final_url": "https://hubbet.vip/",
           "redirect_chain": [
             {
-              "url": "http://hubbet.vip/",
+              "url": "https://hubbet.vip/",
               "status_code": 200
             }
           ],
           "error": null,
-          "scheme_used": "http",
+          "scheme_used": "https",
           "is_final": false
         },
         {
@@ -921,20 +921,11 @@
         {
           "domain": "pacvip.co",
           "requested_url": "https://pacvip.co",
-          "ok": true,
-          "status_code": 401,
-          "final_url": "http://ww547.pacvip.co/?tkn=19vnMT3S",
-          "redirect_chain": [
-            {
-              "url": "https://pacvip.co/",
-              "status_code": 302
-            },
-            {
-              "url": "http://ww547.pacvip.co/?tkn=19vnMT3S",
-              "status_code": 401
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Connection error: HTTPConnectionPool(host='pacvip.co', port=80): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPConnection(host='pacvip.co', port=80): Failed to establish a new connection: [Errno 111] Connection refused\"))",
           "scheme_used": "https",
           "is_final": false
         },
@@ -1052,7 +1043,7 @@
           "requested_url": "https://slotsaiboon.com",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://melding.radio.fm/",
+          "final_url": "https://linhdk68gamebai.africa.com/",
           "redirect_chain": [
             {
               "url": "https://slotsaiboon.com/",
@@ -1063,7 +1054,7 @@
               "status_code": 301
             },
             {
-              "url": "https://melding.radio.fm/",
+              "url": "https://linhdk68gamebai.africa.com/",
               "status_code": 200
             }
           ],
@@ -1098,14 +1089,14 @@
           "requested_url": "https://slotsaiboon.casino",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://melding.radio.fm/",
+          "final_url": "https://linhdk68gamebai.africa.com/",
           "redirect_chain": [
             {
               "url": "https://slotsaiboon.casino/",
               "status_code": 301
             },
             {
-              "url": "https://melding.radio.fm/",
+              "url": "https://linhdk68gamebai.africa.com/",
               "status_code": 200
             }
           ],
@@ -1756,16 +1747,11 @@
         {
           "domain": "hubhengjing888.app",
           "requested_url": "https://hubhengjing888.app",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://hubhengjing888.app/",
-          "redirect_chain": [
-            {
-              "url": "https://hubhengjing888.app/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Timed out after 10s",
           "scheme_used": "https",
           "is_final": false
         },
@@ -2246,7 +2232,7 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "error": "Connection error: HTTPConnectionPool(host='hubpgslot.net', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='hubpgslot.net', port=80) at 0x7a235a4cb620>, 'Connection to hubpgslot.net timed out. (connect timeout=10)'))",
+          "error": "Connection error: HTTPConnectionPool(host='hubpgslot.net', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='hubpgslot.net', port=80) at 0x7e1f8c8a09e0>, 'Connection to hubpgslot.net timed out. (connect timeout=10)'))",
           "scheme_used": "https",
           "is_final": false
         },
