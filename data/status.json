@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-10-25 18:00:20 UTC",
+  "last_checked_utc": "2026-10-26 08:19:50 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -932,11 +932,16 @@
         {
           "domain": "pacvip.life",
           "requested_url": "https://pacvip.life",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Connection error: HTTPConnectionPool(host='pacvip.life', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='pacvip.life', port=80): Failed to resolve 'pacvip.life' ([Errno -2] Name or service not known)\"))",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://pacvip.life/",
+          "redirect_chain": [
+            {
+              "url": "https://pacvip.life/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
@@ -2232,7 +2237,7 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "error": "Connection error: HTTPConnectionPool(host='hubpgslot.net', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='hubpgslot.net', port=80) at 0x7e1f8c8a09e0>, 'Connection to hubpgslot.net timed out. (connect timeout=10)'))",
+          "error": "Connection error: HTTPConnectionPool(host='hubpgslot.net', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='hubpgslot.net', port=80) at 0x7d29289a6030>, 'Connection to hubpgslot.net timed out. (connect timeout=10)'))",
           "scheme_used": "https",
           "is_final": false
         },
