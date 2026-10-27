@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-10-26 20:14:14 UTC",
+  "last_checked_utc": "2026-10-27 08:31:32 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -197,7 +197,7 @@
           "requested_url": "https://pgslot1.to",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://one-football.co/",
+          "final_url": "https://2hitachi.com/",
           "redirect_chain": [
             {
               "url": "https://pgslot1.to/",
@@ -212,7 +212,7 @@
               "status_code": 301
             },
             {
-              "url": "https://one-football.co/",
+              "url": "https://2hitachi.com/",
               "status_code": 200
             }
           ],
@@ -1057,7 +1057,7 @@
           "requested_url": "https://slotsaiboon.com",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://linhdk68gamebai.africa.com/",
+          "final_url": "https://gate777.co.nz/",
           "redirect_chain": [
             {
               "url": "https://slotsaiboon.com/",
@@ -1068,7 +1068,7 @@
               "status_code": 301
             },
             {
-              "url": "https://linhdk68gamebai.africa.com/",
+              "url": "https://gate777.co.nz/",
               "status_code": 200
             }
           ],
@@ -1103,14 +1103,14 @@
           "requested_url": "https://slotsaiboon.casino",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://linhdk68gamebai.africa.com/",
+          "final_url": "https://gate777.co.nz/",
           "redirect_chain": [
             {
               "url": "https://slotsaiboon.casino/",
               "status_code": 301
             },
             {
-              "url": "https://linhdk68gamebai.africa.com/",
+              "url": "https://gate777.co.nz/",
               "status_code": 200
             }
           ],
@@ -1761,11 +1761,16 @@
         {
           "domain": "hubhengjing888.app",
           "requested_url": "https://hubhengjing888.app",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Timed out after 10s",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://hubhengjing888.app/",
+          "redirect_chain": [
+            {
+              "url": "https://hubhengjing888.app/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
@@ -2246,7 +2251,7 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "error": "Connection error: HTTPConnectionPool(host='hubpgslot.net', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='hubpgslot.net', port=80) at 0x718fb1bb2ba0>, 'Connection to hubpgslot.net timed out. (connect timeout=10)'))",
+          "error": "Connection error: HTTPConnectionPool(host='hubpgslot.net', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='hubpgslot.net', port=80) at 0x74721445c3e0>, 'Connection to hubpgslot.net timed out. (connect timeout=10)'))",
           "scheme_used": "https",
           "is_final": false
         },
