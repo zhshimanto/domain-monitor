@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-10-27 08:31:32 UTC",
+  "last_checked_utc": "2026-10-27 19:46:00 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -195,28 +195,11 @@
         {
           "domain": "pgslot1.to",
           "requested_url": "https://pgslot1.to",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://2hitachi.com/",
-          "redirect_chain": [
-            {
-              "url": "https://pgslot1.to/",
-              "status_code": 301
-            },
-            {
-              "url": "https://789win4.biz/",
-              "status_code": 301
-            },
-            {
-              "url": "https://1789win.ws/",
-              "status_code": 301
-            },
-            {
-              "url": "https://2hitachi.com/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Connection error: HTTPSConnectionPool(host='1789win.ws', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='1789win.ws', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))",
           "scheme_used": "https",
           "is_final": false
         },
@@ -1761,16 +1744,11 @@
         {
           "domain": "hubhengjing888.app",
           "requested_url": "https://hubhengjing888.app",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://hubhengjing888.app/",
-          "redirect_chain": [
-            {
-              "url": "https://hubhengjing888.app/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Timed out after 10s",
           "scheme_used": "https",
           "is_final": false
         },
@@ -2247,12 +2225,17 @@
         {
           "domain": "hubpgslot.net",
           "requested_url": "https://hubpgslot.net",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Connection error: HTTPConnectionPool(host='hubpgslot.net', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='hubpgslot.net', port=80) at 0x74721445c3e0>, 'Connection to hubpgslot.net timed out. (connect timeout=10)'))",
-          "scheme_used": "https",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "http://hubpgslot.net/",
+          "redirect_chain": [
+            {
+              "url": "http://hubpgslot.net/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
+          "scheme_used": "http",
           "is_final": false
         },
         {
