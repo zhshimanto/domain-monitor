@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-10-27 19:46:00 UTC",
+  "last_checked_utc": "2026-10-28 09:10:31 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -9,24 +9,11 @@
         {
           "domain": "pgslot.sh",
           "requested_url": "https://pgslot.sh",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://pgslot7.sh/",
-          "redirect_chain": [
-            {
-              "url": "https://pgslot.sh/",
-              "status_code": 301
-            },
-            {
-              "url": "https://pg-slot.sh/",
-              "status_code": 301
-            },
-            {
-              "url": "https://pgslot7.sh/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Timed out after 10s",
           "scheme_used": "https",
           "is_final": false
         },
@@ -289,20 +276,11 @@
         {
           "domain": "pg-slot-to.to",
           "requested_url": "https://pg-slot-to.to",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://pgslotto.win/",
-          "redirect_chain": [
-            {
-              "url": "https://pg-slot-to.to/",
-              "status_code": 301
-            },
-            {
-              "url": "https://pgslotto.win/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Timed out after 10s",
           "scheme_used": "https",
           "is_final": true
         }
@@ -972,20 +950,11 @@
         {
           "domain": "pacvip.fun",
           "requested_url": "https://pacvip.fun",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://pacvip.me/",
-          "redirect_chain": [
-            {
-              "url": "https://pacvip.fun/",
-              "status_code": 301
-            },
-            {
-              "url": "https://pacvip.me/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Timed out after 10s",
           "scheme_used": "https",
           "is_final": true
         }
@@ -1744,11 +1713,16 @@
         {
           "domain": "hubhengjing888.app",
           "requested_url": "https://hubhengjing888.app",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Timed out after 10s",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://hubhengjing888.app/",
+          "redirect_chain": [
+            {
+              "url": "https://hubhengjing888.app/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
@@ -2227,15 +2201,15 @@
           "requested_url": "https://hubpgslot.net",
           "ok": true,
           "status_code": 200,
-          "final_url": "http://hubpgslot.net/",
+          "final_url": "https://hubpgslot.net/",
           "redirect_chain": [
             {
-              "url": "http://hubpgslot.net/",
+              "url": "https://hubpgslot.net/",
               "status_code": 200
             }
           ],
           "error": null,
-          "scheme_used": "http",
+          "scheme_used": "https",
           "is_final": false
         },
         {
