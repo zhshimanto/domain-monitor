@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-10-28 20:00:19 UTC",
+  "last_checked_utc": "2026-10-29 09:10:04 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -904,11 +904,20 @@
         {
           "domain": "pacvip.co",
           "requested_url": "https://pacvip.co",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Connection error: HTTPConnectionPool(host='pacvip.co', port=80): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPConnection(host='pacvip.co', port=80): Failed to establish a new connection: [Errno 111] Connection refused\"))",
+          "ok": true,
+          "status_code": 401,
+          "final_url": "http://ww547.pacvip.co/?tkn=19vnMT3S",
+          "redirect_chain": [
+            {
+              "url": "https://pacvip.co/",
+              "status_code": 302
+            },
+            {
+              "url": "http://ww547.pacvip.co/?tkn=19vnMT3S",
+              "status_code": 401
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
@@ -1031,7 +1040,7 @@
           "requested_url": "https://slotsaiboon.com",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://gate777.co.nz/",
+          "final_url": "https://raiconsulting.co/",
           "redirect_chain": [
             {
               "url": "https://slotsaiboon.com/",
@@ -1042,7 +1051,7 @@
               "status_code": 301
             },
             {
-              "url": "https://gate777.co.nz/",
+              "url": "https://raiconsulting.co/",
               "status_code": 200
             }
           ],
@@ -1077,14 +1086,14 @@
           "requested_url": "https://slotsaiboon.casino",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://gate777.co.nz/",
+          "final_url": "https://raiconsulting.co/",
           "redirect_chain": [
             {
               "url": "https://slotsaiboon.casino/",
               "status_code": 301
             },
             {
-              "url": "https://gate777.co.nz/",
+              "url": "https://raiconsulting.co/",
               "status_code": 200
             }
           ],
@@ -1661,20 +1670,11 @@
         {
           "domain": "hubhengjing888.com",
           "requested_url": "https://hubhengjing888.com",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://hubhengjing888.guru/",
-          "redirect_chain": [
-            {
-              "url": "https://hubhengjing888.com/",
-              "status_code": 301
-            },
-            {
-              "url": "https://hubhengjing888.guru/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Connection error: HTTPSConnectionPool(host='hubhengjing888.guru', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='hubhengjing888.guru', port=443): Failed to resolve 'hubhengjing888.guru' ([Errno -2] Name or service not known)\"))",
           "scheme_used": "https",
           "is_final": false
         },
@@ -1794,16 +1794,11 @@
         {
           "domain": "hubhengjing888.guru",
           "requested_url": "https://hubhengjing888.guru",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://hubhengjing888.guru/",
-          "redirect_chain": [
-            {
-              "url": "https://hubhengjing888.guru/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Connection error: HTTPConnectionPool(host='hubhengjing888.guru', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='hubhengjing888.guru', port=80): Failed to resolve 'hubhengjing888.guru' ([Errno -2] Name or service not known)\"))",
           "scheme_used": "https",
           "is_final": false
         },
