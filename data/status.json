@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-10-30 09:21:13 UTC",
+  "last_checked_utc": "2026-10-30 19:47:37 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -904,11 +904,20 @@
         {
           "domain": "pacvip.co",
           "requested_url": "https://pacvip.co",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Connection error: HTTPConnectionPool(host='pacvip.co', port=80): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPConnection(host='pacvip.co', port=80): Failed to establish a new connection: [Errno 111] Connection refused\"))",
+          "ok": true,
+          "status_code": 401,
+          "final_url": "http://ww547.pacvip.co/?tkn=19vnMT3S",
+          "redirect_chain": [
+            {
+              "url": "https://pacvip.co/",
+              "status_code": 302
+            },
+            {
+              "url": "http://ww547.pacvip.co/?tkn=19vnMT3S",
+              "status_code": 401
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
@@ -1031,7 +1040,7 @@
           "requested_url": "https://slotsaiboon.com",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://raiconsulting.co/",
+          "final_url": "https://leadsmagic.co/",
           "redirect_chain": [
             {
               "url": "https://slotsaiboon.com/",
@@ -1042,7 +1051,7 @@
               "status_code": 301
             },
             {
-              "url": "https://raiconsulting.co/",
+              "url": "https://leadsmagic.co/",
               "status_code": 200
             }
           ],
@@ -1077,14 +1086,14 @@
           "requested_url": "https://slotsaiboon.casino",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://raiconsulting.co/",
+          "final_url": "https://leadsmagic.co/",
           "redirect_chain": [
             {
               "url": "https://slotsaiboon.casino/",
               "status_code": 301
             },
             {
-              "url": "https://raiconsulting.co/",
+              "url": "https://leadsmagic.co/",
               "status_code": 200
             }
           ],
