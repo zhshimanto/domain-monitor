@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-11-02 10:22:09 UTC",
+  "last_checked_utc": "2026-11-02 22:57:00 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -1919,12 +1919,12 @@
           "domain": "hubhengjing888.today",
           "requested_url": "https://hubhengjing888.today",
           "ok": true,
-          "status_code": 521,
+          "status_code": 200,
           "final_url": "https://hubhengjing888.today/",
           "redirect_chain": [
             {
               "url": "https://hubhengjing888.today/",
-              "status_code": 521
+              "status_code": 200
             }
           ],
           "error": null,
@@ -1961,27 +1961,27 @@
         {
           "domain": "slot1111.life",
           "requested_url": "https://slot1111.life",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://slot1111.life/",
-          "redirect_chain": [
-            {
-              "url": "https://slot1111.life/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Request failed: Response ended prematurely",
           "scheme_used": "https",
           "is_final": false
         },
         {
           "domain": "slot1111.live",
           "requested_url": "https://slot1111.live",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Timed out after 10s",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://slot1111.live/",
+          "redirect_chain": [
+            {
+              "url": "https://slot1111.live/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
