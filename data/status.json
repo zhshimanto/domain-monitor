@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-11-01 19:17:45 UTC",
+  "last_checked_utc": "2026-11-02 10:22:09 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -1066,12 +1066,17 @@
         {
           "domain": "slotsaiboon.fun",
           "requested_url": "https://slotsaiboon.fun",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Connection error: HTTPConnectionPool(host='slotsaiboon.fun', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='slotsaiboon.fun', port=80): Failed to resolve 'slotsaiboon.fun' ([Errno -2] Name or service not known)\"))",
-          "scheme_used": "https",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "http://slotsaiboon.fun/",
+          "redirect_chain": [
+            {
+              "url": "http://slotsaiboon.fun/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
+          "scheme_used": "http",
           "is_final": false
         },
         {
@@ -1090,14 +1095,14 @@
           "requested_url": "https://slotsaiboon.casino",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://leadsmagic.co/",
+          "final_url": "https://truloo.africa.com/",
           "redirect_chain": [
             {
               "url": "https://slotsaiboon.casino/",
               "status_code": 301
             },
             {
-              "url": "https://leadsmagic.co/",
+              "url": "https://truloo.africa.com/",
               "status_code": 200
             }
           ],
@@ -1914,12 +1919,12 @@
           "domain": "hubhengjing888.today",
           "requested_url": "https://hubhengjing888.today",
           "ok": true,
-          "status_code": 200,
+          "status_code": 521,
           "final_url": "https://hubhengjing888.today/",
           "redirect_chain": [
             {
               "url": "https://hubhengjing888.today/",
-              "status_code": 200
+              "status_code": 521
             }
           ],
           "error": null,
@@ -1972,16 +1977,11 @@
         {
           "domain": "slot1111.live",
           "requested_url": "https://slot1111.live",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://slot1111.live/",
-          "redirect_chain": [
-            {
-              "url": "https://slot1111.live/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Timed out after 10s",
           "scheme_used": "https",
           "is_final": false
         },
