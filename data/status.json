@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-11-04 10:14:01 UTC",
+  "last_checked_utc": "2026-11-04 20:59:57 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -2234,7 +2234,7 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "error": "SSL error: HTTPSConnectionPool(host='hubpgslot.biz', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'hubpgslot.biz'. (_ssl.c:1011)\")))",
+          "error": "SSL error: HTTPSConnectionPool(host='hubpgslot.biz', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'hubpgslot.biz'. (_ssl.c:1010)\")))",
           "scheme_used": "https",
           "is_final": false
         },
