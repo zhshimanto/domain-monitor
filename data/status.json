@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-11-05 21:17:22 UTC",
+  "last_checked_utc": "2026-11-06 10:12:12 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -195,11 +195,20 @@
         {
           "domain": "pgslot1.to",
           "requested_url": "https://pgslot1.to",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Connection error: HTTPSConnectionPool(host='1789win.ws', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='1789win.ws', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://789win4.biz/",
+          "redirect_chain": [
+            {
+              "url": "https://pgslot1.to/",
+              "status_code": 301
+            },
+            {
+              "url": "https://789win4.biz/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
@@ -1977,11 +1986,16 @@
         {
           "domain": "slot1111.live",
           "requested_url": "https://slot1111.live",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Timed out after 10s",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://slot1111.live/",
+          "redirect_chain": [
+            {
+              "url": "https://slot1111.live/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
