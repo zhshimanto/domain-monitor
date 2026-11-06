@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-11-06 10:12:12 UTC",
+  "last_checked_utc": "2026-11-06 20:39:33 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -1099,14 +1099,14 @@
           "requested_url": "https://slotsaiboon.casino",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://truloo.africa.com/",
+          "final_url": "https://t.skillswipes.co/",
           "redirect_chain": [
             {
               "url": "https://slotsaiboon.casino/",
               "status_code": 301
             },
             {
-              "url": "https://truloo.africa.com/",
+              "url": "https://t.skillswipes.co/",
               "status_code": 200
             }
           ],
