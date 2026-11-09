@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-11-08 19:15:13 UTC",
+  "last_checked_utc": "2026-11-09 10:42:43 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -924,11 +924,20 @@
         {
           "domain": "pacvip.co",
           "requested_url": "https://pacvip.co",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Connection error: HTTPConnectionPool(host='pacvip.co', port=80): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPConnection(host='pacvip.co', port=80): Failed to establish a new connection: [Errno 111] Connection refused\"))",
+          "ok": true,
+          "status_code": 401,
+          "final_url": "http://ww547.pacvip.co/?tkn=19vnMT3S",
+          "redirect_chain": [
+            {
+              "url": "https://pacvip.co/",
+              "status_code": 302
+            },
+            {
+              "url": "http://ww547.pacvip.co/?tkn=19vnMT3S",
+              "status_code": 401
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
@@ -1065,16 +1074,11 @@
         {
           "domain": "slotsaiboon.fun",
           "requested_url": "https://slotsaiboon.fun",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://slotsaiboon.fun/",
-          "redirect_chain": [
-            {
-              "url": "https://slotsaiboon.fun/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Timed out after 10s",
           "scheme_used": "https",
           "is_final": false
         },
@@ -2013,16 +2017,11 @@
         {
           "domain": "slot1111.games",
           "requested_url": "https://slot1111.games",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://slot1111.games/",
-          "redirect_chain": [
-            {
-              "url": "https://slot1111.games/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Connection error: HTTPConnectionPool(host='slot1111.games', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='slot1111.games', port=80): Failed to resolve 'slot1111.games' ([Errno -2] Name or service not known)\"))",
           "scheme_used": "https",
           "is_final": false
         },
