@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-11-09 23:39:18 UTC",
+  "last_checked_utc": "2026-11-10 10:38:47 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -1103,14 +1103,14 @@
           "requested_url": "https://slotsaiboon.casino",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://t.skillswipes.co/",
+          "final_url": "https://cpcalendars.vilavidikovac.co/",
           "redirect_chain": [
             {
               "url": "https://slotsaiboon.casino/",
               "status_code": 301
             },
             {
-              "url": "https://t.skillswipes.co/",
+              "url": "https://cpcalendars.vilavidikovac.co/",
               "status_code": 200
             }
           ],
@@ -1707,7 +1707,7 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "error": "Connection error: HTTPConnectionPool(host='hubhengjing888.win', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='hubhengjing888.win', port=80): Failed to resolve 'hubhengjing888.win' ([Errno -2] Name or service not known)\"))",
+          "error": "Connection error: HTTPConnectionPool(host='hubhengjing888.win', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='hubhengjing888.win', port=80): Failed to resolve 'hubhengjing888.win' ([Errno -5] No address associated with hostname)\"))",
           "scheme_used": "https",
           "is_final": false
         },
@@ -1829,7 +1829,7 @@
           "requested_url": "https://hubhengjing888.zone",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://hubhengjing888.today/",
+          "final_url": "https://hubhengjing888.beer/",
           "redirect_chain": [
             {
               "url": "https://hubhengjing888.zone/",
@@ -1849,6 +1849,10 @@
             },
             {
               "url": "https://hubhengjing888.today/",
+              "status_code": 301
+            },
+            {
+              "url": "https://hubhengjing888.beer/",
               "status_code": 200
             }
           ],
@@ -1861,7 +1865,7 @@
           "requested_url": "https://hubhengjing888.ltd",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://hubhengjing888.today/",
+          "final_url": "https://hubhengjing888.beer/",
           "redirect_chain": [
             {
               "url": "https://hubhengjing888.ltd/",
@@ -1877,6 +1881,10 @@
             },
             {
               "url": "https://hubhengjing888.today/",
+              "status_code": 301
+            },
+            {
+              "url": "https://hubhengjing888.beer/",
               "status_code": 200
             }
           ],
@@ -1889,7 +1897,7 @@
           "requested_url": "https://hubhengjing888.love",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://hubhengjing888.today/",
+          "final_url": "https://hubhengjing888.beer/",
           "redirect_chain": [
             {
               "url": "https://hubhengjing888.love/",
@@ -1901,6 +1909,10 @@
             },
             {
               "url": "https://hubhengjing888.today/",
+              "status_code": 301
+            },
+            {
+              "url": "https://hubhengjing888.beer/",
               "status_code": 200
             }
           ],
@@ -1913,7 +1925,7 @@
           "requested_url": "https://play.hubhengjing8884.com",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://hubhengjing888.today/",
+          "final_url": "https://hubhengjing888.beer/",
           "redirect_chain": [
             {
               "url": "https://play.hubhengjing8884.com/",
@@ -1921,6 +1933,10 @@
             },
             {
               "url": "https://hubhengjing888.today/",
+              "status_code": 301
+            },
+            {
+              "url": "https://hubhengjing888.beer/",
               "status_code": 200
             }
           ],
@@ -1933,10 +1949,14 @@
           "requested_url": "https://hubhengjing888.today",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://hubhengjing888.today/",
+          "final_url": "https://hubhengjing888.beer/",
           "redirect_chain": [
             {
               "url": "https://hubhengjing888.today/",
+              "status_code": 301
+            },
+            {
+              "url": "https://hubhengjing888.beer/",
               "status_code": 200
             }
           ],
@@ -1954,22 +1974,36 @@
         {
           "domain": "slot1111.com",
           "requested_url": "https://slot1111.com",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Timed out after 10s",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://slot1111.life/",
+          "redirect_chain": [
+            {
+              "url": "https://slot1111.com/",
+              "status_code": 301
+            },
+            {
+              "url": "https://slot1111.life/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
         {
           "domain": "slot1111.life",
           "requested_url": "https://slot1111.life",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Timed out after 10s",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://slot1111.life/",
+          "redirect_chain": [
+            {
+              "url": "https://slot1111.life/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
