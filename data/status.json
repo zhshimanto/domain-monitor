@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-11-11 10:06:33 UTC",
+  "last_checked_utc": "2026-11-11 21:40:26 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -715,12 +715,17 @@
         {
           "domain": "rsggame.fun",
           "requested_url": "https://rsggame.fun",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Connection error: HTTPConnectionPool(host='rsggame.fun', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='rsggame.fun', port=80): Failed to resolve 'rsggame.fun' ([Errno -2] Name or service not known)\"))",
-          "scheme_used": "https",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "http://rsggame.fun/",
+          "redirect_chain": [
+            {
+              "url": "http://rsggame.fun/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
+          "scheme_used": "http",
           "is_final": false
         },
         {
@@ -804,11 +809,20 @@
         {
           "domain": "pacvip.co",
           "requested_url": "https://pacvip.co",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Connection error: HTTPConnectionPool(host='pacvip.co', port=80): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPConnection(host='pacvip.co', port=80): Failed to establish a new connection: [Errno 111] Connection refused\"))",
+          "ok": true,
+          "status_code": 401,
+          "final_url": "http://ww547.pacvip.co/?tkn=19vnMT3S",
+          "redirect_chain": [
+            {
+              "url": "https://pacvip.co/",
+              "status_code": 302
+            },
+            {
+              "url": "http://ww547.pacvip.co/?tkn=19vnMT3S",
+              "status_code": 401
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
