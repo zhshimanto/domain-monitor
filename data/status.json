@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-11-12 21:39:50 UTC",
+  "last_checked_utc": "2026-11-13 10:23:15 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -809,20 +809,11 @@
         {
           "domain": "pacvip.co",
           "requested_url": "https://pacvip.co",
-          "ok": true,
-          "status_code": 401,
-          "final_url": "http://ww547.pacvip.co/?tkn=19vnMT3S",
-          "redirect_chain": [
-            {
-              "url": "https://pacvip.co/",
-              "status_code": 302
-            },
-            {
-              "url": "http://ww547.pacvip.co/?tkn=19vnMT3S",
-              "status_code": 401
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Connection error: HTTPConnectionPool(host='pacvip.co', port=80): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPConnection(host='pacvip.co', port=80): Failed to establish a new connection: [Errno 111] Connection refused\"))",
           "scheme_used": "https",
           "is_final": false
         },
@@ -1019,16 +1010,16 @@
           "domain": "slotsaiboon.guru",
           "requested_url": "https://slotsaiboon.guru",
           "ok": true,
-          "status_code": 200,
-          "final_url": "https://slotsaiboon.guru/",
+          "status_code": 403,
+          "final_url": "http://slotsaiboon.guru/",
           "redirect_chain": [
             {
-              "url": "https://slotsaiboon.guru/",
-              "status_code": 200
+              "url": "http://slotsaiboon.guru/",
+              "status_code": 403
             }
           ],
           "error": null,
-          "scheme_used": "https",
+          "scheme_used": "http",
           "is_final": false
         },
         {
