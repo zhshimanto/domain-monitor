@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-11-15 10:14:10 UTC",
+  "last_checked_utc": "2026-11-15 20:03:23 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -185,7 +185,7 @@
           "requested_url": "https://pgslot1.to",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://bio1.nekat69.net/",
+          "final_url": "https://blog.travelica-agency.com/",
           "redirect_chain": [
             {
               "url": "https://pgslot1.to/",
@@ -196,7 +196,7 @@
               "status_code": 301
             },
             {
-              "url": "https://bio1.nekat69.net/",
+              "url": "https://blog.travelica-agency.com/",
               "status_code": 200
             }
           ],
