@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-11-16 10:26:00 UTC",
+  "last_checked_utc": "2026-11-16 23:35:59 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -185,7 +185,7 @@
           "requested_url": "https://pgslot1.to",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://blog.travelica-agency.com/",
+          "final_url": "https://m.thaislotultra88.net/",
           "redirect_chain": [
             {
               "url": "https://pgslot1.to/",
@@ -196,7 +196,7 @@
               "status_code": 301
             },
             {
-              "url": "https://blog.travelica-agency.com/",
+              "url": "https://m.thaislotultra88.net/",
               "status_code": 200
             }
           ],
@@ -982,11 +982,20 @@
         {
           "domain": "slotsaiboon.casino",
           "requested_url": "https://slotsaiboon.casino",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Timed out after 10s",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://play.ufa-669.com/",
+          "redirect_chain": [
+            {
+              "url": "https://slotsaiboon.casino/",
+              "status_code": 301
+            },
+            {
+              "url": "https://play.ufa-669.com/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
@@ -1610,12 +1619,12 @@
           "domain": "hubhengjing888.app",
           "requested_url": "https://hubhengjing888.app",
           "ok": true,
-          "status_code": 200,
+          "status_code": 500,
           "final_url": "https://hubhengjing888.app/",
           "redirect_chain": [
             {
               "url": "https://hubhengjing888.app/",
-              "status_code": 200
+              "status_code": 500
             }
           ],
           "error": null,
