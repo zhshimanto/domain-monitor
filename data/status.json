@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-11-15 20:03:23 UTC",
+  "last_checked_utc": "2026-11-16 10:26:00 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -982,20 +982,11 @@
         {
           "domain": "slotsaiboon.casino",
           "requested_url": "https://slotsaiboon.casino",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://play.ufa-669.com/",
-          "redirect_chain": [
-            {
-              "url": "https://slotsaiboon.casino/",
-              "status_code": 301
-            },
-            {
-              "url": "https://play.ufa-669.com/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Timed out after 10s",
           "scheme_used": "https",
           "is_final": false
         },
@@ -1018,17 +1009,12 @@
         {
           "domain": "slotsaiboon.guru",
           "requested_url": "https://slotsaiboon.guru",
-          "ok": true,
-          "status_code": 403,
-          "final_url": "http://slotsaiboon.guru/",
-          "redirect_chain": [
-            {
-              "url": "http://slotsaiboon.guru/",
-              "status_code": 403
-            }
-          ],
-          "error": null,
-          "scheme_used": "http",
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Connection error: HTTPConnectionPool(host='slotsaiboon.guru', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='slotsaiboon.guru', port=80): Failed to resolve 'slotsaiboon.guru' ([Errno -3] Temporary failure in name resolution)\"))",
+          "scheme_used": "https",
           "is_final": false
         },
         {
@@ -1560,11 +1546,20 @@
         {
           "domain": "hubhengjing888.win",
           "requested_url": "https://hubhengjing888.win",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Connection error: HTTPConnectionPool(host='hubhengjing888.win', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='hubhengjing888.win', port=80): Failed to resolve 'hubhengjing888.win' ([Errno -5] No address associated with hostname)\"))",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://game.hubhengjing888.win/",
+          "redirect_chain": [
+            {
+              "url": "https://hubhengjing888.win/",
+              "status_code": 301
+            },
+            {
+              "url": "https://game.hubhengjing888.win/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
