@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-11-17 11:22:54 UTC",
+  "last_checked_utc": "2026-11-17 22:44:16 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -185,7 +185,7 @@
           "requested_url": "https://pgslot1.to",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://m.thaislotultra88.net/",
+          "final_url": "https://m.850grandbetting.com/",
           "redirect_chain": [
             {
               "url": "https://pgslot1.to/",
@@ -196,7 +196,7 @@
               "status_code": 301
             },
             {
-              "url": "https://m.thaislotultra88.net/",
+              "url": "https://m.850grandbetting.com/",
               "status_code": 200
             }
           ],
@@ -984,14 +984,14 @@
           "requested_url": "https://slotsaiboon.casino",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://play.ufa-669.com/",
+          "final_url": "https://member.ufambets.com/",
           "redirect_chain": [
             {
               "url": "https://slotsaiboon.casino/",
               "status_code": 301
             },
             {
-              "url": "https://play.ufa-669.com/",
+              "url": "https://member.ufambets.com/",
               "status_code": 200
             }
           ],
@@ -1557,7 +1557,7 @@
           "requested_url": "https://hubhengjing888.win",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://game.ultrac4.fun/",
+          "final_url": "https://app.wewin168.vip/",
           "redirect_chain": [
             {
               "url": "https://hubhengjing888.win/",
@@ -1568,7 +1568,7 @@
               "status_code": 301
             },
             {
-              "url": "https://game.ultrac4.fun/",
+              "url": "https://app.wewin168.vip/",
               "status_code": 200
             }
           ],
