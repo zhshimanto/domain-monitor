@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-11-17 22:44:16 UTC",
+  "last_checked_utc": "2026-11-18 10:55:43 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -845,32 +845,22 @@
         {
           "domain": "pacvip.online",
           "requested_url": "https://pacvip.online",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://pacvip.online/",
-          "redirect_chain": [
-            {
-              "url": "https://pacvip.online/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Connection error: HTTPConnectionPool(host='pacvip.online', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='pacvip.online', port=80): Failed to resolve 'pacvip.online' ([Errno -2] Name or service not known)\"))",
           "scheme_used": "https",
           "is_final": false
         },
         {
           "domain": "pacvip.xyz",
           "requested_url": "https://pacvip.xyz",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://pacvip.xyz/",
-          "redirect_chain": [
-            {
-              "url": "https://pacvip.xyz/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Connection error: HTTPConnectionPool(host='pacvip.xyz', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='pacvip.xyz', port=80): Failed to resolve 'pacvip.xyz' ([Errno -2] Name or service not known)\"))",
           "scheme_used": "https",
           "is_final": false
         },
@@ -1557,7 +1547,7 @@
           "requested_url": "https://hubhengjing888.win",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://app.wewin168.vip/",
+          "final_url": "https://aff.wewin168.vip/",
           "redirect_chain": [
             {
               "url": "https://hubhengjing888.win/",
@@ -1568,7 +1558,7 @@
               "status_code": 301
             },
             {
-              "url": "https://app.wewin168.vip/",
+              "url": "https://aff.wewin168.vip/",
               "status_code": 200
             }
           ],
@@ -1975,7 +1965,7 @@
           "status_code": null,
           "final_url": null,
           "redirect_chain": [],
-          "error": "Connection error: HTTPConnectionPool(host='vip.hubslotxo3.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='vip.hubslotxo3.com', port=80): Failed to resolve 'vip.hubslotxo3.com' ([Errno -2] Name or service not known)\"))",
+          "error": "Connection error: HTTPConnectionPool(host='vip.hubslotxo3.com', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='vip.hubslotxo3.com', port=80) at 0x7dffbee7c4a0>, 'Connection to vip.hubslotxo3.com timed out. (connect timeout=10)'))",
           "scheme_used": "https",
           "is_final": false
         },
