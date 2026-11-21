@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-11-20 22:03:35 UTC",
+  "last_checked_utc": "2026-11-21 10:29:46 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -681,32 +681,22 @@
         {
           "domain": "hubbet.bet",
           "requested_url": "https://hubbet.bet",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://hubbet.bet/",
-          "redirect_chain": [
-            {
-              "url": "https://hubbet.bet/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Connection error: HTTPConnectionPool(host='hubbet.bet', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='hubbet.bet', port=80): Failed to resolve 'hubbet.bet' ([Errno -2] Name or service not known)\"))",
           "scheme_used": "https",
           "is_final": false
         },
         {
           "domain": "hubbet.vip",
           "requested_url": "https://hubbet.vip",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://hubbet.vip/",
-          "redirect_chain": [
-            {
-              "url": "https://hubbet.vip/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Connection error: HTTPConnectionPool(host='hubbet.vip', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='hubbet.vip', port=80): Failed to resolve 'hubbet.vip' ([Errno -2] Name or service not known)\"))",
           "scheme_used": "https",
           "is_final": false
         },
