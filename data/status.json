@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-11-21 20:43:07 UTC",
+  "last_checked_utc": "2026-11-22 10:34:32 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -1067,11 +1067,20 @@
         {
           "domain": "slotsaiboon.vip",
           "requested_url": "https://slotsaiboon.vip",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Connection error: HTTPConnectionPool(host='slotsaiboon.vip', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='slotsaiboon.vip', port=80): Failed to resolve 'slotsaiboon.vip' ([Errno -5] No address associated with hostname)\"))",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://slotsaiboon.vip/guide",
+          "redirect_chain": [
+            {
+              "url": "https://slotsaiboon.vip/",
+              "status_code": 301
+            },
+            {
+              "url": "https://slotsaiboon.vip/guide",
+              "status_code": 200
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
@@ -1080,14 +1089,14 @@
           "requested_url": "https://slotsaiboon.casino",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://member.ufambets.com/",
+          "final_url": "https://ufambets.com/",
           "redirect_chain": [
             {
               "url": "https://slotsaiboon.casino/",
               "status_code": 301
             },
             {
-              "url": "https://member.ufambets.com/",
+              "url": "https://ufambets.com/",
               "status_code": 200
             }
           ],
@@ -1677,7 +1686,7 @@
           "requested_url": "https://hubhengjing888.win",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://vip.168ggperkalian.vip/",
+          "final_url": "https://blog.luna89685.com/",
           "redirect_chain": [
             {
               "url": "https://hubhengjing888.win/",
@@ -1688,7 +1697,7 @@
               "status_code": 301
             },
             {
-              "url": "https://vip.168ggperkalian.vip/",
+              "url": "https://blog.luna89685.com/",
               "status_code": 200
             }
           ],
@@ -1742,16 +1751,11 @@
         {
           "domain": "hubhengjing888.app",
           "requested_url": "https://hubhengjing888.app",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://hubhengjing888.app/",
-          "redirect_chain": [
-            {
-              "url": "https://hubhengjing888.app/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Timed out after 10s",
           "scheme_used": "https",
           "is_final": false
         },
