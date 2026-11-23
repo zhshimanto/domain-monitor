@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-11-22 20:53:23 UTC",
+  "last_checked_utc": "2026-11-23 11:34:47 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -1089,14 +1089,14 @@
           "requested_url": "https://slotsaiboon.casino",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://ufambets.com/",
+          "final_url": "https://m.perabet749.com/",
           "redirect_chain": [
             {
               "url": "https://slotsaiboon.casino/",
               "status_code": 301
             },
             {
-              "url": "https://ufambets.com/",
+              "url": "https://m.perabet749.com/",
               "status_code": 200
             }
           ],
@@ -1686,7 +1686,7 @@
           "requested_url": "https://hubhengjing888.win",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://blog.luna89685.com/",
+          "final_url": "https://rtp.kenzo168vip.live/",
           "redirect_chain": [
             {
               "url": "https://hubhengjing888.win/",
@@ -1697,7 +1697,7 @@
               "status_code": 301
             },
             {
-              "url": "https://blog.luna89685.com/",
+              "url": "https://rtp.kenzo168vip.live/",
               "status_code": 200
             }
           ],
