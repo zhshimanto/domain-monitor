@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-11-24 13:08:15 UTC",
+  "last_checked_utc": "2026-11-24 23:41:56 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -1751,11 +1751,16 @@
         {
           "domain": "hubhengjing888.app",
           "requested_url": "https://hubhengjing888.app",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Timed out after 10s",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://hubhengjing888.app/",
+          "redirect_chain": [
+            {
+              "url": "https://hubhengjing888.app/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
@@ -2227,11 +2232,16 @@
         {
           "domain": "vip.hubslotxo3.com",
           "requested_url": "https://vip.hubslotxo3.com",
-          "ok": false,
-          "status_code": null,
-          "final_url": null,
-          "redirect_chain": [],
-          "error": "Connection error: HTTPConnectionPool(host='vip.hubslotxo3.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='vip.hubslotxo3.com', port=80): Failed to resolve 'vip.hubslotxo3.com' ([Errno -2] Name or service not known)\"))",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://vip.hubslotxo3.com/",
+          "redirect_chain": [
+            {
+              "url": "https://vip.hubslotxo3.com/",
+              "status_code": 200
+            }
+          ],
+          "error": null,
           "scheme_used": "https",
           "is_final": false
         },
