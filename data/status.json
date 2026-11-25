@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-11-25 11:56:10 UTC",
+  "last_checked_utc": "2026-11-25 23:25:30 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -1088,7 +1088,7 @@
           "domain": "slotsaiboon.casino",
           "requested_url": "https://slotsaiboon.casino",
           "ok": true,
-          "status_code": 200,
+          "status_code": 502,
           "final_url": "https://m.golvar369.com/",
           "redirect_chain": [
             {
@@ -1097,7 +1097,7 @@
             },
             {
               "url": "https://m.golvar369.com/",
-              "status_code": 200
+              "status_code": 502
             }
           ],
           "error": null,
@@ -1686,7 +1686,7 @@
           "requested_url": "https://hubhengjing888.win",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://m.wettenbet52.com/",
+          "final_url": "https://m.hilbet170.com/",
           "redirect_chain": [
             {
               "url": "https://hubhengjing888.win/",
@@ -1697,7 +1697,7 @@
               "status_code": 301
             },
             {
-              "url": "https://m.wettenbet52.com/",
+              "url": "https://m.hilbet170.com/",
               "status_code": 200
             }
           ],
