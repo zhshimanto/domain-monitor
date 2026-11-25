@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-11-24 23:41:56 UTC",
+  "last_checked_utc": "2026-11-25 11:56:10 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -189,7 +189,7 @@
           "requested_url": "https://pgslot1.to",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://m.lancha777slots.com/",
+          "final_url": "https://app.streammoko.com/",
           "redirect_chain": [
             {
               "url": "https://pgslot1.to/",
@@ -200,7 +200,7 @@
               "status_code": 301
             },
             {
-              "url": "https://m.lancha777slots.com/",
+              "url": "https://app.streammoko.com/",
               "status_code": 200
             }
           ],
@@ -1089,14 +1089,14 @@
           "requested_url": "https://slotsaiboon.casino",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://m.perabet749.com/",
+          "final_url": "https://m.golvar369.com/",
           "redirect_chain": [
             {
               "url": "https://slotsaiboon.casino/",
               "status_code": 301
             },
             {
-              "url": "https://m.perabet749.com/",
+              "url": "https://m.golvar369.com/",
               "status_code": 200
             }
           ],
@@ -1686,7 +1686,7 @@
           "requested_url": "https://hubhengjing888.win",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://m.lalabet8.com/",
+          "final_url": "https://m.wettenbet52.com/",
           "redirect_chain": [
             {
               "url": "https://hubhengjing888.win/",
@@ -1697,7 +1697,7 @@
               "status_code": 301
             },
             {
-              "url": "https://m.lalabet8.com/",
+              "url": "https://m.wettenbet52.com/",
               "status_code": 200
             }
           ],
@@ -1735,16 +1735,11 @@
         {
           "domain": "hubhengjing888.club",
           "requested_url": "https://hubhengjing888.club",
-          "ok": true,
-          "status_code": 200,
-          "final_url": "https://hubhengjing888.club/",
-          "redirect_chain": [
-            {
-              "url": "https://hubhengjing888.club/",
-              "status_code": 200
-            }
-          ],
-          "error": null,
+          "ok": false,
+          "status_code": null,
+          "final_url": null,
+          "redirect_chain": [],
+          "error": "Connection error: HTTPConnectionPool(host='hubhengjing888.club', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='hubhengjing888.club', port=80): Failed to resolve 'hubhengjing888.club' ([Errno -2] Name or service not known)\"))",
           "scheme_used": "https",
           "is_final": false
         },
