@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-11-25 23:25:30 UTC",
+  "last_checked_utc": "2026-11-26 11:44:26 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -189,7 +189,7 @@
           "requested_url": "https://pgslot1.to",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://app.streammoko.com/",
+          "final_url": "https://m.bettingsouk.com/",
           "redirect_chain": [
             {
               "url": "https://pgslot1.to/",
@@ -200,7 +200,7 @@
               "status_code": 301
             },
             {
-              "url": "https://app.streammoko.com/",
+              "url": "https://m.bettingsouk.com/",
               "status_code": 200
             }
           ],
@@ -1088,7 +1088,7 @@
           "domain": "slotsaiboon.casino",
           "requested_url": "https://slotsaiboon.casino",
           "ok": true,
-          "status_code": 502,
+          "status_code": 200,
           "final_url": "https://m.golvar369.com/",
           "redirect_chain": [
             {
@@ -1097,7 +1097,7 @@
             },
             {
               "url": "https://m.golvar369.com/",
-              "status_code": 502
+              "status_code": 200
             }
           ],
           "error": null,
