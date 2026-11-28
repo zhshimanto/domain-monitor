@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-11-27 23:06:15 UTC",
+  "last_checked_utc": "2026-11-28 11:12:40 UTC",
   "brands": [
     {
       "name": "PGSLOTSH",
@@ -997,12 +997,12 @@
           "domain": "pac168.org",
           "requested_url": "https://pac168.org",
           "ok": true,
-          "status_code": 403,
+          "status_code": 200,
           "final_url": "http://pac168.org/",
           "redirect_chain": [
             {
               "url": "http://pac168.org/",
-              "status_code": 403
+              "status_code": 200
             }
           ],
           "error": null,
@@ -1089,14 +1089,14 @@
           "requested_url": "https://slotsaiboon.casino",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://m.golvar369.com/",
+          "final_url": "https://m.rodosbet178.com/",
           "redirect_chain": [
             {
               "url": "https://slotsaiboon.casino/",
               "status_code": 301
             },
             {
-              "url": "https://m.golvar369.com/",
+              "url": "https://m.rodosbet178.com/",
               "status_code": 200
             }
           ],
@@ -1686,7 +1686,7 @@
           "requested_url": "https://hubhengjing888.win",
           "ok": true,
           "status_code": 200,
-          "final_url": "https://m.hilbet170.com/",
+          "final_url": "https://m.hilbet173.com/",
           "redirect_chain": [
             {
               "url": "https://hubhengjing888.win/",
@@ -1697,7 +1697,7 @@
               "status_code": 301
             },
             {
-              "url": "https://m.hilbet170.com/",
+              "url": "https://m.hilbet173.com/",
               "status_code": 200
             }
           ],
